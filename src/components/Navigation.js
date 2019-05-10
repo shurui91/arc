@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './Navigation.css';
 
 const NavItem = props => {
 	const pageURI = window.location.pathname + window.location.search;
@@ -58,7 +59,7 @@ class Navigation extends React.Component {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<a className="navbar-brand" href="/">
-					ARC
+					<img src={require('../arcLogo.jpg')} height="85px" width="270px" alt="" />
 				</a>
 				<button
 					className="navbar-toggler"

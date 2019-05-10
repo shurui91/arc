@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Footer.css';
 
 class Footer extends Component {
 	constructor(props) {
@@ -8,10 +9,8 @@ class Footer extends Component {
 
 	render() {
 		return (
-			<footer>
-				<ul className="site-links">
-					<li>&copy; {this.state.year} ARC. All Rights Reserved</li>
-				</ul>
+			<footer className="footer">
+				<p>&copy; {this.state.year} ARC. All Rights Reserved</p>
 			</footer>
 		);
 	}
