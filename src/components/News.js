@@ -1,115 +1,117 @@
 import React, { Component } from 'react';
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+// import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import './News.css';
+import { Media } from 'react-bootstrap';
 
 class News extends Component {
 	render() {
 		return (
 			<div style={{ paddingTop: '20px' }}>
-				<h3>Featured Projects & Past Events</h3>
-				<Timeline lineColor={'#ddd'}>
-					<TimelineItem key="001" dateText="11/2010 – Present" style={{ color: '#e86971' }}>
-						<h3>Title, Company</h3>
-						<h4>Subtitle</h4>
+				<h3>Philanthropic</h3>
+				<Media>
+					<img
+						width={64}
+						height={64}
+						className="mr-3"
+						src={require('../neco.jpg')}
+						alt="Generic placeholder"
+					/>
+					<Media.Body>
+						<h5>Ellis Island Medal of Honor</h5>
+						<p>ARC Founder Charlie Zhang was the recent receipient of coveted Ellis</p>
 						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
+							The award pays homage to major contributions by American immigrants to the United States.
+							The Ellis Island Medals of Honor, and its recipients are read into the Congressional Record.
 						</p>
 						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
+							Past medalists include six Presidents, as well as Nobel Prize winners and leaders of
+							industry, education, the arts, sports and government. ARC and its members are dedicated to
+							the spreading of knowledge, education, charitible contributions, benevolent public policy
+							and economic growth.
+						</p>
+					</Media.Body>
+				</Media>
+				<hr class="col-xs-12" />
+				<Media>
+					<Media.Body>
+						<h5>ARC Roles</h5>
+						<p>
+							ARC directives are to compile, syntheize and analyze international issues​ ​in areas of
+							commerce, religion, government, policy and philapthropic​ ​areas. The coverage and awareness
+							of these issues can help to provide a​ ​clearer picture as well as insight for stakeholders
+							both in Asia and the​ ​United States. ARC believes Multilateral cooperation and good will
+							comes​ ​from research and relationship based mutual understanding.
+						</p>
+					</Media.Body>
+				</Media>
+				<hr class="col-xs-12" />
+				<Media>
+					<img
+						width={64}
+						height={64}
+						className="mr-3"
+						src={require('../fudan.jpg')}
+						alt="Generic placeholder"
+					/>
+					<Media.Body>
+						<h5>Asia Youth And Education</h5>
+						<p>
+							ARC is very active in their financial sponsorship and advisory support to institutions such
+							as the New Century International College in Jiangsu. The goal of ARCs involvement in this
+							and other youth and educational insitutions, is to widen the cultural and educational bridge
+							between Asia and the United States.
+						</p>
+					</Media.Body>
+				</Media>
+				<hr class="col-xs-12" />
+				<Media>
+					<img
+						width={64}
+						height={64}
+						className="mr-3"
+						src={require('../pacific.jpg')}
+						alt="Generic placeholder"
+					/>
+					<Media.Body>
+						<h5>Pacific Symphony</h5>
+						<p>
+							"Charlie Zhang has been on the Board of Directors for the Pacific Symphony of Orange County,
+							his involvement includes financial contributions, working with the students and countless
+							hours of mentorship. Most recently Charlie will be hosting a trip for 100 of the youth
+							orchestra students on a trip to Asia to gain a further understanding of the cultural, social
+							and religious environment in Asia, to foster music appreciation and greater cultural
+							understanding for the next generation of United State and Chinese leaders.
+						</p>
+					</Media.Body>
+				</Media>
+				<hr class="col-xs-12" />
+				<Media>
+					<img
+						width={64}
+						height={64}
+						className="mr-3"
+						src={require('../tedx.jpg')}
+						alt="Generic placeholder"
+					/>
+					<Media.Body>
+						<h5>TED X</h5>
+						<p>
+							ARC founder Charles Zhang was recently featured as a speaker in the internationally renoun
+							TEDX, his speech was given at La Sierra University and is spreading throughout the internet.
+							This heartfelt presentation is directed toward anyone seeking to grow and advance in what is
+							often challenging conditions. "The Power of One Moment" -- this message proves that anything
+							is possible when one can take the best of both Eastern and Western cultures.
 						</p>
 						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
+							His story is an inspiration to many Asian youth who will follow in his footsteps and gives
+							students and citizens alike a chance to see what it takes to make it in this country.
+							Getting a clearer picture of what citizens in the United States and abroad want is important
+							for policymakers, because public attitudes will shape prospects for effective multilateral
+							cooperation in the twenty-first century.
 						</p>
-					</TimelineItem>
-					<TimelineItem
-						key="002"
-						dateText="04/2009 – 11/2010"
-						dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-						bodyContainerStyle={{
-							background: '#ddd',
-							padding: '20px',
-							borderRadius: '8px',
-							boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
-						}}
-					>
-						<h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
-						<h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-					</TimelineItem>
-					<TimelineItem
-						key="003"
-						dateComponent={
-							<div
-								style={{
-									display: 'block',
-									float: 'left',
-									padding: '10px',
-									background: 'rgb(150, 150, 150)',
-									color: '#fff'
-								}}
-							>
-								11/2008 – 04/2009
-							</div>
-						}
-					>
-						<h3>Title, Company</h3>
-						<h4>Subtitle</h4>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-					</TimelineItem>
-					<TimelineItem key="004" dateText="08/2008 – 11/2008" dateInnerStyle={{ background: '#76bb7f' }}>
-						<h3>Title, Company</h3>
-						<h4>Subtitle</h4>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-						<p>
-							Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam
-							velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut
-							nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis
-							Lorem est.
-						</p>
-					</TimelineItem>
-				</Timeline>
+					</Media.Body>
+				</Media>
+				<hr class="col-xs-12" />
 			</div>
 		);
 	}
