@@ -6,7 +6,7 @@ import { Media } from 'react-bootstrap';
 class News extends Component {
 	render() {
 		return (
-			<div style={{ paddingTop: '20px' }}>
+			<div className="news">
 				<h3>Philanthropic</h3>
 				<Media>
 					<img
