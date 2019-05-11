@@ -5,7 +5,7 @@ import './News.css';
 class News extends Component {
 	render() {
 		return (
-			<div>
+			<div style={{ paddingTop: '20px' }}>
 				<h3>Featured Projects & Past Events</h3>
 				<Timeline lineColor={'#ddd'}>
 					<TimelineItem key="001" dateText="11/2010 – Present" style={{ color: '#e86971' }}>
