@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import RBCarousel from 'react-bootstrap-carousel';
 
-const styles = { height: 500, width: '100%' };
+const styles = { height: 1104, width: '100%' };
 
 class Carousel extends React.PureComponent {
 	constructor(props) {
