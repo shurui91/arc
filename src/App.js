@@ -10,11 +10,6 @@ import FeatureProject from './components/FeatureProject';
 import Publication from './components/Publication';
 import Support from './components/Support';
 
-import Footer from './components/Footer';
-import Carousel from './components/Carousel';
-import News from './components/News';
-import Cards from './components/Cards';
-
 function App() {
 	return (
 		<BrowserRouter>
@@ -22,11 +17,11 @@ function App() {
 				<Navigation />
 				<Switch>
 					<Route path="/" component={Home} exact />
-					<Route path="/" component={Vision} exact />
-					<Route path="/" component={About} exact />
-					<Route path="/" component={FeatureProject} exact />
-					<Route path="/" component={Publication} exact />
-					<Route path="/" component={Support} exact />
+					<Route path="/vision" component={Vision} />
+					<Route path="/about" component={About} />
+					<Route path="/project" component={FeatureProject} />
+					<Route path="/publication" component={Publication} />
+					<Route path="/support" component={Support} />
 				</Switch>
 			</div>
 		</BrowserRouter>
