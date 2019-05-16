@@ -3,7 +3,11 @@ import './Support.css';
 
 class Support extends Component {
 	render() {
-		return <support className="Support">test</support>;
+		return (
+			<div>
+				<p>Support</p>
+			</div>
+		);
 	}
 }
 
