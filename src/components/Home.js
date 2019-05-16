@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import './Home.css';
 
-// import Footer from './components/Footer';
-// import Carousel from './components/Carousel';
-// import News from './components/News';
-// import Cards from './components/Cards';
+import Carousel from './Carousel';
+import Footer from './Footer';
+import News from './News';
+import Cards from './Cards';
 
 class Home extends Component {
 	render() {
 		return (
 			<div>
-				<p>homepage</p>
+				<Carousel />
+				<Cards />
+				<News />
+				<Footer />
 			</div>
 		);
 	}
