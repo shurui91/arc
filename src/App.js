@@ -9,6 +9,7 @@ import About from './components/About';
 import FeatureProject from './components/FeatureProject';
 import Publication from './components/Publication';
 import Support from './components/Support';
+import Error from './components/Error';
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<Route path="/project" component={FeatureProject} />
 					<Route path="/publication" component={Publication} />
 					<Route path="/support" component={Support} />
+					<Route component={Error} />
 				</Switch>
 			</div>
 		</BrowserRouter>
