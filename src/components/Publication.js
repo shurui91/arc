@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './Publication.css';
+import { Button } from 'react-bootstrap';
 
 class Publication extends Component {
 	render() {
 		return (
-			<div>
-				<p>Publication</p>
+			<div className="publication">
+				<h1>CHRISTIANITY IN CHINA</h1>
+				<img className="imageIntro" src={require('../brothers_2.png')} alt="" />
+				<Button className="pull-right" variant="primary">
+					Read
+				</Button>
 			</div>
 		);
 	}
