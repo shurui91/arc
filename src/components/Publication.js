@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Publication.css';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Publication extends Component {
 	render() {
@@ -8,9 +9,11 @@ class Publication extends Component {
 			<div className="publication">
 				<h1>CHRISTIANITY IN CHINA</h1>
 				<img className="imageIntro" src={require('../brothers_2.png')} alt="" />
-				<Button className="float-right" variant="primary">
-					Read
-				</Button>
+				<Link to="/books">
+					<Button type="button" className="float-right">
+						Read
+					</Button>
+				</Link>
 			</div>
 		);
 	}

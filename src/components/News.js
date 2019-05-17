@@ -31,7 +31,7 @@ class News extends Component {
 						</p>
 					</Media.Body>
 				</Media>
-				<hr class="col-xs-12" />
+				<hr sm="12" />
 				<Media>
 					<Media.Body>
 						<h5>ARC Roles</h5>
@@ -44,7 +44,7 @@ class News extends Component {
 						</p>
 					</Media.Body>
 				</Media>
-				<hr class="col-xs-12" />
+				<hr sm="12" />
 				<Media>
 					<img
 						width={64}
@@ -63,7 +63,7 @@ class News extends Component {
 						</p>
 					</Media.Body>
 				</Media>
-				<hr class="col-xs-12" />
+				<hr sm="12" />
 				<Media>
 					<img
 						width={64}
@@ -84,7 +84,7 @@ class News extends Component {
 						</p>
 					</Media.Body>
 				</Media>
-				<hr class="col-xs-12" />
+				<hr sm="12" />
 				<Media>
 					<img
 						width={64}
@@ -111,7 +111,7 @@ class News extends Component {
 						</p>
 					</Media.Body>
 				</Media>
-				<hr class="col-xs-12" />
+				<hr sm="12" />
 			</div>
 		);
 	}
