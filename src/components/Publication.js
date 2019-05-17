@@ -8,7 +8,7 @@ class Publication extends Component {
 			<div className="publication">
 				<h1>CHRISTIANITY IN CHINA</h1>
 				<img className="imageIntro" src={require('../brothers_2.png')} alt="" />
-				<Button className="pull-right" variant="primary">
+				<Button className="float-right" variant="primary">
 					Read
 				</Button>
 			</div>
