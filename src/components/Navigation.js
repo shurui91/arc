@@ -8,7 +8,7 @@ class Navigation extends Component {
 			<div>
 				<nav className="navbar navbar-expand-lg navbar-light bg-light">
 					<a className="navbar-brand" href="/">
-						ARC
+						<img src={require('../arcLogo.jpg')} height="85px" width="270px" alt="" />
 					</a>
 					<button
 						className="navbar-toggler"
