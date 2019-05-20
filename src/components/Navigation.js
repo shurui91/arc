@@ -11,7 +11,7 @@ class Navigation extends Component {
 						<img src={require('../arcLogo.jpg')} height="85px" width="270px" alt="" />
 					</a>
 					<button
-						className="navbar-toggler"
+						class="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarSupportedContent"
@@ -19,12 +19,12 @@ class Navigation extends Component {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span className="navbar-toggler-icon" />
+						<span class="navbar-toggler-icon" />
 					</button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav mr-auto">
 							<li className="nav-item">
-								<NavLink to="/">Home</NavLink>
+								<link to="/">Home</link>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/vision">Vision</NavLink>

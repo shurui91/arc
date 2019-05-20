@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
 
-import Navigation from './components/Navigation';
+// import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Vision from './components/Vision';
 import About from './components/About';
@@ -13,20 +14,42 @@ import Error from './components/Error';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<Router>
 			<div>
-				<Navigation />
-				<Switch>
-					<Route path="/" component={Home} exact />
-					<Route path="/vision" component={Vision} />
-					<Route path="/about" component={About} />
-					<Route path="/project" component={FeatureProject} />
-					<Route path="/publication" component={Publication} />
-					<Route path="/support" component={Support} />
-					<Route component={Error} />
-				</Switch>
+				<Navbar>
+					<Navbar.Brand as={NavLink} to="/">
+						ARC
+					</Navbar.Brand>
+					<Nav>
+						{/* "NavLink" here since "active" class styling is needed */}
+						<Nav.Link as={NavLink} to="/" exact>
+							Home
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/vision">
+							Vision
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/aboutus">
+							About
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/project">
+							Feature Project
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/publication">
+							Publication
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/support">
+							Support
+						</Nav.Link>
+					</Nav>
+				</Navbar>
+				<Route path="/" exact component={Home} />
+				<Route path="/vision" exact component={Vision} />
+				<Route path="/aboutus" exact component={About} />
+				<Route path="/project" exact component={FeatureProject} />
+				<Route path="/publication" exact component={Publication} />
+				<Route path="/support" exact component={Support} />
 			</div>
-		</BrowserRouter>
+		</Router>
 	);
 }
 
