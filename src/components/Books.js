@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Books.css';
 import Footer from './Footer';
 
-class About extends Component {
+class Books extends Component {
 	render() {
 		return (
 			<div>
@@ -15,4 +15,4 @@ class About extends Component {
 	}
 }
 
-export default About;
+export default Books;
