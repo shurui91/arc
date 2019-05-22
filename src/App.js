@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom';
+import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
 // import Navigation from './components/Navigation';
@@ -42,12 +42,15 @@ function App() {
 						</Nav.Link>
 					</Nav>
 				</Navbar>
-				<Route path="/" exact component={Home} />
-				<Route path="/vision" exact component={Vision} />
-				<Route path="/aboutus" exact component={About} />
-				<Route path="/project" exact component={FeatureProject} />
-				<Route path="/publication" exact component={Publication} />
-				<Route path="/support" exact component={Support} />
+				<Switch>
+					<Route path="/" exact component={Home} />
+					<Route path="/vision" exact component={Vision} />
+					<Route path="/aboutus" exact component={About} />
+					<Route path="/project" exact component={FeatureProject} />
+					<Route path="/publication" exact component={Publication} />
+					<Route path="/support" exact component={Support} />
+					<Route component={Error} />
+				</Switch>
 			</div>
 		</Router>
 	);
