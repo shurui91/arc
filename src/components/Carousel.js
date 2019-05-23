@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
-import RBCarousel from 'react-bootstrap-carousel';
+import React from "react";
+// import ReactDOM from 'react-dom';
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import RBCarousel from "react-bootstrap-carousel";
 
-const styles = { height: 1104, width: '100%' };
+const styles = { height: 1104, width: "100%" };
 
 class Carousel extends React.PureComponent {
 	constructor(props) {
@@ -41,7 +41,7 @@ class Carousel extends React.PureComponent {
 		return (
 			<div className="container-fluid">
 				<Row>
-					<Col span={12} style={{ paddingTop: '20px' }}>
+					<Col span={12} style={{ paddingTop: "20px" }}>
 						<RBCarousel
 							animation={true}
 							autoplay={this.state.autoplay}
@@ -53,23 +53,23 @@ class Carousel extends React.PureComponent {
 							version={4}
 						>
 							<div style={{ ...styles }}>
-								<img style={{ width: '100%' }} src={require('../20190505225128.png')} alt="" />
+								<img style={{ width: "100%" }} src={require("../20190505225128.png")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: '100%' }} src={require('../brothers_2.png')} alt="" />
+								<img style={{ width: "100%" }} src={require("../brothers_2.png")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: '100%' }} src={require('../symposium.jpg')} alt="" />
+								<img style={{ width: "100%" }} src={require("../symposium.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: '100%' }} src={require('../happy-violin-girls.jpg')} alt="" />
+								<img style={{ width: "100%" }} src={require("../happy-violin-girls.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: '100%' }} src={require('../united-states-map.jpg')} alt="" />
+								<img style={{ width: "100%" }} src={require("../united-states-map.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 						</RBCarousel>
@@ -91,7 +91,7 @@ const Col = props => (
 );
 const Button = props => {
 	const { style, bsStyle, onClick } = props;
-	const className = bsStyle ? `btn btn-${bsStyle}` : 'btn';
+	const className = bsStyle ? `btn btn-${bsStyle}` : "btn";
 	return (
 		<button style={style} className={className} onClick={onClick}>
 			{props.children}
