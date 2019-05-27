@@ -11,7 +11,11 @@ class Cards extends Component {
 					<Row>
 						<Col xs={12} md={4}>
 							<Card style={{ width: '22rem' }}>
-								<Card.Img variant="top" src={require('../Participate.jpg')} />
+								<Card.Img
+									variant="top"
+									src={require('../img5.jpg')}
+									style={{ width: '350px', height: '250px' }}
+								/>
 								<Card.Body>
 									<Card.Title>Contact Us</Card.Title>
 									<Card.Text>
@@ -24,7 +28,10 @@ class Cards extends Component {
 						</Col>
 						<Col xs={12} md={4}>
 							<Card style={{ width: '22rem' }}>
-								<Card.Img variant="top" src={require('../Participate.jpg')} />
+								<Card.Img
+									variant="top"
+									src={require('../zhangx220.jpg')}
+									style={{ width: '350px', height: '250px' }} />
 								<Card.Body>
 									<Card.Title>About Us</Card.Title>
 									<Card.Text>
@@ -37,7 +44,10 @@ class Cards extends Component {
 						</Col>
 						<Col xs={12} md={4}>
 							<Card style={{ width: '22rem' }}>
-								<Card.Img variant="top" src={require('../Participate.jpg')} />
+								<Card.Img
+									variant="top"
+									src={require('../events.jpg')}
+									style={{ width: '350px', height: '250px' }} />
 								<Card.Body>
 									<Card.Title>Who We Are</Card.Title>
 									<Card.Text>
