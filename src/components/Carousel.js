@@ -45,7 +45,7 @@ class Carousel extends React.PureComponent {
 						<RBCarousel
 							animation={true}
 							autoplay={this.state.autoplay}
-							slideshowSpeed={2000}
+							slideshowSpeed={4000}
 							leftIcon={leftIcon}
 							rightIcon={rightIcon}
 							onSelect={this.onSelect}
@@ -66,10 +66,6 @@ class Carousel extends React.PureComponent {
 							</div>
 							<div style={{ ...styles }}>
 								<img style={{ width: "100%" }} src={require("../happy-violin-girls.jpg")} alt="" />
-								{/* <div className="carousel-caption">Image</div> */}
-							</div>
-							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../united-states-map.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 						</RBCarousel>
