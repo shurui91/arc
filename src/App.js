@@ -28,19 +28,19 @@ function App() {
 					</Navbar.Brand>
 					<Nav>
 						{/* "NavLink" here since "active" class styling is needed */}
-						<Nav.Link as={NavLink} to="/" exact>
+						<Nav.Link as={NavLink} to="/" exact style={{ fontSize: 21 }}>
 							Home
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/publication">
+						<Nav.Link as={NavLink} to="/publication" style={{ fontSize: 21 }}>
 							Publication
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/project">
+						<Nav.Link as={NavLink} to="/project" style={{ fontSize: 21 }}>
 							Events
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/support">
+						<Nav.Link as={NavLink} to="/support" style={{ fontSize: 21 }}>
 							Support
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/aboutus">
+						<Nav.Link as={NavLink} to="/aboutus" style={{ fontSize: 21 }}>
 							About
 						</Nav.Link>
 					</Nav>
@@ -56,7 +56,7 @@ function App() {
 					<Route component={Error} />
 				</Switch>
 			</div>
-		</Router>
+		</Router >
 	);
 }
 
