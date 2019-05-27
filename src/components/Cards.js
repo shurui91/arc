@@ -49,7 +49,7 @@ class Cards extends Component {
 									src={require('../events.jpg')}
 									style={{ width: '350px', height: '250px' }} />
 								<Card.Body>
-									<Card.Title>Who We Are</Card.Title>
+									<Card.Title>Events</Card.Title>
 									<Card.Text>
 										Some quick example text to build on the card title and make up the bulk of the
 										card's content.

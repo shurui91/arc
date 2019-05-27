@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
-// import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Vision from './components/Vision';
 import About from './components/About';
