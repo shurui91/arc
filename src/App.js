@@ -26,20 +26,17 @@ function App() {
 						<Nav.Link as={NavLink} to="/" exact>
 							Home
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/vision">
-							Vision
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/aboutus">
-							About
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/project">
-							Feature Project
-						</Nav.Link>
 						<Nav.Link as={NavLink} to="/publication">
 							Publication
 						</Nav.Link>
+						<Nav.Link as={NavLink} to="/project">
+							Events
+						</Nav.Link>
 						<Nav.Link as={NavLink} to="/support">
 							Support
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/aboutus">
+							About
 						</Nav.Link>
 					</Nav>
 				</Navbar>
