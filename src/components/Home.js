@@ -4,8 +4,8 @@ import './Home.css';
 import Carousel from './Carousel';
 import Vision from './Vision';
 import Footer from './Footer';
-// import News from './News';
 import Cards from './Cards';
+import Partners from './Partners';
 
 class Home extends Component {
 	render() {
@@ -14,6 +14,7 @@ class Home extends Component {
 				<Carousel />
 				<Vision />
 				<Cards />
+				<Partners />
 				<Footer />
 			</div>
 		);

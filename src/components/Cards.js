@@ -14,7 +14,7 @@ class Cards extends Component {
 								<Card.Img
 									variant="top"
 									src={require('../img5.jpg')}
-									style={{ width: '350px', height: '250px' }}
+									style={{ width: '100%', height: '250px' }}
 								/>
 								<Card.Body>
 									<Card.Title>Contact Us</Card.Title>
@@ -31,7 +31,7 @@ class Cards extends Component {
 								<Card.Img
 									variant="top"
 									src={require('../zhangx220.jpg')}
-									style={{ width: '350px', height: '250px' }} />
+									style={{ width: '100%', height: '250px' }} />
 								<Card.Body>
 									<Card.Title>About Us</Card.Title>
 									<Card.Text>
@@ -47,7 +47,7 @@ class Cards extends Component {
 								<Card.Img
 									variant="top"
 									src={require('../events.jpg')}
-									style={{ width: '350px', height: '250px' }} />
+									style={{ width: '100%', height: '250px' }} />
 								<Card.Body>
 									<Card.Title>Events</Card.Title>
 									<Card.Text>
