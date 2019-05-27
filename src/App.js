@@ -19,7 +19,12 @@ function App() {
 			<div>
 				<Navbar>
 					<Navbar.Brand as={NavLink} to="/">
-						ARC
+						<img
+							alt=""
+							src={require('./arcLogo.jpg')}
+							height="80"
+							className="d-inline-block align-top"
+						/>
 					</Navbar.Brand>
 					<Nav>
 						{/* "NavLink" here since "active" class styling is needed */}

@@ -9,7 +9,7 @@ class Cards extends Component {
 			<div className="cards">
 				<Row>
 					<Col xs={12} md={4}>
-						<Card style={{ width: '18rem' }}>
+						<Card style={{ width: '24rem' }}>
 							<Card.Img variant="top" src={require('../Participate.jpg')} />
 							<Card.Body>
 								<Card.Title>Contact Us</Card.Title>
@@ -22,7 +22,7 @@ class Cards extends Component {
 						</Card>
 					</Col>
 					<Col xs={12} md={4}>
-						<Card style={{ width: '18rem' }}>
+						<Card style={{ width: '24rem' }}>
 							<Card.Img variant="top" src={require('../Participate.jpg')} />
 							<Card.Body>
 								<Card.Title>About Us</Card.Title>
@@ -35,7 +35,7 @@ class Cards extends Component {
 						</Card>
 					</Col>
 					<Col xs={12} md={4}>
-						<Card style={{ width: '18rem' }}>
+						<Card style={{ width: '24rem' }}>
 							<Card.Img variant="top" src={require('../Participate.jpg')} />
 							<Card.Body>
 								<Card.Title>Who We Are</Card.Title>
