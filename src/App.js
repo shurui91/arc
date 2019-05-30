@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
-// import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Vision from './components/Vision';
 import About from './components/About';
@@ -19,27 +18,29 @@ function App() {
 			<div>
 				<Navbar>
 					<Navbar.Brand as={NavLink} to="/">
-						ARC
+						<img
+							alt=""
+							src={require('./arcLogo.jpg')}
+							height="80"
+							className="d-inline-block align-top"
+						/>
 					</Navbar.Brand>
 					<Nav>
 						{/* "NavLink" here since "active" class styling is needed */}
-						<Nav.Link as={NavLink} to="/" exact>
+						<Nav.Link as={NavLink} to="/" exact style={{ fontSize: 21 }}>
 							Home
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/vision">
-							Vision
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/aboutus">
-							About
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/project">
-							Feature Project
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/publication">
+						<Nav.Link as={NavLink} to="/publication" style={{ fontSize: 21 }}>
 							Publication
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/support">
+						<Nav.Link as={NavLink} to="/project" style={{ fontSize: 21 }}>
+							Events
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/support" style={{ fontSize: 21 }}>
 							Support
+						</Nav.Link>
+						<Nav.Link as={NavLink} to="/aboutus" style={{ fontSize: 21 }}>
+							About
 						</Nav.Link>
 					</Nav>
 				</Navbar>
@@ -54,7 +55,7 @@ function App() {
 					<Route component={Error} />
 				</Switch>
 			</div>
-		</Router>
+		</Router >
 	);
 }
 
