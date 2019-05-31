@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
-import Home from './components/Home';
-import Vision from './components/Vision';
-import About from './components/About';
-import FeatureProject from './components/FeatureProject';
-import Publication from './components/Publication';
-import Books from './components/Books';
-import Support from './components/Support';
-import Error from './components/Error';
+import Home from "./components/Home";
+import Vision from "./components/Vision";
+import About from "./components/About";
+import FeatureProject from "./components/FeatureProject";
+import Publication from "./components/Publication";
+import Books from "./components/Books";
+import Support from "./components/Support";
+import Error from "./components/Error";
 
 function App() {
 	return (
@@ -18,28 +18,23 @@ function App() {
 			<div>
 				<Navbar>
 					<Navbar.Brand as={NavLink} to="/">
-						<img
-							alt=""
-							src={require('./arcLogo.jpg')}
-							height="80"
-							className="d-inline-block align-top"
-						/>
+						<img alt="" src={require("./arcLogo.jpg")} height="80" className="d-inline-block align-top" />
 					</Navbar.Brand>
-					<Nav>
+					<Nav style={{ fontSize: 21 }}>
 						{/* "NavLink" here since "active" class styling is needed */}
-						<Nav.Link as={NavLink} to="/" exact style={{ fontSize: 21 }}>
+						<Nav.Link as={NavLink} to="/" exact>
 							Home
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/publication" style={{ fontSize: 21 }}>
+						<Nav.Link as={NavLink} to="/publication">
 							Publication
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/project" style={{ fontSize: 21 }}>
+						<Nav.Link as={NavLink} to="/project">
 							Events
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/support" style={{ fontSize: 21 }}>
+						<Nav.Link as={NavLink} to="/support">
 							Support
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/aboutus" style={{ fontSize: 21 }}>
+						<Nav.Link as={NavLink} to="/aboutus">
 							About
 						</Nav.Link>
 					</Nav>
@@ -55,7 +50,7 @@ function App() {
 					<Route component={Error} />
 				</Switch>
 			</div>
-		</Router >
+		</Router>
 	);
 }
 
