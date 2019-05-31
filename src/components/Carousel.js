@@ -61,7 +61,7 @@ class Carousel extends React.PureComponent {
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../brothers_2.png")} alt="" />
+								<img style={{ width: "100%" }} src={require("../20190529211606.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
