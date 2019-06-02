@@ -6,7 +6,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import Home from "./components/Home";
 import Vision from "./components/Vision";
 import About from "./components/About";
-import FeatureProject from "./components/FeatureProject";
+import Events from "./components/Events";
 import Publication from "./components/Publication";
 import Books from "./components/Books";
 import Support from "./components/Support";
@@ -45,7 +45,7 @@ function App() {
 					<Route path="/" exact component={Home} />
 					<Route path="/vision" exact component={Vision} />
 					<Route path="/aboutus" exact component={About} />
-					<Route path="/events" exact component={FeatureProject} />
+					<Route path="/events" exact component={Events} />
 					<Route path="/publication" exact component={Publication} />
 					<Route path="/books" exact component={Books} />
 					<Route path="/support" exact component={Support} />
