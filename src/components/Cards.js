@@ -33,7 +33,7 @@ class Cards extends Component {
 								<Card style={{ width: '20rem' }}>
 									<Card.Img
 										variant="top"
-										src={require('../zhangx220.jpg')}
+										src={require('../zhangx300.jpg')}
 										style={{ width: '100%', height: '250px' }} />
 									<Card.Body>
 										<Card.Title>About Us</Card.Title>
