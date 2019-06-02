@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 import { BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
