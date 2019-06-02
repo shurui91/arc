@@ -1,43 +1,46 @@
 import React, { Component } from 'react';
+import { Form, Button } from "react-bootstrap";
 import './Contactus.css';
 
-const styles = {
-	fontFamily: "sans-serif",
-	textAlign: "center"
-};
 
 class Contactus extends Component {
-	constructor(props) {
-		super(props);
-		this.state = { value: '' };
-
-		this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);
-	}
-
-	handleChange(event) {
-		this.setState({ value: event.target.value });
-	}
-
-	handleSubmit(event) {
-		alert('A name was submitted: ' + this.state.value);
-		event.preventDefault();
-	}
-
 	render() {
 		return (
 			<div className="contactForm">
-				<form onSubmit={this.handleSubmit}>
-					<div>
-						<label>Name </label>
-						<input type="text" value={this.state.value} onChange={this.handleChange} />
-					</div>
-					<div>
-						<label>Email </label>
-						<input type="text" value={this.state.value} onChange={this.handleChange} />
-					</div>
-					<input type="submit" value="Submit" />
-				</form>
+				<Form>
+					<Form.Group controlId="formBasicName">
+						<Form.Label>Your Name</Form.Label>
+						<Form.Control type="text" placeholder="Enter your name" />
+						<Form.Text className="text-muted">
+							We'll never share your email with anyone else.
+    					</Form.Text>
+					</Form.Group>
+
+					<Form.Group controlId="formBasicEmail">
+						<Form.Label>Email Address</Form.Label>
+						<Form.Control type="email" placeholder="Enter email" />
+						<Form.Text className="text-muted">
+							We'll never share your email with anyone else.
+    					</Form.Text>
+					</Form.Group>
+					
+					<Form.Group controlId="formBasicPhone">
+						<Form.Label>Phone Number</Form.Label>
+						<Form.Control type="phone" placeholder="Enter phone number" />
+						<Form.Text className="text-muted">
+							We'll never share your email with anyone else.
+    					</Form.Text>
+					</Form.Group>
+
+					<Form.Group controlId="formBasicMsg">
+						<Form.Label>Your Message</Form.Label>
+						<Form.Control type="text" />
+					</Form.Group>
+
+					<Button variant="primary" type="submit">
+						Submit
+					</Button>
+				</Form>
 			</div>
 		);
 	}
