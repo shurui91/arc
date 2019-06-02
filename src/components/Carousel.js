@@ -45,7 +45,7 @@ class Carousel extends React.PureComponent {
 						<RBCarousel
 							animation={true}
 							autoplay={this.state.autoplay}
-							slideshowSpeed={4000}
+							slideshowSpeed={10000}
 							leftIcon={leftIcon}
 							rightIcon={rightIcon}
 							onSelect={this.onSelect}
