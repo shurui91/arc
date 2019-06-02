@@ -38,7 +38,7 @@ function App() {
 							Support
 						</Nav.Link>
 						<Nav.Link as={NavLink} to="/aboutus">
-							About
+							About Us
 						</Nav.Link>
 					</Nav>
 				</Navbar>
