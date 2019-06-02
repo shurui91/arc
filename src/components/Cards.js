@@ -19,10 +19,10 @@ class Cards extends Component {
 									/>
 									<Card.Body>
 										<Card.Title>Contact Us</Card.Title>
-										<Card.Text>
+										{/*<Card.Text>
 											Some quick example text to build on the card title and make up the bulk of the
 											card's content.
-									</Card.Text>
+										</Card.Text>*/}
 										{/* <Button variant="primary">Go somewhere</Button> */}
 									</Card.Body>
 								</Card>
@@ -37,10 +37,10 @@ class Cards extends Component {
 										style={{ width: '100%', height: '250px' }} />
 									<Card.Body>
 										<Card.Title>About Us</Card.Title>
-										<Card.Text>
+										{/*<Card.Text>
 											Some quick example text to build on the card title and make up the bulk of the
 											card's content.
-								</Card.Text>
+										</Card.Text>*/}
 										{/* <Button variant="primary">Go somewhere</Button> */}
 									</Card.Body>
 								</Card>
@@ -55,10 +55,10 @@ class Cards extends Component {
 										style={{ width: '100%', height: '250px' }} />
 									<Card.Body>
 										<Card.Title>Events</Card.Title>
-										<Card.Text>
+										{/*<Card.Text>
 											Some quick example text to build on the card title and make up the bulk of the
 											card's content.
-									</Card.Text>
+										</Card.Text>*/}
 										{/* <Button variant="primary">Go somewhere</Button> */}
 									</Card.Body>
 								</Card>
