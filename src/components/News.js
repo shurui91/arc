@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import './News.css';
 import { Media } from 'react-bootstrap';
 

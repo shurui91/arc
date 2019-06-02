@@ -10,6 +10,8 @@ import FeatureProject from "./components/FeatureProject";
 import Publication from "./components/Publication";
 import Books from "./components/Books";
 import Support from "./components/Support";
+import Contactus from "./components/Contactus";
+import News from "./components/News";
 import Error from "./components/Error";
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
 						<Nav.Link as={NavLink} to="/publication">
 							Publication
 						</Nav.Link>
-						<Nav.Link as={NavLink} to="/project">
+						<Nav.Link as={NavLink} to="/events">
 							Events
 						</Nav.Link>
 						<Nav.Link as={NavLink} to="/support">
@@ -43,10 +45,12 @@ function App() {
 					<Route path="/" exact component={Home} />
 					<Route path="/vision" exact component={Vision} />
 					<Route path="/aboutus" exact component={About} />
-					<Route path="/project" exact component={FeatureProject} />
+					<Route path="/events" exact component={FeatureProject} />
 					<Route path="/publication" exact component={Publication} />
 					<Route path="/books" exact component={Books} />
 					<Route path="/support" exact component={Support} />
+					<Route path="/contactus" exact component={Contactus} />
+					<Route path="/news" exact component={News} />
 					<Route component={Error} />
 				</Switch>
 			</div>

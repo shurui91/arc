@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Cards.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 class Cards extends Component {
 	render() {
@@ -9,53 +10,59 @@ class Cards extends Component {
 				<Container>
 					<Row>
 						<Col sm={12} xl={4} className="card">
-							<Card style={{ width: '20rem' }}>
-								<Card.Img
-									variant="top"
-									src={require('../img5.jpg')}
-									style={{ width: '100%', height: '250px' }}
-								/>
-								<Card.Body>
-									<Card.Title>Contact Us</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
-								</Card.Text>
-									{/* <Button variant="primary">Go somewhere</Button> */}
-								</Card.Body>
-							</Card>
+							<Link to="/contactus">
+								<Card style={{ width: '20rem' }}>
+									<Card.Img
+										variant="top"
+										src={require('../img5.jpg')}
+										style={{ width: '100%', height: '250px' }}
+									/>
+									<Card.Body>
+										<Card.Title>Contact Us</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and make up the bulk of the
+											card's content.
+									</Card.Text>
+										{/* <Button variant="primary">Go somewhere</Button> */}
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 						<Col sm={12} xl={4} className="card">
-							<Card style={{ width: '20rem' }}>
-								<Card.Img
-									variant="top"
-									src={require('../zhangx220.jpg')}
-									style={{ width: '100%', height: '250px' }} />
-								<Card.Body>
-									<Card.Title>About Us</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
+							<Link to="/news">
+								<Card style={{ width: '20rem' }}>
+									<Card.Img
+										variant="top"
+										src={require('../zhangx220.jpg')}
+										style={{ width: '100%', height: '250px' }} />
+									<Card.Body>
+										<Card.Title>About Us</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and make up the bulk of the
+											card's content.
 								</Card.Text>
-									{/* <Button variant="primary">Go somewhere</Button> */}
-								</Card.Body>
-							</Card>
+										{/* <Button variant="primary">Go somewhere</Button> */}
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 						<Col sm={12} xl={4} className="card">
-							<Card style={{ width: '20rem' }}>
-								<Card.Img
-									variant="top"
-									src={require('../events.jpg')}
-									style={{ width: '100%', height: '250px' }} />
-								<Card.Body>
-									<Card.Title>Events</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
-								</Card.Text>
-									{/* <Button variant="primary">Go somewhere</Button> */}
-								</Card.Body>
-							</Card>
+							<Link to="/events">
+								<Card style={{ width: '20rem' }}>
+									<Card.Img
+										variant="top"
+										src={require('../events.jpg')}
+										style={{ width: '100%', height: '250px' }} />
+									<Card.Body>
+										<Card.Title>Events</Card.Title>
+										<Card.Text>
+											Some quick example text to build on the card title and make up the bulk of the
+											card's content.
+									</Card.Text>
+										{/* <Button variant="primary">Go somewhere</Button> */}
+									</Card.Body>
+								</Card>
+							</Link>
 						</Col>
 					</Row>
 				</Container>
