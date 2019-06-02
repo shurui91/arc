@@ -53,7 +53,7 @@ class Carousel extends React.PureComponent {
 							version={4}
 						>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../happy-violin-girls.jpg")} alt="" />
+								<img style={{ width: "100%" }} src={require("../20190602005752.jpg")} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
