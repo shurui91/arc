@@ -9,9 +9,9 @@ class Cards extends Component {
 			<div className="cards">
 				<Container>
 					<Row>
-						<Col sm={12} xl={4} className="card">
+						<Col md={12} lg={4} className="card">
 							<Link to="/contactus">
-								<Card style={{ width: '20rem' }}>
+								<Card style={{ width: '300px' }}>
 									<Card.Img
 										variant="top"
 										src={require('../img5.jpg')}
@@ -28,7 +28,7 @@ class Cards extends Component {
 								</Card>
 							</Link>
 						</Col>
-						<Col sm={12} xl={4} className="card">
+						<Col md={12} lg={4} className="card">
 							<Link to="/news">
 								<Card style={{ width: '20rem' }}>
 									<Card.Img
@@ -46,7 +46,7 @@ class Cards extends Component {
 								</Card>
 							</Link>
 						</Col>
-						<Col sm={12} xl={4} className="card">
+						<Col md={12} lg={4} className="card">
 							<Link to="/events">
 								<Card style={{ width: '20rem' }}>
 									<Card.Img
