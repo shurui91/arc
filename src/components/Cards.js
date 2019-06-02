@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import './Cards.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 

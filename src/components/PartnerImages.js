@@ -8,7 +8,12 @@ class PartnerImages extends Component {
 			<div className="partnersImage">
 				<Row>
 					<Col sm={12}>
-						<img style={{ width: '100%' }} src={require('../20190601193138.jpg')} alt="" />
+						<a href="https://ocmusicdance.org/">
+							<img
+								style={{ width: '100%' }}
+								src={require('../20190601193138.jpg')} alt=""
+							/>
+						</a>
 					</Col>
 				</Row>
 			</div>
