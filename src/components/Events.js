@@ -5,7 +5,7 @@ class Events extends Component {
 	render() {
 		return (
 			<div>
-				<p>Events</p>
+				<img src={require("../events.jpg")} style={{ width: '100%' }} alt="" />
 			</div>
 		);
 	}
