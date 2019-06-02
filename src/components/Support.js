@@ -8,7 +8,7 @@ class Support extends Component {
 		return (
 			<div>
 				<div className="support">
-					<Jumbotron>
+					<Jumbotron style={{ backgroundColor: 'pink' }}>
 						<h1>Support ARC</h1>
 						<p>
 							To support ARC please send your donation via money order or check to:
