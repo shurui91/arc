@@ -8,6 +8,9 @@ import sinicization from "../books/Sinicization of Christianity in China.pdf";
 import statement1 from "../books/statement1_simplified_final.pdf";
 import statement2 from "../books/statement2_simplified_final.pdf";
 import statement3 from "../books/statement3_final_SimpCh.pdf";
+import elDenial from "../books/EL Denial Statement.pdf";
+import rebuttalChinese from "../books/AH rebuttal 416_Ch.pdf";
+import rebuttalEnglish from "../books/AH rebuttal 416_Eng.pdf";
 
 class Books extends Component {
 	render() {
@@ -96,6 +99,25 @@ class Books extends Component {
 									</p>
 									<p>
 										<a href={statement3}>Read</a>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src={require("../20190602005913.png")} style={{ maxWidth: 652.5 }} alt="" />
+								</td>
+								<td>
+									<p>
+										全能神教于2017 年10 月18 日在其网站上刊登了一份声明，完完全全否认他们参与绑架34 位中华福音团契（简称中福）的牧师一事，（中福称此事为“416 绑架事件”因为绑架非法拘禁发生于2002 年4 月16 日，本文沿用同样的名称。）本文共含四部分。第一部分含从申小明所著“被邪教绑架”一书之中摘要有关416 事件。第二部分是我们于2018 年6 月24 日在北京与一位张牧师的访谈节要。张牧师是34 位被非法拘禁的中福牧师之一。第三部分含一份北京公安关于该事件的资料。被非法拘禁的人之中有一位姊妹最先逃了出来，中福的被害家属就决定将此事报到北京去，留了底。第四部分是我们根据申的书以及张的访谈写的一点对全能神教声明的反驳。
+									</p>
+									<p>
+										<a href={rebuttalChinese}>阅读</a>
+									</p>
+									<p>
+										<a href={rebuttalEnglish}>Rebuttal</a>
+									</p>
+									<p>
+										<a href={elDenial}>Denial Statement</a>
 									</p>
 								</td>
 							</tr>
