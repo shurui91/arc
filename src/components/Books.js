@@ -25,7 +25,7 @@ class Books extends Component {
 									<h3>和合本圣经百周年纪念</h3>
 									<p>和合本圣经自1919年出版发行以来，从文学和信仰等方面，对中国社会作了极大的贡献。在文学方面，因着1919年发生了“五四运动”，一个新文学的时代正式开始。因此，和合本圣经可说是“生逢其时”，成为白话文的标准典范，展现出作为文学作品极高的价值。从这一方面而言，和合本圣经对于中国新文学的贡献，可与马丁·路德以德文翻译圣经对德国文学之贡献相提并论。</p>
 									<p>
-										<a href={kicus}>Read</a>
+										{/*<a href={kicus}>Read</a>*/}
 									</p>
 								</td>
 							</tr>
@@ -41,7 +41,7 @@ class Books extends Component {
 										University
 									</p>
 									<p>
-										<a href={kicus}>Read</a>
+										<a href={sinicization}>Read</a>
 									</p>
 								</td>
 							</tr>
@@ -55,7 +55,7 @@ class Books extends Component {
 										country's unprecedented economic growth and implications for global security.
 									</p>
 									<p>
-										<a href={sinicization}>Read</a>
+										<a href={kicus}>Read</a>
 									</p>
 								</td>
 							</tr>
