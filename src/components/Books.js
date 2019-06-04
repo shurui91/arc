@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Table, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './Books.css';
 import Footer from './Footer';
 import kicus from '../books/KICUS-ReligioninChina_2.pdf';
