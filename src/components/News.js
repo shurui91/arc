@@ -177,10 +177,11 @@ class News extends Component {
 					<hr sm="12" />
 					<Media>
 						<Media.Body>
-							<h5>Abraham Ho, Vice-President</h5>
+							<h5>Abraham Ho, Director of Research</h5>
 							<p>
 								888-5011-ARC (272) ext. 102 <br />
 								<br />
+								abrahamtho@gmail.com
 							</p>
 						</Media.Body>
 					</Media>
