@@ -40,7 +40,7 @@ class Carousel extends React.PureComponent {
 		return (
 			<div className="container-fluid">
 				<Row>
-					<Col span={12} style={{ paddingTop: '20px' }}>
+					<Col sm={12} style={{ paddingTop: '20px' }}>
 						<RBCarousel
 							animation={true}
 							autoplay={this.state.autoplay}
@@ -51,20 +51,36 @@ class Carousel extends React.PureComponent {
 							ref={r => (this.slider = r)}
 							version={4}
 						>
-							<div style={{ ...styles }}>
-								<img src={require('../homepageSlides/20190602005752.jpg')} alt="" />
+							<div style={{ width: '100%', height: '44%' }}>
+								<img
+									src={require('../homepageSlides/20190602005752.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ ...styles }}>
-								<img src={require('../homepageSlides/20190602010013.jpg')} alt="" />
+							<div style={{ width: '100%', height: '44%' }}>
+								<img
+									src={require('../homepageSlides/20190602010013.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ ...styles }}>
-								<img src={require('../homepageSlides/20190529211606.jpg')} alt="" />
+							<div style={{ width: '100%', height: '44%' }}>
+								<img
+									src={require('../homepageSlides/20190529211606.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ ...styles }}>
-								<img src={require('../homepageSlides/20190602010222.jpg')} alt="" />
+							<div style={{ width: '100%', height: '44%' }}>
+								<img
+									src={require('../homepageSlides/20190602010222.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 						</RBCarousel>

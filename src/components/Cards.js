@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Cards.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 class Cards extends Component {
 	render() {
@@ -11,11 +11,11 @@ class Cards extends Component {
 					<Row>
 						<Col md={12} lg={4} className="card">
 							<Link to="/contactus">
-								<Card style={{ width: '300px' }}>
+								<Card style={{ maxWidth: '300px' }}>
 									<Card.Img
 										variant="top"
 										src={require('../img5.jpg')}
-										style={{ width: '100%', height: '250px' }}
+										style={{ width: '100%', height: '83%' }}
 									/>
 									<Card.Body>
 										<Card.Title>Contact Us</Card.Title>
@@ -30,11 +30,12 @@ class Cards extends Component {
 						</Col>
 						<Col md={12} lg={4} className="card">
 							<Link to="/news">
-								<Card style={{ width: '20rem' }}>
+								<Card style={{ maxWidth: '300px' }}>
 									<Card.Img
 										variant="top"
 										src={require('../zhangx300.jpg')}
-										style={{ width: '100%', height: '250px' }} />
+										style={{ width: '100%', height: '83%' }}
+									/>
 									<Card.Body>
 										<Card.Title>About Us</Card.Title>
 										{/*<Card.Text>
@@ -48,11 +49,12 @@ class Cards extends Component {
 						</Col>
 						<Col md={12} lg={4} className="card">
 							<Link to="/events">
-								<Card style={{ width: '20rem' }}>
+								<Card style={{ maxWidth: '300px' }}>
 									<Card.Img
 										variant="top"
 										src={require('../events.jpg')}
-										style={{ width: '100%', height: '250px' }} />
+										style={{ width: '100%', height: '83%' }}
+									/>
 									<Card.Body>
 										<Card.Title>Events</Card.Title>
 										{/*<Card.Text>
