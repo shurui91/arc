@@ -2,7 +2,7 @@ import React from 'react';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import RBCarousel from 'react-bootstrap-carousel';
 
-const styles = { height: 821, width: '100%' };
+const styles = { height: '44%', width: '100%' };
 
 class Carousel extends React.PureComponent {
 	constructor(props) {
@@ -52,35 +52,19 @@ class Carousel extends React.PureComponent {
 							version={4}
 						>
 							<div style={{ ...styles }}>
-								<img
-									style={{ width: '100%' }}
-									src={require('../homepageSlides/20190602005752.jpg')}
-									alt=""
-								/>
+								<img src={require('../homepageSlides/20190602005752.jpg')} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img
-									style={{ width: '100%' }}
-									src={require('../homepageSlides/20190602010013.jpg')}
-									alt=""
-								/>
+								<img src={require('../homepageSlides/20190602010013.jpg')} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img
-									style={{ width: '100%' }}
-									src={require('../homepageSlides/20190529211606.jpg')}
-									alt=""
-								/>
+								<img src={require('../homepageSlides/20190529211606.jpg')} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img
-									style={{ width: '100%' }}
-									src={require('../homepageSlides/20190602010222.jpg')}
-									alt=""
-								/>
+								<img src={require('../homepageSlides/20190602010222.jpg')} alt="" />
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 						</RBCarousel>
