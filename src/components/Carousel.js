@@ -1,9 +1,8 @@
-import React from "react";
-// import ReactDOM from 'react-dom';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
-import RBCarousel from "react-bootstrap-carousel";
+import React from 'react';
+import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
+import RBCarousel from 'react-bootstrap-carousel';
 
-const styles = { height: 821, width: "100%" };
+const styles = { height: 821, width: '100%' };
 
 class Carousel extends React.PureComponent {
 	constructor(props) {
@@ -41,7 +40,7 @@ class Carousel extends React.PureComponent {
 		return (
 			<div className="container-fluid">
 				<Row>
-					<Col span={12} style={{ paddingTop: "20px" }}>
+					<Col span={12} style={{ paddingTop: '20px' }}>
 						<RBCarousel
 							animation={true}
 							autoplay={this.state.autoplay}
@@ -53,19 +52,35 @@ class Carousel extends React.PureComponent {
 							version={4}
 						>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../20190602005752.jpg")} alt="" />
+								<img
+									style={{ width: '100%' }}
+									src={require('../homepageSlides/20190602005752.jpg')}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../20190602010013.jpg")} alt="" />
+								<img
+									style={{ width: '100%' }}
+									src={require('../homepageSlides/20190602010013.jpg')}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../20190529211606.jpg")} alt="" />
+								<img
+									style={{ width: '100%' }}
+									src={require('../homepageSlides/20190529211606.jpg')}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ ...styles }}>
-								<img style={{ width: "100%" }} src={require("../20190602010222.jpg")} alt="" />
+								<img
+									style={{ width: '100%' }}
+									src={require('../homepageSlides/20190602010222.jpg')}
+									alt=""
+								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 						</RBCarousel>
@@ -87,7 +102,7 @@ const Col = props => (
 );
 const Button = props => {
 	const { style, bsStyle, onClick } = props;
-	const className = bsStyle ? `btn btn-${bsStyle}` : "btn";
+	const className = bsStyle ? `btn btn-${bsStyle}` : 'btn';
 	return (
 		<button style={style} className={className} onClick={onClick}>
 			{props.children}
