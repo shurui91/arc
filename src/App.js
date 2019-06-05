@@ -1,46 +1,49 @@
-import React from "react";
-import "./App.css";
-import "react-alice-carousel/lib/alice-carousel.css";
-import { BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import React from 'react';
+import './App.css';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
 
-import Home from "./components/Home";
-import Vision from "./components/Vision";
-import About from "./components/About";
-import Events from "./components/Events";
-import Publication from "./components/Publication";
-import Books from "./components/Books";
-import Support from "./components/Support";
-import Contactus from "./components/Contactus";
-import News from "./components/News";
-import Error from "./components/Error";
+import Home from './components/Home';
+import Vision from './components/Vision';
+import About from './components/About';
+import Events from './components/Events';
+import Publication from './components/Publication';
+import Books from './components/Books';
+import Support from './components/Support';
+import Contactus from './components/Contactus';
+import News from './components/News';
+import Error from './components/Error';
 
 function App() {
 	return (
 		<Router>
 			<div>
-				<Navbar>
+				<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
 					<Navbar.Brand as={NavLink} to="/">
-						<img alt="" src={require("./arcLogo.jpg")} height="80" className="d-inline-block align-top" />
+						<img alt="" src={require('./arcLogo.jpg')} height="80" className="d-inline-block align-top" />
 					</Navbar.Brand>
-					<Nav style={{ fontSize: 21 }}>
-						{/* "NavLink" here since "active" class styling is needed */}
-						<Nav.Link as={NavLink} to="/" exact>
-							Home
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/publication">
-							Publication
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/events">
-							Events
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/support">
-							Support
-						</Nav.Link>
-						<Nav.Link as={NavLink} to="/aboutus">
-							About Us
-						</Nav.Link>
-					</Nav>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Collapse id="basic-navbar-nav" id="basic-navbar-nav">
+						<Nav className="mr-auto" style={{ fontSize: 21 }}>
+							{/* "NavLink" here since "active" class styling is needed */}
+							<Nav.Link as={NavLink} to="/" exact>
+								Home
+							</Nav.Link>
+							<Nav.Link as={NavLink} to="/publication">
+								Publication
+							</Nav.Link>
+							<Nav.Link as={NavLink} to="/events">
+								Events
+							</Nav.Link>
+							<Nav.Link as={NavLink} to="/support">
+								Support
+							</Nav.Link>
+							<Nav.Link as={NavLink} to="/aboutus">
+								About Us
+							</Nav.Link>
+						</Nav>
+					</Navbar.Collapse>
 				</Navbar>
 				<Switch>
 					<Route path="/" exact component={Home} />
