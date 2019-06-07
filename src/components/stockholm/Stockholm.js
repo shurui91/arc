@@ -13,14 +13,14 @@ class Stockholm extends Component {
 					<h1>Sinicization of Christianity in China</h1>
 					<Container>
 						<Row>
-							<Col xs={12} sm={12} md={12} lg={12} xl={6}>
+							<Col xs={12} sm={12} md={12} lg={12} xl={7}>
 								<Carousel />
 							</Col>
-							<Col xs={12} sm={12} md={12} lg={12} xl={6}>
-								<h3>
+							<Col xs={12} sm={12} md={12} lg={12} xl={5}>
+								<p style={{ paddingTop: '20px' }}>
 									Organized by the Fudan-European Centre for China Studies, UCPH and the Asia Research
 									Center and Center on Globalization and Religious Studies, Fudan University
-								</h3>
+								</p>
 							</Col>
 						</Row>
 					</Container>
