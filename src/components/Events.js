@@ -93,6 +93,11 @@ class Events extends Component {
 								</td>
 								<td class="intro">
 									<h3>Biblical Texts, Biblical Archeology and Bible Translation</h3>
+									<Link to="/bibletext">
+										<Button type="button" className="float-middle">
+											Read
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
@@ -106,14 +111,14 @@ class Events extends Component {
 							<tr>
 								<td class="image">
 									<img
-										src={require('../events/chinesetheology.jpg')}
+										src={require('../events/orthodoxy/1701067211090dscccbg.jpg')}
 										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
 								<td class="intro">
 									<h3>
-										"​The Development of Indigenous Chinese Christian Theology​ ​ Symposium held at
+										"​The Development of Indigenous Chinese Christian Theology​ Symposium held at
 										the prestigious Divinity School of Chung Chi College at China University, Hong
 										Kong
 									</h3>
