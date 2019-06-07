@@ -17,11 +17,10 @@ class Stockholm extends Component {
 								<Carousel />
 							</Col>
 							<Col xs={12} sm={12} md={12} lg={12} xl={6}>
-								<h3>Sinicization of Christianity in China</h3>
-								<p>
+								<h3>
 									Organized by the Fudan-European Centre for China Studies, UCPH and the Asia Research
 									Center and Center on Globalization and Religious Studies, Fudan University
-								</p>
+								</h3>
 							</Col>
 						</Row>
 					</Container>
