@@ -25,7 +25,7 @@ class Books extends Component {
 								</td>
 								<td class="intro">
 									<h3>和合本圣经百周年纪念</h3>
-									<p>
+									<p align="justify">
 										和合本圣经自1919年出版发行以来，从文学和信仰等方面，对中国社会作了极大的贡献。在文学方面，因着1919年发生了“五四运动”，一个新文学的时代正式开始。因此，和合本圣经可说是“生逢其时”，成为白话文的标准典范，展现出作为文学作品极高的价值。从这一方面而言，和合本圣经对于中国新文学的贡献，可与马丁·路德以德文翻译圣经对德国文学之贡献相提并论。
 									</p>
 									<p>{/*<a href={kicus}>Read</a>*/}</p>
@@ -37,7 +37,7 @@ class Books extends Component {
 								</td>
 								<td class="intro">
 									<h3>Sinicization of Christianity in China</h3>
-									<p>
+									<p align="justify">
 										Organized by the Fudan-European Centre for China Studies, UCPH and the Asia
 										Research Center and Center on Globalization and Religious Studies, Fudan
 										University
@@ -52,7 +52,7 @@ class Books extends Component {
 									<img src={require('../book_cover.png')} style={{ width: '70%' }} alt="" />
 								</td>
 								<td class="intro">
-									<p>
+									<p align="justify">
 										Commentary on China's reemergence as a world power tends to focus on the
 										country's unprecedented economic growth and implications for global security.
 									</p>
@@ -66,7 +66,7 @@ class Books extends Component {
 									<img src={require('../20190314230626.png')} style={{ width: '70%' }} alt="" />
 								</td>
 								<td class="intro">
-									<p>
+									<p align="justify">
 										近日有一个自称为“全能神教会”的团体，以耶稣基督教会为名，自2013
 										年1月起在香港、台湾各大报登载了超过十次的广告，2月起也开始在加拿大世界日报刊登全版广告，此举引起许多基督徒及福音朋友的反感与不安。
 									</p>
@@ -80,7 +80,7 @@ class Books extends Component {
 									<img src={require('../20190314230636.png')} style={{ width: '70%' }} alt="" />
 								</td>
 								<td class="intro">
-									<p>
+									<p align="justify">
 										80年代初期，中国改革开放，海外华人，成千上万，遍访祖国，其中基督徒为数不少，与国内信徒接触之间，不免有属灵交流。美国水流职事站和台湾福音书房出版之文字书刊，在海外早已流传甚广，深获基督教界各方人士欢迎，于该段时间内，也流传至国内各地。
 									</p>
 									<p>
@@ -93,7 +93,7 @@ class Books extends Component {
 									<img src={require('../20190314230647.png')} style={{ width: '70%' }} alt="" />
 								</td>
 								<td class="intro">
-									<p>
+									<p align="justify">
 										神爱世人，但除了犹太人是神的选民外，神似乎特别爱中国人。50年代起，华人神学家基督徒领袖便从中国大陆及亚洲分散到全世界各地，发扬光大主在马太福音二十八章十九节的伟大使命：“所以，你们要去，使万民作我的门徒，奉父、子、圣灵的名给他们施洗。”
 									</p>
 									<p>
@@ -106,7 +106,7 @@ class Books extends Component {
 									<img src={require('../20190602005913.png')} style={{ width: '70%' }} alt="" />
 								</td>
 								<td class="intro">
-									<p>
+									<p align="justify">
 										全能神教于2017 年10 月18 日在其网站上刊登了一份声明，完完全全否认他们参与绑架34
 										位中华福音团契（简称中福）的牧师一事，（中福称此事为“416
 										绑架事件”因为绑架非法拘禁发生于2002 年4 月16
