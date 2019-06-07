@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Fudan.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import FudanCarousel from './FudanCarousel';
 import Footer from '../Footer';
@@ -22,6 +24,11 @@ class Fudan extends Component {
 									mentoring for scholars, students and those seeking a greater eduction both in the
 									East and the West.
 								</p>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/events">
+										<Button type="button">Back</Button>
+									</Link>
+								</div>
 							</Col>
 						</Row>
 					</Container>

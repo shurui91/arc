@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Stockholm.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import StockholmCarousel from './StockholmCarousel';
 import Footer from '../Footer';
@@ -21,6 +23,11 @@ class Stockholm extends Component {
 									Organized by the Fudan-European Centre for China Studies, UCPH and the Asia Research
 									Center and Center on Globalization and Religious Studies, Fudan University
 								</p>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/events">
+										<Button type="button">Back</Button>
+									</Link>
+								</div>
 							</Col>
 						</Row>
 					</Container>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Orthodoxy.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import OrthodoxyCarousel from './OrthodoxyCarousel';
 import Footer from '../Footer';
@@ -21,6 +23,11 @@ class Orthodoxy extends Component {
 									The Orthodoxy of the Chinese Church from a Historical, Theological and Apologetic
 									Perspec­tive, a seminar in Hong Kong
 								</p>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/events">
+										<Button type="button">Back</Button>
+									</Link>
+								</div>
 							</Col>
 						</Row>
 					</Container>
