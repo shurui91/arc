@@ -1,6 +1,10 @@
 .orthodoxy {
 	margin: 0 auto;
-	width: 60%;
+	width: 100%;
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
 	text-align: center;
 }

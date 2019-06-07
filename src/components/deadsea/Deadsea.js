@@ -5,11 +5,11 @@ import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import DeadseaCarousel from './DeadseaCarousel';
 import Footer from '../Footer';
 
-class Stockholm extends Component {
+class Deadsea extends Component {
 	render() {
 		return (
 			<div>
-				<div className="stockholm">
+				<div className="deadsea">
 					<h1>Dead Sea Scrolls Exhibition</h1>
 					<Container>
 						<Row>
@@ -28,4 +28,4 @@ class Stockholm extends Component {
 	}
 }
 
-export default Stockholm;
+export default Deadsea;
