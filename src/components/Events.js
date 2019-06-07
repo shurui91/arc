@@ -15,7 +15,7 @@ class Events extends Component {
 						<tbody>
 							<tr>
 								<td class="image">
-									<img src={require('../20190505225128.png')} style={{ width: '80%' }} alt="" />
+									<img src={require('../20190505225128.png')} style={{ width: '90%' }} alt="" />
 								</td>
 								<td class="intro">
 									<h3>Sinicization of Christianity in China</h3>
@@ -33,7 +33,7 @@ class Events extends Component {
 							</tr>
 							<tr>
 								<td class="image">
-									<img src={require('../events/fudan/fudan5.jpg')} style={{ width: '80%' }} alt="" />
+									<img src={require('../events/fudan/fudan5.jpg')} style={{ width: '90%' }} alt="" />
 								</td>
 								<td class="intro">
 									<h3>ARC event with Fudan university at UCSD</h3>
@@ -48,7 +48,7 @@ class Events extends Component {
 								<td class="image">
 									<img
 										src={require('../events/deadsea/deadseascrolls2.jpg')}
-										style={{ width: '80%' }}
+										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
@@ -66,7 +66,7 @@ class Events extends Component {
 								<td class="image">
 									<img
 										src={require('../events/kissinger/kissinger.jpg')}
-										style={{ width: '80%' }}
+										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
@@ -76,13 +76,18 @@ class Events extends Component {
 										International Scholars & Asia Research Center Foundation, International
 										Symposium"
 									</h3>
+									<Link to="/kissinger">
+										<Button type="button" className="float-middle">
+											Read
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
 								<td class="image">
 									<img
 										src={require('../events/bibletext/biblicaltext.jpg')}
-										style={{ width: '80%' }}
+										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
@@ -92,7 +97,7 @@ class Events extends Component {
 							</tr>
 							<tr>
 								<td class="image">
-									<img src={require('../events/ma/img9.jpg')} style={{ width: '80%' }} alt="" />
+									<img src={require('../events/ma/img9.jpg')} style={{ width: '90%' }} alt="" />
 								</td>
 								<td class="intro">
 									<h3>ARC board member, Abraham Ho meeting with Taiwan President, Ma Ying jeau</h3>
@@ -102,7 +107,7 @@ class Events extends Component {
 								<td class="image">
 									<img
 										src={require('../events/chinesetheology.jpg')}
-										style={{ width: '80%' }}
+										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
@@ -118,7 +123,7 @@ class Events extends Component {
 								<td class="image">
 									<img
 										src={require('../events/orthodoxy/orthodoxchurch.jpg')}
-										style={{ width: '80%' }}
+										style={{ width: '90%' }}
 										alt=""
 									/>
 								</td>
