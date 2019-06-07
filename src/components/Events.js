@@ -26,7 +26,7 @@ class Events extends Component {
 									</p>
 									<Link to="/stockholm">
 										<Button type="button" className="float-middle">
-											Read
+											More Pictures
 										</Button>
 									</Link>
 								</td>
@@ -42,6 +42,11 @@ class Events extends Component {
 										and mentoring for scholars, students and those seeking a greater eduction both
 										in the East and the West.
 									</p>
+									<Link to="/fudan">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
@@ -57,7 +62,7 @@ class Events extends Component {
 									<p>An International Exhibit and Seminar</p>
 									<Link to="/bibletext">
 										<Button type="button" className="float-middle">
-											Read
+											More Pictures
 										</Button>
 									</Link>
 								</td>
@@ -76,11 +81,6 @@ class Events extends Component {
 										International Scholars & Asia Research Center Foundation, International
 										Symposium"
 									</h3>
-									<Link to="/kissinger">
-										<Button type="button" className="float-middle">
-											Read
-										</Button>
-									</Link>
 								</td>
 							</tr>
 							<tr>
@@ -95,7 +95,7 @@ class Events extends Component {
 									<h3>Biblical Texts, Biblical Archeology and Bible Translation</h3>
 									<Link to="/bibletext">
 										<Button type="button" className="float-middle">
-											Read
+											More Pictures
 										</Button>
 									</Link>
 								</td>
@@ -139,7 +139,7 @@ class Events extends Component {
 									</h3>
 									<Link to="/orthodoxy">
 										<Button type="button" className="float-middle">
-											Read
+											More Pictures
 										</Button>
 									</Link>
 								</td>

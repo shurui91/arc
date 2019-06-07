@@ -1,20 +1,28 @@
 import React, { Component } from 'react';
 import './Bibletext.css';
-import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
+import BibleCarousel from './BibleCarousel';
+import Footer from '../Footer';
 
 class Bibletext extends Component {
 	render() {
 		return (
 			<div>
 				<div className="bibletext">
-					<h1>EVENTS</h1>
-					<Link to="/bibletext">
-						<Button type="button" className="float-right">
-							Read
-						</Button>
-					</Link>
+					<h1>Dead Sea Scrolls Exhibition</h1>
+					<Container>
+						<Row>
+							<Col xs={12} sm={12} md={12} lg={12} xl={7}>
+								<BibleCarousel />
+							</Col>
+							<Col xs={12} sm={12} md={12} lg={12} xl={5}>
+								<p style={{ paddingTop: '20px' }}>An International Exhibit and Seminar</p>
+							</Col>
+						</Row>
+					</Container>
 				</div>
+				<Footer />
 			</div>
 		);
 	}
