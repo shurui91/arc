@@ -15,6 +15,7 @@ import Contactus from './components/Contactus';
 import News from './components/News';
 import Error from './components/Error';
 import Stockholm from './components/stockholm/Stockholm';
+import Bibletext from './components/bibletext/Bibletext';
 
 function App() {
 	return (
@@ -57,6 +58,7 @@ function App() {
 					<Route path="/contactus" exact component={Contactus} />
 					<Route path="/news" exact component={News} />
 					<Route path="/stockholm" exact component={Stockholm} />
+					<Route path="/bibletext" exact component={Bibletext} />
 					<Route component={Error} />
 				</Switch>
 			</div>
