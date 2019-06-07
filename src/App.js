@@ -19,6 +19,7 @@ import Bibletext from './components/bibletext/Bibletext';
 import Kissinger from './components/kissinger/Kissinger';
 import Orthodoxy from './components/orthodoxy/Orthodoxy';
 import Fudan from './components/fudan/Fudan';
+import Deadsea from './components/deadsea/Deadsea';
 
 function App() {
 	return (
@@ -65,6 +66,7 @@ function App() {
 					<Route path="/kissinger" exact component={Kissinger} />
 					<Route path="/orthodoxy" exact component={Orthodoxy} />
 					<Route path="/fudan" exact component={Fudan} />
+					<Route path="/deadsea" exact component={Deadsea} />
 					<Route component={Error} />
 				</Switch>
 			</div>
