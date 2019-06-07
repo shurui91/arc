@@ -33,24 +33,6 @@ class Events extends Component {
 							</tr>
 							<tr>
 								<td class="image">
-									<img src={require('../events/fudan/fudan5.jpg')} style={{ width: '90%' }} alt="" />
-								</td>
-								<td class="intro">
-									<h3>ARC event with Fudan university at UCSD</h3>
-									<p>
-										One of the many interests and goals of ARC is building relationships, funding
-										and mentoring for scholars, students and those seeking a greater eduction both
-										in the East and the West.
-									</p>
-									<Link to="/fudan">
-										<Button type="button" className="float-middle">
-											More Pictures
-										</Button>
-									</Link>
-								</td>
-							</tr>
-							<tr>
-								<td class="image">
 									<img
 										src={require('../events/deadsea/deadseascrolls2.jpg')}
 										style={{ width: '90%' }}
@@ -61,6 +43,41 @@ class Events extends Component {
 									<h3>Dead Sea Scrolls Exhibition</h3>
 									<p>An International Exhibit and Seminar</p>
 									<Link to="/deadsea">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td class="image">
+									<img
+										src={require('../events/bibletext/biblicaltext.jpg')}
+										style={{ width: '90%' }}
+										alt=""
+									/>
+								</td>
+								<td class="intro">
+									<h3>Biblical Texts, Biblical Archeology and Bible Translation</h3>
+									<Link to="/bibletext">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td class="image">
+									<img src={require('../events/fudan/fudan5.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td class="intro">
+									<h3>ARC event with Fudan university at UCSD</h3>
+									<p>
+										One of the many interests and goals of ARC is building relationships, funding
+										and mentoring for scholars, students and those seeking a greater eduction both
+										in the East and the West.
+									</p>
+									<Link to="/fudan">
 										<Button type="button" className="float-middle">
 											More Pictures
 										</Button>
@@ -81,23 +98,6 @@ class Events extends Component {
 										International Scholars & Asia Research Center Foundation, International
 										Symposium"
 									</h3>
-								</td>
-							</tr>
-							<tr>
-								<td class="image">
-									<img
-										src={require('../events/bibletext/biblicaltext.jpg')}
-										style={{ width: '90%' }}
-										alt=""
-									/>
-								</td>
-								<td class="intro">
-									<h3>Biblical Texts, Biblical Archeology and Bible Translation</h3>
-									<Link to="/bibletext">
-										<Button type="button" className="float-middle">
-											More Pictures
-										</Button>
-									</Link>
 								</td>
 							</tr>
 							<tr>
