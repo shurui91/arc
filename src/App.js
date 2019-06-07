@@ -18,6 +18,7 @@ import Stockholm from './components/stockholm/Stockholm';
 import Bibletext from './components/bibletext/Bibletext';
 import Kissinger from './components/kissinger/Kissinger';
 import Orthodoxy from './components/orthodoxy/Orthodoxy';
+import Fudan from './components/fudan/Fudan';
 
 function App() {
 	return (
@@ -63,6 +64,7 @@ function App() {
 					<Route path="/bibletext" exact component={Bibletext} />
 					<Route path="/kissinger" exact component={Kissinger} />
 					<Route path="/orthodoxy" exact component={Orthodoxy} />
+					<Route path="/fudan" exact component={Fudan} />
 					<Route component={Error} />
 				</Switch>
 			</div>
