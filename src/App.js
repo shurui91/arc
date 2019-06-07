@@ -14,6 +14,7 @@ import Support from './components/Support';
 import Contactus from './components/Contactus';
 import News from './components/News';
 import Error from './components/Error';
+import Stockholm from './components/stockholm/Stockholm';
 
 function App() {
 	return (
@@ -55,6 +56,7 @@ function App() {
 					<Route path="/support" exact component={Support} />
 					<Route path="/contactus" exact component={Contactus} />
 					<Route path="/news" exact component={News} />
+					<Route path="/stockholm" exact component={Stockholm} />
 					<Route component={Error} />
 				</Switch>
 			</div>

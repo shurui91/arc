@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Table, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Events.css';
 import AliceCarousel from 'react-alice-carousel';
 import Footer from './Footer';
@@ -23,6 +24,11 @@ class Events extends Component {
 										Research Center and Center on Globalization and Religious Studies, Fudan
 										University
 									</p>
+									<Link to="/stockholm">
+										<Button type="button" className="float-middle">
+											Read
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
