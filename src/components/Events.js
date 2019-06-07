@@ -93,6 +93,11 @@ class Events extends Component {
 								</td>
 								<td class="intro">
 									<h3>Biblical Texts, Biblical Archeology and Bible Translation</h3>
+									<Link to="/bibletext">
+										<Button type="button" className="float-middle">
+											Read
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
