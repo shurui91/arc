@@ -137,6 +137,11 @@ class Events extends Component {
 										The Orthodoxy of the Chinese Church from a Historical, Theological and
 										Apologetic Perspec­tive, a seminar in Hong Kong
 									</h3>
+									<Link to="/orthodoxy">
+										<Button type="button" className="float-middle">
+											Read
+										</Button>
+									</Link>
 								</td>
 							</tr>
 						</tbody>
