@@ -10,6 +10,7 @@ import statement3 from '../books/statement3_final_SimpCh.pdf';
 import elDenial from '../books/EL Denial Statement.pdf';
 import rebuttalChinese from '../books/AH rebuttal 416_Ch.pdf';
 import rebuttalEnglish from '../books/AH rebuttal 416_Eng.pdf';
+import hundredYears from '../books/hunderdYears.pdf';
 
 class Books extends Component {
 	render() {
@@ -31,7 +32,9 @@ class Books extends Component {
 									<p align="justify">
 										在信仰方面，基督信仰自从唐朝传入中国，数百年内一直“水土不服”，不能融入中国社会。这与和合本圣经之前的各译本采用文言文或方言翻译有直接的关系。和合本圣经的翻译原则之一就是“字词应当是操官话的平民百姓所日常使用和明白的，书面用语和不大通用的用词应该避免；文句的结构应符合口语”。因此，二十世纪以来，和合本圣经一旦面世，销量很大，流传很广，基督信仰也就随着和合本圣经而入千家万户，影响社会各阶层，并且深入人心。圣经体现的价值观如“荣神益人”、“爱人如己”、“和平福音”、“披戴基督”等，对净化社会道德空气、维持邻里和睦、社会和谐，居功甚伟。
 									</p>
-									<p>{/*<a href={kicus}>Read</a>*/}</p>
+									<p>
+										<Button href={hundredYears}>Read</Button>
+									</p>
 								</td>
 							</tr>
 							<tr>
