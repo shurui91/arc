@@ -3,7 +3,7 @@ import { Table, Button } from 'react-bootstrap';
 import './Books.css';
 import Footer from './Footer';
 import kicus from '../books/KICUS-ReligioninChina_2.pdf';
-import sinicization from '../books/Sinicization of Christianity in China.pdf';
+// import sinicization from '../books/Sinicization of Christianity in China.pdf';
 import statement1 from '../books/statement1_simplified_final.pdf';
 import statement2 from '../books/statement2_simplified_final.pdf';
 import statement3 from '../books/statement3_final_SimpCh.pdf';
@@ -11,6 +11,7 @@ import elDenial from '../books/EL Denial Statement.pdf';
 import rebuttalChinese from '../books/AH rebuttal 416_Ch.pdf';
 import rebuttalEnglish from '../books/AH rebuttal 416_Eng.pdf';
 import hundredYears from '../books/hunderdYears.pdf';
+import combination from '../books/combination.pdf';
 
 class Books extends Component {
 	render() {
@@ -20,6 +21,25 @@ class Books extends Component {
 					<h1>PUBLICATIONS</h1>
 					<Table style={{ tableLayout: 'fixed', width: '100%' }}>
 						<tbody>
+							<tr>
+								<td className="image">
+									<img src={require('../Nee.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td className="intro">
+									<p align="justify">
+										主在上海的见证，起始于1926年，汪佩真姊妹看见主恢复的亮光，在她的住处新闸路赓庆里开始擘饼聚会。1927年，倪柝声弟兄和李渊如姊妹也先后参加赓庆里的聚会。同年3月，倪弟兄将福音书房从福州马尾的罗星塔迁往上海。1928年1月，上海基督徒聚会处迁入哈同路240弄文德里聚会。1927年至1942年这短短的15年时间里，上海成了倪弟兄职事工作的中心，他在这里出版属灵书报，召开友华村的训练。1942年，上海基督徒聚会处因误会将倪弟兄革除，之后有六年之久，聚会死沉、同工四散，没多久因日军侵略，聚会停止，会所关门。
+									</p>
+									<p align="justify">
+										1948年，倪弟兄复职，回到了上海，带进上海教会的复兴。同年，上海教会买地盖建可容纳3000人的南阳路会所。1948年到1951年，是上海基督徒聚会处最蒙福的阶段，圣徒同心合意，兴旺福音。
+									</p>
+									<p>
+										<Button href={hundredYears}>Read</Button>
+									</p>
+									<p>
+										<Button href={hundredYears}>Read</Button>
+									</p>
+								</td>
+							</tr>
 							<tr>
 								<td className="image">
 									<img src={require('../20190601231935.png')} style={{ width: '90%' }} alt="" />
@@ -49,7 +69,7 @@ class Books extends Component {
 										University
 									</p>
 									<p>
-										<Button href={sinicization}>Read</Button>
+										<Button href={combination}>Read</Button>
 									</p>
 								</td>
 							</tr>
