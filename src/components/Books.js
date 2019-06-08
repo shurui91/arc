@@ -12,6 +12,8 @@ import rebuttalChinese from '../books/AH rebuttal 416_Ch.pdf';
 import rebuttalEnglish from '../books/AH rebuttal 416_Eng.pdf';
 import hundredYears from '../books/hunderdYears.pdf';
 import combination from '../books/combination.pdf';
+import neeChinese from '../books/The Nee Yu-Cheng Family_Chinese.pdf';
+import neeEnglish from '../books/The Nee Yu-Cheng Family_English.pdf';
 
 class Books extends Component {
 	render() {
@@ -33,10 +35,10 @@ class Books extends Component {
 										1948年，倪弟兄复职，回到了上海，带进上海教会的复兴。同年，上海教会买地盖建可容纳3000人的南阳路会所。1948年到1951年，是上海基督徒聚会处最蒙福的阶段，圣徒同心合意，兴旺福音。
 									</p>
 									<p>
-										<Button href={hundredYears}>Read</Button>
+										<Button href={neeChinese}>阅读</Button>
 									</p>
 									<p>
-										<Button href={hundredYears}>Read</Button>
+										<Button href={neeEnglish}>Read</Button>
 									</p>
 								</td>
 							</tr>
