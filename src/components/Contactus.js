@@ -23,7 +23,7 @@ class Contactus extends Component {
 							We'll never share your email with anyone else.
     					</Form.Text>
 					</Form.Group>
-					
+
 					<Form.Group controlId="formBasicPhone">
 						<Form.Label>Phone Number</Form.Label>
 						<Form.Control type="phone" placeholder="Enter phone number" />
@@ -34,7 +34,7 @@ class Contactus extends Component {
 
 					<Form.Group controlId="formBasicMsg">
 						<Form.Label>Your Message</Form.Label>
-						<Form.Control type="text" />
+						<Form.Control as="textarea" rows="5" />
 					</Form.Group>
 
 					<Button variant="primary" type="submit">
