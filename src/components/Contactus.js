@@ -1,47 +1,61 @@
 import React, { Component } from 'react';
 import { Form, Button } from "react-bootstrap";
 import './Contactus.css';
+import Axios from 'axios';
 
 
 class Contactus extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			fname: '',
+			lname: '',
+			email: '',
+			message: '',
+			mailSent: false,
+			error: null
+		}
+	}
+
+	handleFormSubmit(event) {
+		event.preventDefault();
+		console.log(this.state);
+	}
+
 	render() {
 		return (
-			<div className="contactForm">
-				<Form>
-					<Form.Group controlId="formBasicName">
-						<Form.Label>Your Name</Form.Label>
-						<Form.Control type="text" placeholder="Enter your name" />
-						<Form.Text className="text-muted">
-							We'll never share your email with anyone else.
-    					</Form.Text>
-					</Form.Group>
+			<div className="App">
+				<p>Contact Me</p>
+				<div>
+					<form action="#">
+						<label>First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name.."
+							value={this.state.fname}
+							onChange={e => this.setState({ fname: e.target.value })}
+						/>
+						<label>Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name.."
+							value={this.state.lname}
+							onChange={e => this.setState({ lname: e.target.value })}
+						/>
 
-					<Form.Group controlId="formBasicEmail">
-						<Form.Label>Email Address</Form.Label>
-						<Form.Control type="email" placeholder="Enter email" />
-						<Form.Text className="text-muted">
-							We'll never share your email with anyone else.
-    					</Form.Text>
-					</Form.Group>
 
-					<Form.Group controlId="formBasicPhone">
-						<Form.Label>Phone Number</Form.Label>
-						<Form.Control type="phone" placeholder="Enter phone number" />
-						<Form.Text className="text-muted">
-							We'll never share your email with anyone else.
-    					</Form.Text>
-					</Form.Group>
+						<label>Email</label>
+						<input type="email" id="email" name="email" placeholder="Your email"
+							value={this.state.email}
+							onChange={e => this.setState({ email: e.target.value })}
+						/>
 
-					<Form.Group controlId="formBasicMsg">
-						<Form.Label>Your Message</Form.Label>
-						<Form.Control as="textarea" rows="5" />
-					</Form.Group>
 
-					<Button variant="primary" type="submit">
-						Submit
-					</Button>
-				</Form>
-			</div>
+						<label>Message</label>
+						<textarea id="message" name="message" placeholder="Write something.."
+							onChange={e => this.setState({ message: e.target.value })}
+							value={this.state.message}
+						></textarea>
+						<input type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
+					</form>
+				</div>
+			</div >
 		);
 	}
 }
