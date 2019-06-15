@@ -20,6 +20,7 @@ import Kissinger from './components/kissinger/Kissinger';
 import Orthodoxy from './components/orthodoxy/Orthodoxy';
 import Fudan from './components/fudan/Fudan';
 import Deadsea from './components/deadsea/Deadsea';
+import Isaiah from './components/isaiah/Isaiah';
 
 function App() {
 	return (
@@ -67,6 +68,7 @@ function App() {
 					<Route path="/orthodoxy" exact component={Orthodoxy} />
 					<Route path="/fudan" exact component={Fudan} />
 					<Route path="/deadsea" exact component={Deadsea} />
+					<Route path="/isaiah" exact component={Isaiah} />
 					<Route component={Error} />
 				</Switch>
 			</div>

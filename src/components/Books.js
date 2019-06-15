@@ -3,7 +3,6 @@ import { Table, Button } from 'react-bootstrap';
 import './Books.css';
 import Footer from './Footer';
 import kicus from '../books/KICUS-ReligioninChina_2.pdf';
-// import sinicization from '../books/Sinicization of Christianity in China.pdf';
 import statement1 from '../books/statement1_simplified_final.pdf';
 import statement2 from '../books/statement2_simplified_final.pdf';
 import statement3 from '../books/statement3_final_SimpCh.pdf';
@@ -14,6 +13,7 @@ import hundredYears from '../books/hunderdYears.pdf';
 import combination from '../books/combination.pdf';
 import neeChinese from '../books/The Nee Yu-Cheng Family_Chinese.pdf';
 import neeEnglish from '../books/The Nee Yu-Cheng Family_English.pdf';
+import comparisonOfIsaiahScroll from '../books/comparisonOfIsaiahScroll.pdf';
 
 class Books extends Component {
 	render() {
@@ -150,6 +150,19 @@ class Books extends Component {
 									</p>
 									<p>
 										<Button href={elDenial}>Denial Statement</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className="image">
+									<img src={require('../events/Isaiah/Isaiah1.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td className="intro">
+									<p align="justify">
+										《以赛亚书》最重要的希伯来文本是马所拉文本（Masoretic Text，简称MT）和死海古卷中的“大以赛亚书卷”（The Great Isaiah Scroll，简称1QIsaa）。本文逐字逐节比较这两种文本以定量确定其相似度：第一种比较方法是根据阿贝各、弗林特及吴睿智（Abegg，Flint，Ulrich）的分类，第二种方法则逐字比较字词的拼写。之后，本文指出大以赛亚书卷中对经文意义有重要价值的记载。本文基于国际学术界死海古卷最新的科研成果，对两种希伯来文本作第一手的定量分析，期盼对国内圣经学术界，特别是对汉语圣经考古学、圣经文本评断学、圣经汉译等研究，提出有益的参考。
+									</p>
+									<p>
+										<Button href={comparisonOfIsaiahScroll}>阅读</Button>
 									</p>
 								</td>
 							</tr>
