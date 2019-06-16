@@ -55,6 +55,11 @@ class Events extends Component {
 								</td>
 								<td class="intro">
 									<h3>The Great Isaiah Scroll</h3>
+									<Link to="/isaiah">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
 								</td>
 							</tr>
 							<tr>
