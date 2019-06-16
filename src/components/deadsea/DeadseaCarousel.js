@@ -91,6 +91,30 @@ class DeadseaCarousel extends React.PureComponent {
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/deadsea/deadsea1.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/deadsea/deadsea1000.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/deadsea/deadsea1100.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
 						</RBCarousel>
 					</Col>
 				</Row>
