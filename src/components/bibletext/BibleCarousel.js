@@ -67,6 +67,30 @@ class StockholmCarousel extends React.PureComponent {
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/bibletext/seminar1.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/bibletext/seminar2.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={{ ...styles }}>
+								<img
+									src={require('../../events/bibletext/seminar3.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=""
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
 						</RBCarousel>
 					</Col>
 				</Row>
