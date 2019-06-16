@@ -51,6 +51,14 @@ class Events extends Component {
 							</tr>
 							<tr>
 								<td class="image">
+									<img src={require('../events/Isaiah/Isaiah1.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td class="intro">
+									<h3>The Great Isaiah Scroll</h3>
+								</td>
+							</tr>
+							<tr>
+								<td class="image">
 									<img
 										src={require('../events/bibletext/biblicaltext.jpg')}
 										style={{ width: '90%' }}
