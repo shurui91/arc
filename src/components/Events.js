@@ -15,6 +15,19 @@ class Events extends Component {
 						<tbody>
 							<tr>
 								<td class="image">
+									<img src={require('../events/korea/20190629093942.png')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td class="intro">
+									<h3>The Identity of EL (Almighty God) and Counterstrategy</h3>
+									<Link to="/korea">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td class="image">
 									<img src={require('../20190505225128.png')} style={{ width: '90%' }} alt="" />
 								</td>
 								<td class="intro">

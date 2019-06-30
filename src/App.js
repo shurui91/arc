@@ -21,6 +21,7 @@ import Orthodoxy from './components/orthodoxy/Orthodoxy';
 import Fudan from './components/fudan/Fudan';
 import Deadsea from './components/deadsea/Deadsea';
 import Isaiah from './components/isaiah/Isaiah';
+import Korea from './components/korea/Korea';
 
 function App() {
 	return (
@@ -69,6 +70,7 @@ function App() {
 					<Route path="/fudan" exact component={Fudan} />
 					<Route path="/deadsea" exact component={Deadsea} />
 					<Route path="/isaiah" exact component={Isaiah} />
+					<Route path="/korea" exact component={Korea} />
 					<Route component={Error} />
 				</Switch>
 			</div>
