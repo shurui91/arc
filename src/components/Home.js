@@ -8,8 +8,6 @@ import Footer from './Footer';
 import Cards from './Cards';
 import Partners from './Partners';
 
-ReactGA.initialize('UA-143072513-1');
-
 class Home extends Component {
 	render() {
 		return (
