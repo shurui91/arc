@@ -3,7 +3,6 @@ import './App.css';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { BrowserRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import ReactGA from 'react-ga';
 
 import Home from './components/Home';
 import Vision from './components/Vision';
@@ -77,11 +76,6 @@ function App() {
 			</div>
 		</Router>
 	);
-}
-
-function initializeReactGA() {
-	ReactGA.initialize('UA-143072513-1');
-	ReactGA.pageview('/');
 }
 
 export default App;

@@ -7,7 +7,6 @@ import Vision from './Vision';
 import Footer from './Footer';
 import Cards from './Cards';
 import Partners from './Partners';
-import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-143072513-1');
 
