@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import './Home.css';
 import soundfile from '../assets/Sign of the Times.mp3';
 import Sound from 'react-sound';
-
 import Carousel from './Carousel';
 import Vision from './Vision';
 import Footer from './Footer';
 import Cards from './Cards';
 import Partners from './Partners';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-143072513-1');
 
 class Home extends Component {
 	render() {
