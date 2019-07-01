@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "react-alice-carousel": "^1.14.0"
+    "react-alice-carousel": "^1.15.1"
   }
 }
