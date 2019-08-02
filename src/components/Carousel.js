@@ -61,7 +61,7 @@ class Carousel extends React.PureComponent {
 							</div>
 							<div style={{ width: '100%', height: '44%' }}>
 								<img
-									src={require('../homepageSlides/20190801215816.jpg')}
+									src={require('../homepageSlides/20190801223400.jpg')}
 									style={{ width: '100%', height: '100%' }}
 									alt=""
 								/>
