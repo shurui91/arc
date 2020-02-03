@@ -15,6 +15,19 @@ class Events extends Component {
 						<tbody>
 							<tr>
 								<td class="image">
+									<img src={require('../events/2008Symposium/20200203085044.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td class="intro">
+									<h3>2008 A symposium for pastors</h3>
+									<Link to="/2008symposium">
+										<Button type="button" className="float-middle">
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td class="image">
 									<img src={require('../events/korea/20190629093942.png')} style={{ width: '90%' }} alt="" />
 								</td>
 								<td class="intro">

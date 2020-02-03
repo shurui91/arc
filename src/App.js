@@ -22,6 +22,7 @@ import Fudan from './components/fudan/Fudan';
 import Deadsea from './components/deadsea/Deadsea';
 import Isaiah from './components/isaiah/Isaiah';
 import Korea from './components/korea/Korea';
+import Symposium from './components/2008Symposium/2008symposium';
 
 function App() {
 	return (
@@ -71,6 +72,7 @@ function App() {
 					<Route path="/deadsea" exact component={Deadsea} />
 					<Route path="/isaiah" exact component={Isaiah} />
 					<Route path="/korea" exact component={Korea} />
+					<Route path="/2008symposium" exact component={Symposium} />
 					<Route component={Error} />
 				</Switch>
 			</div>
