@@ -14,6 +14,8 @@ import combination from '../books/combination.pdf';
 import neeChinese from '../books/The Nee Yu-Cheng Family_Chinese.pdf';
 import neeEnglish from '../books/The Nee Yu-Cheng Family_English.pdf';
 import comparisonOfIsaiahScroll from '../books/comparisonOfIsaiahScroll.pdf';
+import Heresy from '../books/Layers of Heresy and the Contribution of a Mediating Theology.pdf';
+import Antidote from '../books/An Antidote for the Most Significant Problem Facing Twenty-first Century Christianity.pdf';
 
 class Books extends Component {
 	render() {
@@ -23,6 +25,36 @@ class Books extends Component {
 					<h1>PUBLICATIONS</h1>
 					<Table style={{ tableLayout: 'fixed', width: '100%' }}>
 						<tbody>
+							<tr>
+								<td className="image">
+									<img src={require('../20200203100242.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td className="intro">
+									<h3>2008 A Symposium for Pastors</h3>
+									<p style={{ textAlign: 'justify' }}>
+										2008年，下午1:30在韩国基督教协会礼堂举行了一次牧师座谈会。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										该研讨会是由《牧师报》组织的，主题为“韩国国内外教会的地位以及异端活动，措施和基督教观点”。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										汉克·汉格（Hank Hangraph）的主题是“替代21世纪基督教面临的最重要问题”，他指出21世纪基督教面临的最大问题是圣经文盲。作为对策，他说：“重点是圣经的本质（或基本教义）。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										汉克·汉格（Hank Hangraph）表示，该学说构成了基督国度与外邦国家之间的界限，我们应将基本学说视为神性，原罪，正典，三位一体论，复活，化身，新造，说末世的。每个基本原则的首字母是D-O-C-T-R-I-N-E（原则）。
+									</p>
+									<p>
+										<Button href={Heresy} target="_blank">
+											Layers of Heresy and the Contribution of a Mediating Theology
+										</Button>
+									</p>
+									<p>
+										<Button href={Antidote} target="_blank">
+											An Antidote for the Most Significant Problem Facing Twenty-first Century Christianity
+										</Button>
+									</p>
+								</td>
+							</tr>
 							<tr>
 								<td className="image">
 									<img src={require('../Nee.jpg')} style={{ width: '90%' }} alt="" />
