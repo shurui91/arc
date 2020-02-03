@@ -16,6 +16,7 @@ import neeEnglish from '../books/The Nee Yu-Cheng Family_English.pdf';
 import comparisonOfIsaiahScroll from '../books/comparisonOfIsaiahScroll.pdf';
 import Heresy from '../books/Layers of Heresy and the Contribution of a Mediating Theology.pdf';
 import Antidote from '../books/An Antidote for the Most Significant Problem Facing Twenty-first Century Christianity.pdf';
+import Bin from '../books/2014Bin.pdf';
 
 class Books extends Component {
 	render() {
@@ -25,6 +26,22 @@ class Books extends Component {
 					<h1>PUBLICATIONS</h1>
 					<Table style={{ tableLayout: 'fixed', width: '100%' }}>
 						<tbody>
+							<tr>
+								<td className="image">
+									<img src={require('../20200203105518.jpg')} style={{ width: '90%' }} alt="" />
+								</td>
+								<td className="intro">
+									<h3>2014圣经翻译与比较经学</h3>
+									<p style={{ textAlign: 'justify' }}>
+										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可护士的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
+									</p>
+									<p>
+										<Button href={Bin} target="_blank">
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
 							<tr>
 								<td className="image">
 									<img src={require('../20200203100242.jpg')} style={{ width: '90%' }} alt="" />
