@@ -32,7 +32,7 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200203105518.jpg')}
+										src={require('../20200204081013.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
@@ -70,7 +70,7 @@ class Books extends Component {
 								<td className='image'>
 									<img
 										src={require('../20200203105518.jpg')}
-										style={{ width: '90%' }}
+										style={{ width: '60%' }}
 										alt=''
 									/>
 								</td>
@@ -90,7 +90,7 @@ class Books extends Component {
 								<td className='image'>
 									<img
 										src={require('../20200203100242.jpg')}
-										style={{ width: '90%' }}
+										style={{ width: '60%' }}
 										alt=''
 									/>
 								</td>
