@@ -124,8 +124,24 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
+										src={require('../events/2017Henan/20200204093246.jpg')}
+										style={{ width: '50%' }}
+										alt=''
+									/>
+								</td>
+								<td class='intro'>
+									<h3>
+										2017国际学术研讨会
+										邪教的观念暨全能神教之个案研究
+									</h3>
+									<p>September 15 - 16, 2017</p>
+								</td>
+							</tr>
+							<tr>
+								<td class='image'>
+									<img
 										src={require('../events/2015Bible/20200204081013.jpg')}
-										style={{ width: '90%' }}
+										style={{ width: '80%' }}
 										alt=''
 									/>
 								</td>
@@ -146,7 +162,7 @@ class Events extends Component {
 								<td class='image'>
 									<img
 										src={require('../events/2014Bin/20200204080112.jpg')}
-										style={{ width: '90%' }}
+										style={{ width: '50%' }}
 										alt=''
 									/>
 								</td>
