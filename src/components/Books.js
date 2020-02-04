@@ -20,6 +20,7 @@ import Bin from '../books/2014Bin.pdf';
 import RomansAbstract from '../books/AH_Bible Translation Nov 2015 Abstract.pdf';
 import RomansChinese from '../books/11_Romans_Ho.pdf';
 import RomansEnglish from '../books/27_Biblical Interpretation and Christian Faith_AH.pdf';
+import Henan from '../books/definition_and_comparison.pdf';
 
 class Books extends Component {
 	render() {
@@ -29,6 +30,29 @@ class Books extends Component {
 					<h1>PUBLICATIONS</h1>
 					<Table style={{ tableLayout: 'fixed', width: '100%' }}>
 						<tbody>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20200204093246.jpg')}
+										style={{ width: '60%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										2017国际学术研讨会
+										邪教的观念暨全能神教之个案研究
+									</h3>
+									<p style={{ textAlign: 'justify' }}>
+										由于文化背景和现实国情的差异，中美两国学者对邪教的理解不尽相同。一方面，中国学者在论及邪教的识别与防治时，往往更强调邪教毛用传统宗教名义的欺骗性及其对社会和国家的危害；另一方面，美国学者则较少关注邪教同传统宗教的关系，而往往更强调邪教形式的多样性及其在心理生理上对信徒个人和家庭的侵害。然而，两国学者对于邪教的破坏性、封闭性、教主崇拜、强制性劝诱和精神控制等特征的相似论述，不仅为双方的学术交流提供了对话中介，而且为扩大两国在邪教问题上的共识和实现打击邪教犯罪的跨国合作提供了可能条件。
+									</p>
+									<p>
+										<Button href={Henan} target='_blank'>
+											中美邪教的定义与比较
+										</Button>
+									</p>
+								</td>
+							</tr>
 							<tr>
 								<td className='image'>
 									<img
@@ -77,7 +101,7 @@ class Books extends Component {
 								<td className='intro'>
 									<h3>2014圣经翻译与比较经学</h3>
 									<p style={{ textAlign: 'justify' }}>
-										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可护士的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
+										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可忽视的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
 									</p>
 									<p>
 										<Button href={Bin} target='_blank'>
