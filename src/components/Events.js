@@ -124,6 +124,27 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
+										src={require('../events/2015Bible/20200204081013.jpg')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td class='intro'>
+									<h3>
+										2015《圣经》与文学阐释国际学术研讨会
+									</h3>
+									<Link to='/2015bible'>
+										<Button
+											type='button'
+											className='float-middle'>
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td class='image'>
+									<img
 										src={require('../events/2014Bin/20200204080112.jpg')}
 										style={{ width: '90%' }}
 										alt=''
