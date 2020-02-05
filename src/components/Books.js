@@ -33,125 +33,6 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200204093246.jpg')}
-										style={{ width: '60%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<h3>
-										2017国际学术研讨会
-										邪教的观念暨全能神教之个案研究
-									</h3>
-									<p style={{ textAlign: 'justify' }}>
-										由于文化背景和现实国情的差异，中美两国学者对邪教的理解不尽相同。一方面，中国学者在论及邪教的识别与防治时，往往更强调邪教毛用传统宗教名义的欺骗性及其对社会和国家的危害；另一方面，美国学者则较少关注邪教同传统宗教的关系，而往往更强调邪教形式的多样性及其在心理生理上对信徒个人和家庭的侵害。然而，两国学者对于邪教的破坏性、封闭性、教主崇拜、强制性劝诱和精神控制等特征的相似论述，不仅为双方的学术交流提供了对话中介，而且为扩大两国在邪教问题上的共识和实现打击邪教犯罪的跨国合作提供了可能条件。
-									</p>
-									<p>
-										<Button href={Henan} target='_blank'>
-											中美邪教的定义与比较
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
-										src={require('../20200204081013.jpg')}
-										style={{ width: '90%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<h3>
-										2015《圣经》与文学阐释国际学术研讨会
-									</h3>
-									<p>
-										<Button
-											href={RomansChinese}
-											target='_blank'>
-											以罗马书来看圣经翻译对基督徒信仰实践之影响
-										</Button>
-									</p>
-									<p>
-										<Button
-											href={RomansAbstract}
-											target='_blank'>
-											Abstract
-										</Button>
-									</p>
-									<p>
-										<Button
-											href={RomansEnglish}
-											target='_blank'>
-											Biblical Interpretation and
-											Christian Faith: A Case Study of
-											Romans 1:17b
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
-										src={require('../20200203105518.jpg')}
-										style={{ width: '60%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<h3>2014圣经翻译与比较经学</h3>
-									<p style={{ textAlign: 'justify' }}>
-										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可忽视的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
-									</p>
-									<p>
-										<Button href={Bin} target='_blank'>
-											阅读
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
-										src={require('../20200203100242.jpg')}
-										style={{ width: '60%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<h3>2008 A Symposium for Pastors</h3>
-									<p style={{ textAlign: 'justify' }}>
-										2008年，下午1:30在韩国基督教协会礼堂举行了一次牧师座谈会。
-									</p>
-									<p style={{ textAlign: 'justify' }}>
-										该研讨会是由《牧师报》组织的，主题为“韩国国内外教会的地位以及异端活动，措施和基督教观点”。
-									</p>
-									<p style={{ textAlign: 'justify' }}>
-										汉克·汉格（Hank
-										Hangraph）的主题是“替代21世纪基督教面临的最重要问题”，他指出21世纪基督教面临的最大问题是圣经文盲。作为对策，他说：“重点是圣经的本质（或基本教义）。
-									</p>
-									<p style={{ textAlign: 'justify' }}>
-										汉克·汉格（Hank
-										Hangraph）表示，该学说构成了基督国度与外邦国家之间的界限，我们应将基本学说视为神性，原罪，正典，三位一体论，复活，化身，新造，说末世的。每个基本原则的首字母是D-O-C-T-R-I-N-E（原则）。
-									</p>
-									<p>
-										<Button href={Heresy} target='_blank'>
-											Layers of Heresy and the
-											Contribution of a Mediating Theology
-										</Button>
-									</p>
-									<p>
-										<Button href={Antidote} target='_blank'>
-											An Antidote for the Most Significant
-											Problem Facing Twenty-first Century
-											Christianity
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
 										src={require('../Nee.jpg')}
 										style={{ width: '90%' }}
 										alt=''
@@ -255,63 +136,22 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20190314230626.png')}
-										style={{ width: '90%' }}
+										src={require('../20200204093246.jpg')}
+										style={{ width: '60%' }}
 										alt=''
 									/>
 								</td>
 								<td className='intro'>
+									<h3>
+										2017国际学术研讨会
+										邪教的观念暨全能神教之个案研究
+									</h3>
 									<p style={{ textAlign: 'justify' }}>
-										近日有一个自称为“全能神教会”的团体，以耶稣基督教会为名，自2013
-										年1月起在香港、台湾各大报登载了超过十次的广告，2月起也开始在加拿大世界日报刊登全版广告，此举引起许多基督徒及福音朋友的反感与不安。
+										由于文化背景和现实国情的差异，中美两国学者对邪教的理解不尽相同。一方面，中国学者在论及邪教的识别与防治时，往往更强调邪教毛用传统宗教名义的欺骗性及其对社会和国家的危害；另一方面，美国学者则较少关注邪教同传统宗教的关系，而往往更强调邪教形式的多样性及其在心理生理上对信徒个人和家庭的侵害。然而，两国学者对于邪教的破坏性、封闭性、教主崇拜、强制性劝诱和精神控制等特征的相似论述，不仅为双方的学术交流提供了对话中介，而且为扩大两国在邪教问题上的共识和实现打击邪教犯罪的跨国合作提供了可能条件。
 									</p>
 									<p>
-										<Button
-											href={statement1}
-											target='_blank'>
-											阅读
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
-										src={require('../20190314230636.png')}
-										style={{ width: '90%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<p style={{ textAlign: 'justify' }}>
-										80年代初期，中国改革开放，海外华人，成千上万，遍访祖国，其中基督徒为数不少，与国内信徒接触之间，不免有属灵交流。美国水流职事站和台湾福音书房出版之文字书刊，在海外早已流传甚广，深获基督教界各方人士欢迎，于该段时间内，也流传至国内各地。
-									</p>
-									<p>
-										<Button
-											href={statement2}
-											target='_blank'>
-											阅读
-										</Button>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td className='image'>
-									<img
-										src={require('../20190314230647.png')}
-										style={{ width: '90%' }}
-										alt=''
-									/>
-								</td>
-								<td className='intro'>
-									<p style={{ textAlign: 'justify' }}>
-										神爱世人，但除了犹太人是神的选民外，神似乎特别爱中国人。50年代起，华人神学家基督徒领袖便从中国大陆及亚洲分散到全世界各地，发扬光大主在马太福音二十八章十九节的伟大使命：“所以，你们要去，使万民作我的门徒，奉父、子、圣灵的名给他们施洗。”
-									</p>
-									<p>
-										<Button
-											href={statement3}
-											target='_blank'>
-											阅读
+										<Button href={Henan} target='_blank'>
+											中美邪教的定义与比较
 										</Button>
 									</p>
 								</td>
@@ -377,6 +217,166 @@ class Books extends Component {
 											href={comparisonOfIsaiahScroll}
 											target='_blank'>
 											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20200204081013.jpg')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										2015《圣经》与文学阐释国际学术研讨会
+									</h3>
+									<p>
+										<Button
+											href={RomansChinese}
+											target='_blank'>
+											以罗马书来看圣经翻译对基督徒信仰实践之影响
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={RomansAbstract}
+											target='_blank'>
+											Abstract
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={RomansEnglish}
+											target='_blank'>
+											Biblical Interpretation and
+											Christian Faith: A Case Study of
+											Romans 1:17b
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20200203105518.jpg')}
+										style={{ width: '60%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>2014圣经翻译与比较经学</h3>
+									<p style={{ textAlign: 'justify' }}>
+										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可忽视的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
+									</p>
+									<p>
+										<Button href={Bin} target='_blank'>
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20190314230626.png')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<p style={{ textAlign: 'justify' }}>
+										近日有一个自称为“全能神教会”的团体，以耶稣基督教会为名，自2013
+										年1月起在香港、台湾各大报登载了超过十次的广告，2月起也开始在加拿大世界日报刊登全版广告，此举引起许多基督徒及福音朋友的反感与不安。
+									</p>
+									<p>
+										<Button
+											href={statement1}
+											target='_blank'>
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20190314230636.png')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<p style={{ textAlign: 'justify' }}>
+										80年代初期，中国改革开放，海外华人，成千上万，遍访祖国，其中基督徒为数不少，与国内信徒接触之间，不免有属灵交流。美国水流职事站和台湾福音书房出版之文字书刊，在海外早已流传甚广，深获基督教界各方人士欢迎，于该段时间内，也流传至国内各地。
+									</p>
+									<p>
+										<Button
+											href={statement2}
+											target='_blank'>
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20190314230647.png')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<p style={{ textAlign: 'justify' }}>
+										神爱世人，但除了犹太人是神的选民外，神似乎特别爱中国人。50年代起，华人神学家基督徒领袖便从中国大陆及亚洲分散到全世界各地，发扬光大主在马太福音二十八章十九节的伟大使命：“所以，你们要去，使万民作我的门徒，奉父、子、圣灵的名给他们施洗。”
+									</p>
+									<p>
+										<Button
+											href={statement3}
+											target='_blank'>
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../20200203100242.jpg')}
+										style={{ width: '60%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>2008 A Symposium for Pastors</h3>
+									<p style={{ textAlign: 'justify' }}>
+										2008年，下午1:30在韩国基督教协会礼堂举行了一次牧师座谈会。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										该研讨会是由《牧师报》组织的，主题为“韩国国内外教会的地位以及异端活动，措施和基督教观点”。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										汉克·汉格（Hank
+										Hangraph）的主题是“替代21世纪基督教面临的最重要问题”，他指出21世纪基督教面临的最大问题是圣经文盲。作为对策，他说：“重点是圣经的本质（或基本教义）。
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										汉克·汉格（Hank
+										Hangraph）表示，该学说构成了基督国度与外邦国家之间的界限，我们应将基本学说视为神性，原罪，正典，三位一体论，复活，化身，新造，说末世的。每个基本原则的首字母是D-O-C-T-R-I-N-E（原则）。
+									</p>
+									<p>
+										<Button href={Heresy} target='_blank'>
+											Layers of Heresy and the
+											Contribution of a Mediating Theology
+										</Button>
+									</p>
+									<p>
+										<Button href={Antidote} target='_blank'>
+											An Antidote for the Most Significant
+											Problem Facing Twenty-first Century
+											Christianity
 										</Button>
 									</p>
 								</td>
