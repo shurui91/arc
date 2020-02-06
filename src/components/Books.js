@@ -33,7 +33,7 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../Nee.jpg')}
+										src={require('../assets/images/Nee.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
