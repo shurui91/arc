@@ -124,8 +124,8 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
-										src={require('../events/2017Henan/20200204093246.jpg')}
-										style={{ width: '50%' }}
+										src={require('../assets/images/20200205225445.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -140,8 +140,8 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
-										src={require('../events/2015Bible/20200204081013.jpg')}
-										style={{ width: '80%' }}
+										src={require('../assets/images/20200205225359.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -161,8 +161,8 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
-										src={require('../events/2014Bin/20200204080112.jpg')}
-										style={{ width: '50%' }}
+										src={require('../assets/images/20200205225143.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
