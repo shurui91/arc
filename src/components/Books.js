@@ -136,8 +136,8 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200204093246.jpg')}
-										style={{ width: '60%' }}
+										src={require('../assets/images/20200205225445.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -224,7 +224,7 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200204081013.jpg')}
+										src={require('../assets/images/20200205225359.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
@@ -261,8 +261,8 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200203105518.jpg')}
-										style={{ width: '60%' }}
+										src={require('../assets/images/20200205225143.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -345,8 +345,8 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20200203100242.jpg')}
-										style={{ width: '60%' }}
+										src={require('../assets/images/20200205225306.jpg')}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
