@@ -21,6 +21,13 @@ import RomansAbstract from '../books/AH_Bible Translation Nov 2015 Abstract.pdf'
 import RomansChinese from '../books/11_Romans_Ho.pdf';
 import RomansEnglish from '../books/27_Biblical Interpretation and Christian Faith_AH.pdf';
 import Henan from '../books/definition_and_comparison.pdf';
+import wrongCebuano from '../books/CebuanoOpt.pdf';
+import wrongSpanish from '../books/Spanish.pdf';
+import wrongTChinese from '../books/TraditionalChineseOpt.pdf';
+import wrongSChinese from '../books/SimplifiedChineseOpt.pdf';
+import wrongKorean from '../books/KoreanOpt.pdf';
+import wrongGerman from '../books/GermanOpt.pdf';
+import wrongEnglish from '../books/EnglishOpt.pdf';
 
 class Books extends Component {
 	render() {
@@ -400,6 +407,91 @@ class Books extends Component {
 											href='https://contendingforthefaith.org/en/voices-of-confirmation-concerning-watchman-nee-witness-lee-the-local-churches/'
 											target='_blank'>
 											Read More
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../assets/images/20200812164004.jpg')}
+										style={{ width: '70%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>We Were Wrong</h3>
+									<p style={{ textAlign: 'justify' }}>
+										After a six-year primary research
+										project that involved reading many
+										publications of Living Stream Ministry
+										and visiting local churches on three
+										continents, the Christian Research
+										Institute (CRI), the largest and most
+										respected apologetics ministry in the
+										world, published it findings in a series
+										of articles in an issue of its Christian
+										Research Journal with the words “We Were
+										Wrong” on the cover. In addition to the
+										issue’s centerpiece—a five-part article
+										by the journal’s Editor-in-Chief Elliot
+										Miller analyzing the shortcomings of an
+										open letter criticizing aspects of
+										Witness Lee’s teaching—the issue
+										contains statements by CRI President
+										Hank Hanegraaff and Answers in Action
+										(AiA) Director Gretchen Passantino.
+										These statements represent a complete
+										reversal of earlier criticisms by CRI
+										and AiA.
+									</p>
+									<p>
+										<Button
+											href={wrongCebuano}
+											target='_blank'>
+											Cebuano
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongSpanish}
+											target='_blank'>
+											Spanish
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongTChinese}
+											target='_blank'>
+											Traditional Chinese
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongSChinese}
+											target='_blank'>
+											Simplified Chinese
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongKorean}
+											target='_blank'>
+											Korean
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongGerman}
+											target='_blank'>
+											German
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={wrongEnglish}
+											target='_blank'>
+											English
 										</Button>
 									</p>
 								</td>
