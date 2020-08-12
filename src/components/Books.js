@@ -345,6 +345,68 @@ class Books extends Component {
 							<tr>
 								<td className='image'>
 									<img
+										src={require('../assets/images/20200812160341.jpg')}
+										style={{ width: '70%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										December 2010, Voices of Confirmation
+										Concerning Watchman Nee, Witness Lee &
+										the Local Churches
+									</h3>
+									<p style={{ textAlign: 'justify' }}>
+										This publication presents the testimony
+										of leading evangelicals concerning
+										Watchman Nee, Witness Lee, and the local
+										churches. It includes statements from:
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Fuller Theological Seminary, among the
+										largest and most respected evangelical
+										seminaries in the world;
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Christian Research Institute (CRI), the
+										largest and most widely respected
+										apologetics ministry in the world, known
+										both for its Bible Answer Man radio
+										program and the Christian Research
+										Journal;
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Christianity Today, the leading
+										evangelical periodical;
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Gretchen Passantino, co-founder and
+										director of the apologetics ministry
+										Answers in Action (and an early critic
+										of the local churches who reversed her
+										earlier assessment); and the United
+										States Congressional Record.
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										These testimonies are the result of
+										direct study and interaction with Living
+										Stream Ministry and the local churches
+										and should help you have a more accurate
+										understanding of our beliefs and
+										practices.
+									</p>
+									<p>
+										<Button
+											href='https://contendingforthefaith.org/en/voices-of-confirmation-concerning-watchman-nee-witness-lee-the-local-churches/'
+											target='_blank'>
+											Read More
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
 										src={require('../assets/images/20200205225306.jpg')}
 										style={{ width: '90%' }}
 										alt=''

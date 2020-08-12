@@ -8,13 +8,13 @@ class Carousel extends React.PureComponent {
 	constructor(props) {
 		super(props);
 		this.state = {
-			autoplay: true
+			autoplay: true,
 		};
 	}
 	onSelect = (active, direction) => {
 		console.log(`active=${active} && direction=${direction}`);
 	};
-	visiableOnSelect = active => {
+	visiableOnSelect = (active) => {
 		console.log(`visiable onSelect active=${active}`);
 	};
 	slideNext = () => {
@@ -31,14 +31,14 @@ class Carousel extends React.PureComponent {
 	};
 	_changeIcon = () => {
 		let { leftIcon, rightIcon } = this.state;
-		leftIcon = leftIcon ? undefined : <span className="fa fa-glass" />;
-		rightIcon = rightIcon ? undefined : <span className="fa fa-music" />;
+		leftIcon = leftIcon ? undefined : <span className='fa fa-glass' />;
+		rightIcon = rightIcon ? undefined : <span className='fa fa-music' />;
 		this.setState({ leftIcon, rightIcon });
 	};
 	render() {
 		let { leftIcon, rightIcon } = this.state;
 		return (
-			<div className="container-fluid">
+			<div className='container-fluid'>
 				<Row>
 					<Col sm={12} style={{ paddingTop: '20px' }}>
 						<RBCarousel
@@ -48,14 +48,13 @@ class Carousel extends React.PureComponent {
 							leftIcon={leftIcon}
 							rightIcon={rightIcon}
 							onSelect={this.onSelect}
-							ref={r => (this.slider = r)}
-							version={4}
-						>
+							ref={(r) => (this.slider = r)}
+							version={4}>
 							<div style={{ width: '100%', height: '44%' }}>
 								<img
 									src={require('../homepageSlides/20190602005752.jpg')}
 									style={{ width: '100%', height: '100%' }}
-									alt=""
+									alt=''
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
@@ -63,15 +62,15 @@ class Carousel extends React.PureComponent {
 								<img
 									src={require('../homepageSlides/20190602010013.jpg')}
 									style={{ width: '100%', height: '100%' }}
-									alt=""
+									alt=''
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
 							<div style={{ width: '100%', height: '44%' }}>
 								<img
-									src={require('../homepageSlides/20190529211606.jpg')}
+									src={require('../homepageSlides/20200812153335.jpg')}
 									style={{ width: '100%', height: '100%' }}
-									alt=""
+									alt=''
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
@@ -79,7 +78,7 @@ class Carousel extends React.PureComponent {
 								<img
 									src={require('../homepageSlides/20190602010222.jpg')}
 									style={{ width: '100%', height: '100%' }}
-									alt=""
+									alt=''
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
@@ -94,13 +93,13 @@ class Carousel extends React.PureComponent {
 /**
  *  Boostrap Component
  */
-const Row = props => <div className="row">{props.children}</div>;
-const Col = props => (
+const Row = (props) => <div className='row'>{props.children}</div>;
+const Col = (props) => (
 	<div className={`col-${props.span}`} style={props.style}>
 		{props.children}
 	</div>
 );
-const Button = props => {
+const Button = (props) => {
 	const { style, bsStyle, onClick } = props;
 	const className = bsStyle ? `btn btn-${bsStyle}` : 'btn';
 	return (
