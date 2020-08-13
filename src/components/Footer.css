@@ -1,11 +1,26 @@
 .footer {
 	margin: 0 auto;
 	background-color: #3b3c40;
+	color: #ffffff;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .footerContent {
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 90%;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.contactTitle {
+	font-size: 24px;
+}
+
+.footerList {
+	list-style-type: none;
+	margin: 0 auto;
 }
