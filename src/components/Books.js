@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table, Button } from 'react-bootstrap';
 import './Books.css';
 import Copyright from './Copyright';
+import './Copyright.css';
 import kicus from '../books/KICUS-ReligioninChina_2.pdf';
 import statement1 from '../books/statement1_simplified_final.pdf';
 import statement2 from '../books/statement2_simplified_final.pdf';
