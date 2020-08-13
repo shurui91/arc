@@ -465,14 +465,14 @@ class Books extends Component {
 										<Button
 											href={wrongTChinese}
 											target='_blank'>
-											Traditional Chinese
+											繁體中文
 										</Button>
 									</p>
 									<p>
 										<Button
 											href={wrongSChinese}
 											target='_blank'>
-											Simplified Chinese
+											简体中文
 										</Button>
 									</p>
 									<p>
