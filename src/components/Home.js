@@ -4,7 +4,7 @@ import soundfile from '../assets/Sign of the Times.mp3';
 import Sound from 'react-sound';
 import Carousel from './Carousel';
 import Vision from './Vision';
-import Footer from './Footer';
+import Copyright from './Copyright';
 import Cards from './Cards';
 import Partners from './Partners';
 
@@ -16,7 +16,7 @@ class Home extends Component {
 				<Vision />
 				<Cards />
 				<Partners />
-				<Footer />
+				<Copyright />
 				<Sound
 					url={soundfile}
 					playStatus={Sound.status.PLAYING}

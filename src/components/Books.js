@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Table, Button } from 'react-bootstrap';
 import './Books.css';
-import Footer from './Footer';
+import Copyright from './Copyright';
 import kicus from '../books/KICUS-ReligioninChina_2.pdf';
 import statement1 from '../books/statement1_simplified_final.pdf';
 import statement2 from '../books/statement2_simplified_final.pdf';
@@ -596,7 +596,7 @@ class Books extends Component {
 						</tbody>
 					</Table>
 				</div>
-				<Footer />
+				<Copyright />
 			</div>
 		);
 	}

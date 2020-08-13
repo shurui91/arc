@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import BibleCarousel from './2015Carousel';
-import Footer from '../Footer';
+import Copyright from '../Copyright';
 
 class Bible extends Component {
 	render() {
@@ -28,7 +28,7 @@ class Bible extends Component {
 						</Row>
 					</Container>
 				</div>
-				<Footer />
+				<Copyright />
 			</div>
 		);
 	}

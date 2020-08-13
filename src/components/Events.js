@@ -3,7 +3,7 @@ import { Table, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Events.css';
 import AliceCarousel from 'react-alice-carousel';
-import Footer from './Footer';
+import Copyright from './Copyright';
 
 class Events extends Component {
 	render() {
@@ -280,7 +280,7 @@ class Events extends Component {
 						</tbody>
 					</Table>
 				</div>
-				<Footer />
+				<Copyright />
 			</div>
 		);
 	}
