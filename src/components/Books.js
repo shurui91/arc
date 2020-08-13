@@ -28,6 +28,8 @@ import wrongSChinese from '../books/SimplifiedChineseOpt.pdf';
 import wrongKorean from '../books/KoreanOpt.pdf';
 import wrongGerman from '../books/GermanOpt.pdf';
 import wrongEnglish from '../books/EnglishOpt.pdf';
+import hanegraaffChinese from '../books/hanegraaff-passantino-fuller-zh.pdf';
+import hanegraaffEnglish from '../books/hanegraaff-passantino-fuller.pdf';
 
 class Books extends Component {
 	render() {
@@ -359,9 +361,9 @@ class Books extends Component {
 								</td>
 								<td className='intro'>
 									<h3>
-										December 2010, Voices of Confirmation
-										Concerning Watchman Nee, Witness Lee &
-										the Local Churches
+										Voices of Confirmation Concerning
+										Watchman Nee, Witness Lee & the Local
+										Churches
 									</h3>
 									<p style={{ textAlign: 'justify' }}>
 										This publication presents the testimony
@@ -492,6 +494,62 @@ class Books extends Component {
 											href={wrongEnglish}
 											target='_blank'>
 											English
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../assets/images/20200812185652.jpg')}
+										style={{ width: '70%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										The Local Churches "Genuine Believers
+										and Fellow Members of the Body of
+										Christ"
+									</h3>
+									<p style={{ textAlign: 'justify' }}>
+										This book contains statements from
+										leaders of three prominent Christian
+										organizations concerning the orthodoxy
+										of the local churches
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Hank Hanegraaff, President of the
+										Christian Research Institute (CRI),
+										Gretchen Passantino, Director of Answers
+										in Action (AIA), and Fuller Theological
+										Seminary
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Represented by President Richard Mouw,
+										Dean of Theology Howard Loewen, and
+										Professor of Systematic Theology
+										Veli-Matti Kärkkäinen
+									</p>
+									<p style={{ textAlign: 'justify' }}>
+										Their statements affirm that those in
+										the local churches are, in the words of
+										the Fuller scholars, "genuine believers
+										and fellow members of the Body of
+										Christ."
+									</p>
+									<p>
+										<Button
+											href={hanegraaffChinese}
+											target='_blank'>
+											阅读
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={hanegraaffEnglish}
+											target='_blank'>
+											Read
 										</Button>
 									</p>
 								</td>
