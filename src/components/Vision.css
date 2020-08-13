@@ -1,11 +1,13 @@
 .vision {
 	margin: 0 auto;
 	background-color: #234665;
+	/*
 	padding-top: 30px;
 	padding-bottom: 30px;
+	*/
 }
 
 .visionContent {
 	margin: 0 auto;
-	max-width: 55%;
+	/* max-width: 55%; */
 }

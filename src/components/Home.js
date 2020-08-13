@@ -4,9 +4,10 @@ import soundfile from '../assets/Sign of the Times.mp3';
 import Sound from 'react-sound';
 import Carousel from './Carousel';
 import Vision from './Vision';
-import Copyright from './Copyright';
 import Cards from './Cards';
 import Partners from './Partners';
+import Copyright from './Copyright';
+import Footer from './Footer';
 
 class Home extends Component {
 	render() {
@@ -16,6 +17,7 @@ class Home extends Component {
 				<Vision />
 				<Cards />
 				<Partners />
+				<Footer />
 				<Copyright />
 				<Sound
 					url={soundfile}

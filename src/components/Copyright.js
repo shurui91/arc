@@ -9,9 +9,9 @@ class Copyright extends Component {
 
 	render() {
 		return (
-			<copyright className='copyright'>
+			<div className='copyright'>
 				<p>&copy; {this.state.year} ARC. All Rights Reserved</p>
-			</copyright>
+			</div>
 		);
 	}
 }

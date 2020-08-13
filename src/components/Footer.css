@@ -1,0 +1,11 @@
+.footer {
+	margin: 0 auto;
+	background-color: #3b3c40;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footerContent {
+	margin: 0 auto;
+	max-width: 70%;
+}
