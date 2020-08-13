@@ -224,24 +224,6 @@ class Events extends Component {
 							<tr>
 								<td class='image'>
 									<img
-										src={require('../events/kissinger/kissinger.jpg')}
-										style={{ width: '90%' }}
-										alt=''
-									/>
-								</td>
-								<td class='intro'>
-									<h3>
-										"Kissinger Institute on China and the
-										United States, Woodrow Wilson Center for
-										International Scholars & Asia Research
-										Center Foundation, International
-										Symposium"
-									</h3>
-								</td>
-							</tr>
-							<tr>
-								<td class='image'>
-									<img
 										src={require('../events/ma/img9.jpg')}
 										style={{ width: '90%' }}
 										alt=''
