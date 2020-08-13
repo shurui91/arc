@@ -1,6 +1,7 @@
 import React from 'react';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
 import RBCarousel from 'react-bootstrap-carousel';
+import Iframe from 'react-iframe';
 
 const styles = { height: '44%', width: '100%' };
 
