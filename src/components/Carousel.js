@@ -50,7 +50,7 @@ class Carousel extends React.PureComponent {
 							onSelect={this.onSelect}
 							ref={(r) => (this.slider = r)}
 							version={4}>
-							<div style={{ width: '100%', height: '44%' }}>
+							<div style={styles}>
 								<img
 									src={require('../homepageSlides/20190602005752.jpg')}
 									style={{ width: '100%', height: '100%' }}
@@ -58,7 +58,7 @@ class Carousel extends React.PureComponent {
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ width: '100%', height: '44%' }}>
+							<div style={styles}>
 								<img
 									src={require('../homepageSlides/20190602010013.jpg')}
 									style={{ width: '100%', height: '100%' }}
@@ -66,7 +66,7 @@ class Carousel extends React.PureComponent {
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ width: '100%', height: '44%' }}>
+							<div style={styles}>
 								<img
 									src={require('../homepageSlides/20200812153335.jpg')}
 									style={{ width: '100%', height: '100%' }}
@@ -74,9 +74,25 @@ class Carousel extends React.PureComponent {
 								/>
 								{/* <div className="carousel-caption">Image</div> */}
 							</div>
-							<div style={{ width: '100%', height: '44%' }}>
+							<div style={styles}>
 								<img
 									src={require('../homepageSlides/20190602010222.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=''
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={styles}>
+								<img
+									src={require('../homepageSlides/20200812191222.jpg')}
+									style={{ width: '100%', height: '100%' }}
+									alt=''
+								/>
+								{/* <div className="carousel-caption">Image</div> */}
+							</div>
+							<div style={styles}>
+								<img
+									src={require('../homepageSlides/20200812191231.jpg')}
 									style={{ width: '100%', height: '100%' }}
 									alt=''
 								/>

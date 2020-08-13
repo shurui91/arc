@@ -5,7 +5,7 @@ import {
 	BrowserRouter as Router,
 	NavLink,
 	Route,
-	Switch
+	Switch,
 } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -38,7 +38,7 @@ function App() {
 					<Navbar.Brand as={NavLink} to='/'>
 						<img
 							alt=''
-							src={require('./arcLogo.jpg')}
+							src={require('./arcLogo.png')}
 							height='80'
 							className='d-inline-block align-top'
 						/>
