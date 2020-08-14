@@ -92,67 +92,6 @@ class Books extends Component {
 										國際學生研討會
 									</h3>
 									<p style={{ textAlign: 'center' }}>
-										School of Chinese Symposium “The CUV
-										Bible and Bible Translations in Chinese”
-									</p>
-									<p style={{ textAlign: 'justify' }}>
-										Sponsors:
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School
-										of Chinese, University of Hong Kong
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Institute
-										for China and Global Development,
-										University of Hong Kong
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hong
-										Kong Truth Book Room, Hong Kong
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taiwan
-										Gospel Book Room, Taiwan
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asian
-										Research Center, U.S.A.
-										<br />
-										Date:
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7
-										December 2019 (Saturday) <br />
-										Time:
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00
-										am – 18:30 pm <br />
-										Venue:
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G03-05
-										Main Building, University of Hong Kong
-										<br />
-										<br />
-										Description and Themes:
-										<br />
-										<br />
-										The CUV is considered a milestone in
-										Chinese translation of the Bible. First
-										published in 1919, it has played a
-										significant role in the growth of
-										Chinese Christianity through the 20th
-										century. Despite voluminous studies done
-										by scholars in the past decades, more
-										research is needed to explore a series
-										of interrelated key issues, including
-										the historical formation of the CUV
-										Bible, its language, terminology, and
-										translation principle, the overlaps and
-										gaps between the CUV Bible and major
-										biblical translations by Protestant and
-										Catholic missionaries in China, as well
-										as the revised edition of the CUV at the
-										beginning of the 21st century. This
-										symposium is therefore aimed to provide
-										a platform for leading scholars in this
-										field to further study and re-evaluate
-										the CUV in the history of Bible
-										translations into Chinese.
-										<br />
-									</p>
-									<p style={{ textAlign: 'center' }}>
 										中文學院學術研討會“道傳中華：和合本聖經及聖經漢譯”
 									</p>
 									<p style={{ textAlign: 'justify' }}>
@@ -695,22 +634,19 @@ class Books extends Component {
 											target='_blank'>
 											Cebuano
 										</Button>
-									</p>
-									<p>
+										&nbsp;&nbsp;
 										<Button
 											href={wrongSpanish}
 											target='_blank'>
 											Spanish
 										</Button>
-									</p>
-									<p>
+										&nbsp;&nbsp;
 										<Button
 											href={wrongTChinese}
 											target='_blank'>
 											繁體中文
 										</Button>
-									</p>
-									<p>
+										&nbsp;&nbsp;
 										<Button
 											href={wrongSChinese}
 											target='_blank'>
@@ -723,15 +659,13 @@ class Books extends Component {
 											target='_blank'>
 											Korean
 										</Button>
-									</p>
-									<p>
+										&nbsp;&nbsp;
 										<Button
 											href={wrongGerman}
 											target='_blank'>
 											German
 										</Button>
-									</p>
-									<p>
+										&nbsp;&nbsp;
 										<Button
 											href={wrongEnglish}
 											target='_blank'>
