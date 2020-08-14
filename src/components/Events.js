@@ -21,7 +21,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										The Identity of EL (Almighty God) and
 										Counterstrategy
@@ -43,7 +45,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										Sinicization of Christianity in China
 									</h3>
@@ -71,7 +75,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2017国际学术研讨会
 										邪教的观念暨全能神教之个案研究
@@ -87,7 +93,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2015《圣经》与文学阐释国际学术研讨会
 									</h3>
@@ -108,7 +116,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										Translation of Bible and Comparative
 										Scripture
@@ -125,7 +135,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>Dead Sea Scrolls Exhibition</h3>
 									<p>An International Exhibit and Seminar</p>
 									<Link to='/deadsea'>
@@ -145,7 +157,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>The Great Isaiah Scroll</h3>
 									<Link to='/isaiah'>
 										<Button
@@ -164,7 +178,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>2008 A symposium for pastors</h3>
 									<Link to='/2008symposium'>
 										<Button
@@ -183,7 +199,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										多学科视野下的中国基督教本土化研究学术研讨会
 									</h3>
@@ -204,7 +222,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										ARC event with Fudan university at UCSD
 									</h3>
@@ -232,7 +252,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										"Kissinger Institute on China and the
 										United States, Woodrow Wilson Center for
@@ -250,7 +272,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										ARC board member, Abraham Ho meeting
 										with Taiwan President, Ma Ying jeau
@@ -265,7 +289,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										"​The Development of Indigenous Chinese
 										Christian Theology​ Symposium held at
@@ -283,7 +309,9 @@ class Events extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										The Orthodoxy of the Chinese Church from
 										a Historical, Theological and Apologetic
