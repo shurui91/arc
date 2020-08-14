@@ -5,6 +5,7 @@ import Sound from 'react-sound';
 import Carousel from './Carousel';
 import Vision from './Vision';
 import Cards from './Cards';
+import UpdateList from './UpdateList';
 import Partners from './Partners';
 import Copyright from './Copyright';
 import Footer from './Footer';
@@ -14,6 +15,7 @@ class Home extends Component {
 		return (
 			<div>
 				<Carousel />
+				<UpdateList />
 				<Vision />
 				<Cards />
 				<Partners />

@@ -1,0 +1,81 @@
+import React, { Component } from 'react';
+import './UpdateList.css';
+import { Card, Container, Row, Col, ListGroup } from 'react-bootstrap';
+import neeChinese from '../books/The Nee Yu-Cheng Family_Chinese.pdf';
+import CUVBible from '../books/The CUV Bible and Bible Translations in Chinese.pdf';
+import hundredYears from '../books/hunderdYears.pdf';
+
+class UpdateList extends Component {
+	render() {
+		return (
+			<div className='lists'>
+				<Container>
+					<Row>
+						<Col md={12} lg={4}>
+							<Card style={{ maxWidth: '300px' }}>
+								<Card.Body>
+									<Card.Title>Publication</Card.Title>
+								</Card.Body>
+								<Card.Text>
+									<ListGroup>
+										<ListGroup.Item
+											action
+											href={neeChinese}>
+											倪玉成家族与近代在福州西方基督教差会教育
+										</ListGroup.Item>
+										<ListGroup.Item action href={CUVBible}>
+											道傳中華 和合本聖經及聖經漢譯
+											國際學生研討會
+										</ListGroup.Item>
+										<ListGroup.Item
+											action
+											href={hundredYears}>
+											和合本圣经百周年纪念
+										</ListGroup.Item>
+									</ListGroup>
+								</Card.Text>
+							</Card>
+						</Col>
+						<Col md={12} lg={4}>
+							<Card style={{ maxWidth: '300px' }}>
+								<Card.Body>
+									<Card.Title>Events</Card.Title>
+								</Card.Body>
+								<Card.Text>
+									<ListGroup>
+										<ListGroup.Item action href='/korea'>
+											The Identity of EL (Almighty God)
+											and Counterstrategy
+										</ListGroup.Item>
+										<ListGroup.Item
+											action
+											href='/stockholm'>
+											Sinicization of Christianity in
+											China
+										</ListGroup.Item>
+										<ListGroup.Item>
+											2017国际学术研讨会
+											邪教的观念暨全能神教之个案研究
+										</ListGroup.Item>
+									</ListGroup>
+								</Card.Text>
+							</Card>
+						</Col>
+						<Col md={12} lg={4}>
+							<Card style={{ maxWidth: '300px' }}>
+								<Card.Body>
+									<Card.Title>Upcoming</Card.Title>
+								</Card.Body>
+								<Card.Text>
+									<ListGroup></ListGroup>
+								</Card.Text>
+							</Card>
+						</Col>
+					</Row>
+				</Container>
+			</div>
+		);
+	}
+}
+
+export default UpdateList;

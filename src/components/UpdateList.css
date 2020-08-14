@@ -1,0 +1,12 @@
+.lists {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.Container {
+	border: none;
+	background-color: #ffffff;
+}
+
+.Card.Title {
+	text-align: center;
+}
