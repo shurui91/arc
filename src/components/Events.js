@@ -14,14 +14,14 @@ class Events extends Component {
 					<Table style={{ tableLayout: 'fixed', width: '100%' }}>
 						<tbody>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/korea/20190629093942.png')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										The Identity of EL (Almighty God) and
 										Counterstrategy
@@ -36,14 +36,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../20190505225128.png')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										Sinicization of Christianity in China
 									</h3>
@@ -64,14 +64,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../assets/images/20200205225445.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										2017国际学术研讨会
 										邪教的观念暨全能神教之个案研究
@@ -80,14 +80,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../assets/images/20200205225359.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										2015《圣经》与文学阐释国际学术研讨会
 									</h3>
@@ -101,14 +101,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../assets/images/20200205225143.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										Translation of Bible and Comparative
 										Scripture
@@ -118,14 +118,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/deadsea/deadseascrolls2.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>Dead Sea Scrolls Exhibition</h3>
 									<p>An International Exhibit and Seminar</p>
 									<Link to='/deadsea'>
@@ -138,14 +138,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/Isaiah/Isaiah1.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>The Great Isaiah Scroll</h3>
 									<Link to='/isaiah'>
 										<Button
@@ -157,14 +157,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/2008Symposium/20200203085044.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>2008 A symposium for pastors</h3>
 									<Link to='/2008symposium'>
 										<Button
@@ -176,14 +176,35 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
+									<img
+										src={require('../events/2012Localize/20200814010555.jpg')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										多学科视野下的中国基督教本土化研究学术研讨会
+									</h3>
+									<Link to='/localize'>
+										<Button
+											type='button'
+											className='float-middle'>
+											More Pictures
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
 									<img
 										src={require('../events/fudan/fudan5.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										ARC event with Fudan university at UCSD
 									</h3>
@@ -204,14 +225,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/kissinger/kissinger.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										"Kissinger Institute on China and the
 										United States, Woodrow Wilson Center for
@@ -222,14 +243,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/ma/img9.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										ARC board member, Abraham Ho meeting
 										with Taiwan President, Ma Ying jeau
@@ -237,14 +258,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/orthodoxy/1701067211090dscccbg.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										"​The Development of Indigenous Chinese
 										Christian Theology​ Symposium held at
@@ -255,14 +276,14 @@ class Events extends Component {
 								</td>
 							</tr>
 							<tr>
-								<td class='image'>
+								<td className='image'>
 									<img
 										src={require('../events/orthodoxy/orthodoxchurch.jpg')}
 										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
-								<td class='intro'>
+								<td className='intro'>
 									<h3>
 										The Orthodoxy of the Chinese Church from
 										a Historical, Theological and Apologetic

@@ -29,6 +29,7 @@ import Isaiah from './components/isaiah/Isaiah';
 import Korea from './components/korea/Korea';
 import Symposium from './components/2008Symposium/2008symposium';
 import Bible from './components/2015Bible/2015bible';
+import Localize from './components/2012Localize/Localize';
 
 function App() {
 	return (
@@ -84,6 +85,7 @@ function App() {
 					<Route path='/deadsea' exact component={Deadsea} />
 					<Route path='/isaiah' exact component={Isaiah} />
 					<Route path='/korea' exact component={Korea} />
+					<Route path='/localize' exact component={Localize} />
 					<Route path='/2008symposium' exact component={Symposium} />
 					<Route path='/2015bible' exact component={Bible} />
 					<Route component={Error} />
