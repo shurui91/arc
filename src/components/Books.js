@@ -35,6 +35,8 @@ import CUVBible from '../books/The CUV Bible and Bible Translations in Chinese.p
 import IsaiahMinuscriptPart1 from '../books/2014IsaiahMinuscriptPart1.pdf';
 import IsaiahMinuscriptPart2 from '../books/2014IsaiahMinuscriptPart2.pdf';
 import IsaiahMinuscriptAdditional from '../books/2014IsaiahMinuscriptAdditional.pdf';
+import Globalization from '../books/2014Globalization.pdf';
+import EasternFlash from '../books/2018EasternFlash.pdf';
 
 class Books extends Component {
 	render() {
@@ -182,6 +184,27 @@ class Books extends Component {
 									<p>
 										<Button
 											href={hundredYears}
+											target='_blank'>
+											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../assets/images/20200814103030.jpg')}
+										style={{ width: '60%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										2018东方闪电（全能神）应对策略研讨会
+									</h3>
+									<p>
+										<Button
+											href={EasternFlash}
 											target='_blank'>
 											阅读
 										</Button>
@@ -359,6 +382,27 @@ class Books extends Component {
 											Biblical Interpretation and
 											Christian Faith: A Case Study of
 											Romans 1:17b
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../assets/images/20200814104413.jpg')}
+										style={{ width: '50%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										2014全球化视野下的近代中国与世界基督教国际研讨会
+									</h3>
+									<p>
+										<Button
+											href={Globalization}
+											target='_blank'>
+											阅读
 										</Button>
 									</p>
 								</td>
