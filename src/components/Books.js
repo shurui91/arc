@@ -87,24 +87,42 @@ class Books extends Component {
 										道傳中華 和合本聖經及聖經漢譯
 										國際學生研討會
 									</h3>
+									<p style={{ textAlign: 'center' }}>
+										School of Chinese Symposium “The CUV
+										Bible and Bible Translations in Chinese”
+									</p>
 									<p style={{ textAlign: 'justify' }}>
-										Sponsors: School of Chinese, University
-										of Hong Kong
-										<br /> Institute for China and Global
-										Development, University of Hong Kong
+										Sponsors:
 										<br />
-										Hong Kong Truth Book Room, Hong Kong
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School
+										of Chinese, University of Hong Kong
 										<br />
-										Taiwan Gospel Book Room, Taiwan
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Institute
+										for China and Global Development,
+										University of Hong Kong
 										<br />
-										Asian Research Center, U.S.A.
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hong
+										Kong Truth Book Room, Hong Kong
 										<br />
-										Date: 7 December 2019 (Saturday) <br />
-										Time: 9:00 am – 18:30 pm <br />
-										Venue: G03-05 Main Building, University
-										of Hong Kong
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taiwan
+										Gospel Book Room, Taiwan
+										<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asian
+										Research Center, U.S.A.
+										<br />
+										Date:
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7
+										December 2019 (Saturday) <br />
+										Time:
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00
+										am – 18:30 pm <br />
+										Venue:
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G03-05
+										Main Building, University of Hong Kong
+										<br />
 										<br />
 										Description and Themes:
+										<br />
 										<br />
 										The CUV is considered a milestone in
 										Chinese translation of the Bible. First
@@ -128,26 +146,36 @@ class Books extends Component {
 										field to further study and re-evaluate
 										the CUV in the history of Bible
 										translations into Chinese.
+										<br />
+									</p>
+									<p style={{ textAlign: 'center' }}>
+										中文學院學術研討會“道傳中華：和合本聖經及聖經漢譯”
 									</p>
 									<p style={{ textAlign: 'justify' }}>
-										中文學院學術研討會“道傳中華：和合本聖經及聖經漢譯”
-										<br />
 										主辦、協辦機構：
-										香港大學中文學院、中國及全球發展研究所
 										<br />
-										香港真理書房、台灣福音書房、亞洲研究中心（美國）
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港大學中文學院
 										<br />
-										日期：2019年12月7日
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中國及全球發展研究所
 										<br />
-										時間：9:00 am – 018:30 pm
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港真理書房
 										<br />
-										地點：香港大學本部大樓G03-05室
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台灣福音書房
+										<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亞洲研究中心（美國）
+										<br />
+										日期：&nbsp;2019年12月7日
+										<br />
+										時間：&nbsp;9:00 am – 018:30 pm
+										<br />
+										地點：&nbsp;香港大學本部大樓G03-05室
 										<br />
 										會議說明及主題：
 										<br />
 										《聖經》和合本是中國《聖經》漢譯史上的一個里程碑式的譯本。自1919年出版後，和合本在二十世紀中國基督教的發展進程中扮演了重要角色。儘管此前的研究已有很多，仍需更進一步，探討一系列相互關聯的議題，包括和合本成書的歷史過程、譯經語言和翻譯原則、與基督新教及天主教其他中文《聖經》譯本的重疊和差異，以及本世紀初的和合本修訂版，等。此次會議為本領域的學者提供深入研究和合本的學術平台，重新審視其在《聖經》漢譯史上的地位。
 										<br />
-										會議共有十二篇論文發言，中文、英文各兩組，交替進行。與會學者來自美國、歐洲、中國內地、台灣及香港，集中探討以下主要議題：
+										<br />
+										會議共有十二篇論文發言，中文、英文各兩組。與會學者來自美國、歐洲、中國內地、台灣及香港，集中探討以下主要議題：
 										<br />
 										語境研究：和合本與漢語語言
 										<br />
