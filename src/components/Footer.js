@@ -17,7 +17,7 @@ class Footer extends Component {
 			<div className='footer'>
 				<div className='footerContent'>
 					<Row className='row'>
-						<Col class='column'>
+						<Col class='column' md={12} lg={4}>
 							<p class='contactTitle'>CONTACT US</p>
 							<ul class='footerList'>
 								<li>
@@ -48,7 +48,7 @@ class Footer extends Component {
 								</li>
 							</ul>
 						</Col>
-						<Col class='column'>
+						<Col class='column' md={12} lg={4}>
 							<p class='contactTitle'>STAY CONNECTED</p>
 							<p>
 								<span>
@@ -73,7 +73,7 @@ class Footer extends Component {
 								</span>
 							</p>
 						</Col>
-						<Col class='column'>
+						<Col class='column' md={12} lg={4}>
 							<p class='contactTitle'>PARTNERS</p>
 							<img
 								style={{ width: '100%' }}
