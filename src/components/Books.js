@@ -54,8 +54,10 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
-									<p style={{ textAlign: 'justify' }}>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
+									<p>
 										主在上海的见证，起始于1926年，汪佩真姊妹看见主恢复的亮光，在她的住处新闸路赓庆里开始擘饼聚会。1927年，倪柝声弟兄和李渊如姊妹也先后参加赓庆里的聚会。同年3月，倪弟兄将福音书房从福州马尾的罗星塔迁往上海。1928年1月，上海基督徒聚会处迁入哈同路240弄文德里聚会。1927年至1942年这短短的15年时间里，上海成了倪弟兄职事工作的中心，他在这里出版属灵书报，召开友华村的训练。1942年，上海基督徒聚会处因误会将倪弟兄革除，之后有六年之久，聚会死沉、同工四散，没多久因日军侵略，聚会停止，会所关门。1948年，倪弟兄复职，回到了上海，带进上海教会的复兴。同年，上海教会买地盖建可容纳3000人的南阳路会所。1948年到1951年，是上海基督徒聚会处最蒙福的阶段，圣徒同心合意，兴旺福音。
 									</p>
 									<p>
@@ -82,7 +84,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										道傳中華 和合本聖經及聖經漢譯
 										國際學生研討會
@@ -201,7 +205,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>和合本圣经百周年纪念</h3>
 									<p style={{ textAlign: 'justify' }}>
 										和合本圣经自1919年出版发行以来，从文学和信仰等方面，对中国社会作了极大的贡献。在文学方面，因着1919年发生了“五四运动”，一个新文学的时代正式开始。因此，和合本圣经可说是“生逢其时”，成为白话文的标准典范，展现出作为文学作品极高的价值。从这一方面而言，和合本圣经对于中国新文学的贡献，可与马丁·路德以德文翻译圣经对德国文学之贡献相提并论。
@@ -226,7 +232,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2018东方闪电（全能神）应对策略研讨会
 									</h3>
@@ -247,7 +255,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										Sinicization of Christianity in China
 									</h3>
@@ -275,7 +285,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										Commentary on China's reemergence as a
 										world power tends to focus on the
@@ -297,7 +309,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2017国际学术研讨会
 										邪教的观念暨全能神教之个案研究
@@ -320,7 +334,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										全能神教于2017 年10 月18
 										日在其网站上刊登了一份声明，完完全全否认他们参与绑架34
@@ -361,7 +377,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										《以赛亚书》最重要的希伯来文本是马所拉文本（Masoretic
 										Text，简称MT）和死海古卷中的“大以赛亚书卷”（The
@@ -385,7 +403,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2015《圣经》与文学阐释国际学术研讨会
 									</h3>
@@ -422,7 +442,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2014全球化视野下的近代中国与世界基督教国际研讨会
 									</h3>
@@ -443,7 +465,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>2014圣经翻译与比较经学</h3>
 									<p style={{ textAlign: 'justify' }}>
 										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可忽视的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
@@ -463,7 +487,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										2014圣经文本、圣经考古学与圣经译本学术研讨会
 									</h3>
@@ -501,7 +527,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										近日有一个自称为“全能神教会”的团体，以耶稣基督教会为名，自2013
 										年1月起在香港、台湾各大报登载了超过十次的广告，2月起也开始在加拿大世界日报刊登全版广告，此举引起许多基督徒及福音朋友的反感与不安。
@@ -523,7 +551,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										80年代初期，中国改革开放，海外华人，成千上万，遍访祖国，其中基督徒为数不少，与国内信徒接触之间，不免有属灵交流。美国水流职事站和台湾福音书房出版之文字书刊，在海外早已流传甚广，深获基督教界各方人士欢迎，于该段时间内，也流传至国内各地。
 									</p>
@@ -544,7 +574,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<p style={{ textAlign: 'justify' }}>
 										神爱世人，但除了犹太人是神的选民外，神似乎特别爱中国人。50年代起，华人神学家基督徒领袖便从中国大陆及亚洲分散到全世界各地，发扬光大主在马太福音二十八章十九节的伟大使命：“所以，你们要去，使万民作我的门徒，奉父、子、圣灵的名给他们施洗。”
 									</p>
@@ -565,7 +597,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										Voices of Confirmation Concerning
 										Watchman Nee, Witness Lee & the Local
@@ -627,7 +661,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>We Were Wrong</h3>
 									<p style={{ textAlign: 'justify' }}>
 										After a six-year primary research
@@ -712,7 +748,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>
 										The Local Churches "Genuine Believers
 										and Fellow Members of the Body of
@@ -768,7 +806,9 @@ class Books extends Component {
 										alt=''
 									/>
 								</td>
-								<td className='intro'>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
 									<h3>2008 A Symposium for Pastors</h3>
 									<p style={{ textAlign: 'justify' }}>
 										2008年，下午1:30在韩国基督教协会礼堂举行了一次牧师座谈会。
