@@ -47,7 +47,7 @@ function App() {
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						{/* ml-auto makes the menu items aligh right */}
-						<Nav className='ml-auto' style={{ fontSize: 21 }}>
+						<Nav className='ml-auto'>
 							{/* "NavLink" here since "active" class styling is needed */}
 							<Nav.Link as={NavLink} to='/' exact>
 								Home
