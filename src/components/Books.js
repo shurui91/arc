@@ -32,6 +32,9 @@ import wrongEnglish from '../books/EnglishOpt.pdf';
 import hanegraaffChinese from '../books/hanegraaff-passantino-fuller-zh.pdf';
 import hanegraaffEnglish from '../books/hanegraaff-passantino-fuller.pdf';
 import CUVBible from '../books/The CUV Bible and Bible Translations in Chinese.pdf';
+import IsaiahMinuscriptPart1 from '../books/2014IsaiahMinuscriptPart1.pdf';
+import IsaiahMinuscriptPart2 from '../books/2014IsaiahMinuscriptPart2.pdf';
+import IsaiahMinuscriptAdditional from '../books/2014IsaiahMinuscriptAdditional.pdf';
 
 class Books extends Component {
 	render() {
@@ -376,6 +379,44 @@ class Books extends Component {
 									<p>
 										<Button href={Bin} target='_blank'>
 											阅读
+										</Button>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
+										src={require('../assets/images/20200814104449.jpg')}
+										style={{ width: '60%' }}
+										alt=''
+									/>
+								</td>
+								<td className='intro'>
+									<h3>
+										2014圣经文本、圣经考古学与圣经译本学术研讨会
+									</h3>
+									<p style={{ textAlign: 'justify' }}>
+										人们普遍意识到，在汉语处境中开展基督教神学或《圣经》研究，一个不可忽视的事实是：多元宗教景点是汉语文化处境的一个基本特征。这与基督教进入中古欧洲、美洲乃至非洲的情形很不相同，在上述地区，基督教也许同样面临着本土多元宗教的处境，但基督教作为《有经之教》、基督徒作为《有经之人》，与主要以口传传统作为文明​​再提的本土宗教有着相当差异，文字与经典甚至是使这些地区迅速基督教化的重要推动力。但在中国文化处境中，无论是儒教、佛教还是道教，自身都发展出悠久的经学传统。如何面对这些多元宗教的经学传统，是汉语处境中的《圣经》研究必须回到的问题。
+									</p>
+									<p>
+										<Button
+											href={IsaiahMinuscriptPart1}
+											target='_blank'>
+											第一部分
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={IsaiahMinuscriptPart2}
+											target='_blank'>
+											第二部分
+										</Button>
+									</p>
+									<p>
+										<Button
+											href={IsaiahMinuscriptAdditional}
+											target='_blank'>
+											补充
 										</Button>
 									</p>
 								</td>
