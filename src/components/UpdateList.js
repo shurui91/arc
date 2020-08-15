@@ -9,7 +9,14 @@ class UpdateList extends Component {
 	render() {
 		return (
 			<div className='lists'>
-				<Container style={{ backgroundColor: '#234665' }}>
+				<Container
+					style={{
+						backgroundColor: '#234665',
+						paddingTop: '30px',
+						paddingBottom: '30px',
+						marginTop: '30px',
+						marginBottom: '30px',
+					}}>
 					<Row>
 						<Col md={12} lg={4}>
 							<Card style={{ maxWidth: '300px' }}>

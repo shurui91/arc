@@ -39,7 +39,7 @@ class Carousel extends React.PureComponent {
 	render() {
 		let { leftIcon, rightIcon } = this.state;
 		return (
-			<div className='container-fluid'>
+			<div className='container-fluid' style={{ marginBottom: '30px' }}>
 				<Row>
 					<Col sm={12} style={{ paddingTop: '20px' }}>
 						<RBCarousel
