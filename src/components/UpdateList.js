@@ -9,27 +9,32 @@ class UpdateList extends Component {
 	render() {
 		return (
 			<div className='lists'>
-				<Container>
+				<Container style={{ backgroundColor: '#234665' }}>
 					<Row>
 						<Col md={12} lg={4}>
 							<Card style={{ maxWidth: '300px' }}>
 								<Card.Body>
-									<Card.Title>Publication</Card.Title>
+									<Card.Title>Quick Links</Card.Title>
 								</Card.Body>
 								<Card.Text>
 									<ListGroup>
 										<ListGroup.Item
 											action
-											href={neeChinese}>
+											href={neeChinese}
+											style={{ textAlign: 'left' }}>
 											倪玉成家族与近代在福州西方基督教差会教育
 										</ListGroup.Item>
-										<ListGroup.Item action href={CUVBible}>
+										<ListGroup.Item
+											action
+											href={CUVBible}
+											style={{ textAlign: 'left' }}>
 											道傳中華 和合本聖經及聖經漢譯
 											國際學生研討會
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
-											href={hundredYears}>
+											href={hundredYears}
+											style={{ textAlign: 'left' }}>
 											和合本圣经百周年纪念
 										</ListGroup.Item>
 									</ListGroup>
@@ -39,21 +44,26 @@ class UpdateList extends Component {
 						<Col md={12} lg={4}>
 							<Card style={{ maxWidth: '300px' }}>
 								<Card.Body>
-									<Card.Title>Events</Card.Title>
+									<Card.Title>What's New</Card.Title>
 								</Card.Body>
 								<Card.Text>
 									<ListGroup>
-										<ListGroup.Item action href='/korea'>
+										<ListGroup.Item
+											action
+											href='/korea'
+											style={{ textAlign: 'left' }}>
 											The Identity of EL (Almighty God)
 											and Counterstrategy
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
-											href='/stockholm'>
+											href='/stockholm'
+											style={{ textAlign: 'left' }}>
 											Sinicization of Christianity in
 											China
 										</ListGroup.Item>
-										<ListGroup.Item>
+										<ListGroup.Item
+											style={{ textAlign: 'left' }}>
 											2017国际学术研讨会
 											邪教的观念暨全能神教之个案研究
 										</ListGroup.Item>
@@ -64,7 +74,7 @@ class UpdateList extends Component {
 						<Col md={12} lg={4}>
 							<Card style={{ maxWidth: '300px' }}>
 								<Card.Body>
-									<Card.Title>Upcoming</Card.Title>
+									<Card.Title>Upcoming Events</Card.Title>
 								</Card.Body>
 								<Card.Text>
 									<ListGroup></ListGroup>
