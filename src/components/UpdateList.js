@@ -31,32 +31,34 @@ class UpdateList extends Component {
 											action
 											href={neeChinese}
 											style={{ textAlign: 'left' }}>
+											·
 											倪玉成家族与近代在福州西方基督教差会教育
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href={CUVBible}
 											style={{ textAlign: 'left' }}>
-											道傳中華 和合本聖經及聖經漢譯
+											· 道傳中華 和合本聖經及聖經漢譯
 											國際學生研討會
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href={hundredYears}
 											style={{ textAlign: 'left' }}>
-											和合本圣经百周年纪念
+											· 和合本圣经百周年纪念
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href={EasternFlash}
 											style={{ textAlign: 'left' }}>
+											·
 											2018东方闪电（全能神）应对策略研讨会
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href={combination}
 											style={{ textAlign: 'left' }}>
-											Sinicization of Christianity in
+											· Sinicization of Christianity in
 											China
 										</ListGroup.Item>
 									</ListGroup>
@@ -74,31 +76,32 @@ class UpdateList extends Component {
 											action
 											href='/korea'
 											style={{ textAlign: 'left' }}>
-											The Identity of EL (Almighty God)
+											· The Identity of EL (Almighty God)
 											and Counterstrategy
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href='/stockholm'
 											style={{ textAlign: 'left' }}>
-											Sinicization of Christianity in
+											· Sinicization of Christianity in
 											China
 										</ListGroup.Item>
 										<ListGroup.Item
 											style={{ textAlign: 'left' }}>
-											2017国际学术研讨会
+											· 2017国际学术研讨会
 											邪教的观念暨全能神教之个案研究
 										</ListGroup.Item>
 										<ListGroup.Item
 											action
 											href='/2015bible'
 											style={{ textAlign: 'left' }}>
+											·
 											2015《圣经》与文学阐释国际学术研讨会
 										</ListGroup.Item>
 										<ListGroup.Item
 											style={{ textAlign: 'left' }}>
-											Translation of Bible and Comparative
-											Scripture
+											· Translation of Bible and
+											Comparative Scripture
 										</ListGroup.Item>
 									</ListGroup>
 								</Card.Text>
