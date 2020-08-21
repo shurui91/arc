@@ -75,11 +75,15 @@ class Footer extends Component {
 						</Col>
 						<Col class='column' md={12} lg={4}>
 							<p class='contactTitle'>PARTNERS</p>
-							<img
-								style={{ width: '100%' }}
-								src={require('../assets/images/OCMDlogo2color.png')}
-								alt=''
-							/>
+							<Row>
+								<Col>
+									<img
+										style={{ width: '100%' }}
+										src={require('../assets/images/OCMDlogo2color.png')}
+										alt=''
+									/>
+								</Col>
+							</Row>
 						</Col>
 					</Row>
 				</div>

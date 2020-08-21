@@ -98,14 +98,12 @@ class Books extends Component {
 										主辦、協辦機構：
 										<br />
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港大學中文學院
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港真理書房
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亞洲研究中心（美國）
 										<br />
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中國及全球發展研究所
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台灣福音書房
 										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港真理書房
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台灣福音書房
-										<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亞洲研究中心（美國）
 										<br />
 										日期：&nbsp;2019年12月7日
 										<br />
@@ -116,17 +114,6 @@ class Books extends Component {
 										會議說明及主題：
 										<br />
 										《聖經》和合本是中國《聖經》漢譯史上的一個里程碑式的譯本。自1919年出版後，和合本在二十世紀中國基督教的發展進程中扮演了重要角色。儘管此前的研究已有很多，仍需更進一步，探討一系列相互關聯的議題，包括和合本成書的歷史過程、譯經語言和翻譯原則、與基督新教及天主教其他中文《聖經》譯本的重疊和差異，以及本世紀初的和合本修訂版，等。此次會議為本領域的學者提供深入研究和合本的學術平台，重新審視其在《聖經》漢譯史上的地位。
-										<br />
-										<br />
-										會議共有十二篇論文發言，中文、英文各兩組。與會學者來自美國、歐洲、中國內地、台灣及香港，集中探討以下主要議題：
-										<br />
-										語境研究：和合本與漢語語言
-										<br />
-										語境研究：改訂、出版與傳播
-										<br />
-										文本研究：譯經與比較
-										<br />
-										文本研究：中文譯名與漢語解經
 										<br />
 									</p>
 									<p>
@@ -167,7 +154,7 @@ class Books extends Component {
 								<td className='image'>
 									<img
 										src={require('../assets/images/20200821153658.jpg')}
-										style={{ width: '60%' }}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -377,7 +364,7 @@ class Books extends Component {
 								<td className='image'>
 									<img
 										src={require('../assets/images/20200821153705.jpg')}
-										style={{ width: '50%' }}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
@@ -422,7 +409,7 @@ class Books extends Component {
 								<td className='image'>
 									<img
 										src={require('../assets/images/20200821153711.jpg')}
-										style={{ width: '60%' }}
+										style={{ width: '90%' }}
 										alt=''
 									/>
 								</td>
