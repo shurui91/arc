@@ -81,7 +81,7 @@ class Footer extends Component {
 										style={{
 											width: '100%',
 										}}
-										src={require('../assets/images/20200821221249.png')}
+										src={require('../assets/images/20200821224340.png')}
 										alt=''
 									/>
 								</Col>
