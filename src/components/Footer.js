@@ -17,9 +17,9 @@ class Footer extends Component {
 			<div className='footer'>
 				<div className='footerContent'>
 					<Row className='row'>
-						<Col class='column' md={12} lg={4}>
-							<p class='contactTitle'>CONTACT US</p>
-							<ul class='footerList'>
+						<Col className='column' md={12} lg={4}>
+							<p className='contactTitle'>CONTACT US</p>
+							<ul className='footerList'>
 								<li>
 									<FontAwesomeIcon
 										icon={faPhoneAlt}
@@ -48,8 +48,8 @@ class Footer extends Component {
 								</li>
 							</ul>
 						</Col>
-						<Col class='column' md={12} lg={4}>
-							<p class='contactTitle'>STAY CONNECTED</p>
+						<Col className='column' md={12} lg={4}>
+							<p className='contactTitle'>STAY CONNECTED</p>
 							<p>
 								<span>
 									<FontAwesomeIcon
@@ -73,13 +73,15 @@ class Footer extends Component {
 								</span>
 							</p>
 						</Col>
-						<Col class='column' md={12} lg={4}>
-							<p class='contactTitle'>PARTNERS</p>
+						<Col className='column' md={12} lg={4}>
+							<p className='contactTitle'>PARTNERS</p>
 							<Row>
-								<Col>
+								<Col className='d-flex align-items-center'>
 									<img
-										style={{ width: '100%' }}
-										src={require('../assets/images/OCMDlogo2color.png')}
+										style={{
+											width: '100%',
+										}}
+										src={require('../assets/images/20200821221249.png')}
 										alt=''
 									/>
 								</Col>
