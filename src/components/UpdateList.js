@@ -113,7 +113,14 @@ class UpdateList extends Component {
 									<Card.Title>Upcoming Events</Card.Title>
 								</Card.Body>
 								<Card.Text>
-									<ListGroup></ListGroup>
+									<ListGroup>
+										<ListGroup.Item
+											action
+											href='https://www.museumofthebible.org/exhibits/in-a-new-personal-stories-exhibit-opening-march-6'
+											style={{ textAlign: 'left' }}>
+											· Personal Stories - Watchman Nee
+										</ListGroup.Item>
+									</ListGroup>
 								</Card.Text>
 							</Card>
 						</Col>
