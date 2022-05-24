@@ -4,3 +4,9 @@
 	padding-top: 50px;
 	text-align: center;
 }
+
+.space {
+	width: 4px;
+	height: auto;
+	display: inline-block;
+}

@@ -16,6 +16,36 @@ class Events extends Component {
 							<tr>
 								<td className='image'>
 									<img
+										src={require('../events/2022NeeExhibition/NeeExhibition2022.png')}
+										style={{ width: '90%' }}
+										alt=''
+									/>
+								</td>
+								<td
+									className='intro'
+									style={{ verticalAlign: 'middle' }}>
+									<h3>Watchman Nee Exhibition-Museum of the Bible</h3>
+									<h3>倪柝聲弟兄殉道五十週年特展開幕式</h3>
+									<Link to='/2022neeexhibitionvideo'>
+										<Button
+											type='button'
+											className='float-middle'>
+											Video/視頻
+										</Button>
+									</Link>
+									<div class="space"></div>
+									<Link to='/2022neeexhibitionword'>
+										<Button
+											type='button'
+											className='float-middle'>
+											Word/文字
+										</Button>
+									</Link>
+								</td>
+							</tr>
+							<tr>
+								<td className='image'>
+									<img
 										src={require('../events/korea/20190629093942.png')}
 										style={{ width: '90%' }}
 										alt=''

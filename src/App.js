@@ -30,6 +30,8 @@ import Korea from './components/korea/Korea';
 import Symposium from './components/2008Symposium/2008symposium';
 import Bible from './components/2015Bible/2015bible';
 import Localize from './components/2012Localize/Localize';
+import NeeExhibitionVideo from './components/2022NeeExhibitionVideo/2022NeeExhibitionVideo';
+import NeeExhibitionWord from './components/2022NeeExhibitionWord/2022NeeExhibitionWord';
 
 function App() {
 	return (
@@ -88,6 +90,8 @@ function App() {
 					<Route path='/localize' exact component={Localize} />
 					<Route path='/2008symposium' exact component={Symposium} />
 					<Route path='/2015bible' exact component={Bible} />
+					<Route path='/2022neeexhibitionvideo' exact component={NeeExhibitionVideo} />
+					<Route path='/2022neeexhibitionword' exact component={NeeExhibitionWord} />
 					<Route component={Error} />
 				</Switch>
 			</div>
