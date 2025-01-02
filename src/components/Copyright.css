@@ -1,6 +1,16 @@
 .copyright {
-	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #f8f8f8;
+	color: #333;
 	text-align: center;
-	background-color: #e6e6e6;
-	color: black;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+	.copyright {
+		padding: 8px;
+	}
 }
