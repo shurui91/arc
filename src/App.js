@@ -20,6 +20,7 @@ import AboutUs from './components/AboutUs';
 import Contactus from './components/Contactus';
 import News from './components/AboutUs';
 import Partners from './components/Partners';
+import Institute from './components/Institute';
 import Error from './components/Error';
 import Stockholm from './components/stockholm/Stockholm';
 import Bibletext from './components/bibletext/Bibletext';
@@ -38,8 +39,8 @@ import NeeExhibitionWord from './components/2022NeeExhibitionWord/2022NeeExhibit
 function App() {
 	return (
 		<Router>
-			<div>
-				<Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
+			<div className='navbar-container'>
+				<Navbar collapseOnSelect expand='lg' bg='light' variant='light' className='navbar-custom'>
 					<Navbar.Brand as={NavLink} to='/'>
 						<img
 							alt=''
@@ -50,9 +51,7 @@ function App() {
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
-						{/* ml-auto makes the menu items aligh right */}
 						<Nav className='ml-auto'>
-							{/* "NavLink" here since "active" class styling is needed */}
 							<Nav.Link as={NavLink} to='/' exact>
 								Home
 							</Nav.Link>
@@ -71,34 +70,35 @@ function App() {
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
-				<Switch>
-					<Route path='/' exact component={Home} />
-					<Route path='/vision' exact component={Vision} />
-					<Route path='/goal' exact component={Goal} />
-					<Route path='/events' exact component={Events} />
-					<Route path='/publication' exact component={Publication} />
-					<Route path='/books' exact component={Books} />
-					<Route path='/support' exact component={Support} />
-					<Route path='/aboutus' exact component={AboutUs} />
-					<Route path='/contactus' exact component={Contactus} />
-					<Route path='/partners' exact component={Partners} />
-					<Route path='/news' exact component={News} />
-					<Route path='/stockholm' exact component={Stockholm} />
-					<Route path='/bibletext' exact component={Bibletext} />
-					<Route path='/kissinger' exact component={Kissinger} />
-					<Route path='/orthodoxy' exact component={Orthodoxy} />
-					<Route path='/fudan' exact component={Fudan} />
-					<Route path='/deadsea' exact component={Deadsea} />
-					<Route path='/isaiah' exact component={Isaiah} />
-					<Route path='/korea' exact component={Korea} />
-					<Route path='/localize' exact component={Localize} />
-					<Route path='/2008symposium' exact component={Symposium} />
-					<Route path='/2015bible' exact component={Bible} />
-					<Route path='/2022neeexhibitionvideo' exact component={NeeExhibitionVideo} />
-					<Route path='/2022neeexhibitionword' exact component={NeeExhibitionWord} />
-					<Route component={Error} />
-				</Switch>
 			</div>
+			<Switch>
+				<Route path='/' exact component={Home} />
+				<Route path='/vision' exact component={Vision} />
+				<Route path='/goal' exact component={Goal} />
+				<Route path='/events' exact component={Events} />
+				<Route path='/publication' exact component={Publication} />
+				<Route path='/books' exact component={Books} />
+				<Route path='/support' exact component={Support} />
+				<Route path='/aboutus' exact component={AboutUs} />
+				<Route path='/contactus' exact component={Contactus} />
+				<Route path='/partners' exact component={Partners} />
+				<Route path='/news' exact component={News} />
+				<Route path='/religious-policy-institute' exact component={Institute} />
+				<Route path='/stockholm' exact component={Stockholm} />
+				<Route path='/bibletext' exact component={Bibletext} />
+				<Route path='/kissinger' exact component={Kissinger} />
+				<Route path='/orthodoxy' exact component={Orthodoxy} />
+				<Route path='/fudan' exact component={Fudan} />
+				<Route path='/deadsea' exact component={Deadsea} />
+				<Route path='/isaiah' exact component={Isaiah} />
+				<Route path='/korea' exact component={Korea} />
+				<Route path='/localize' exact component={Localize} />
+				<Route path='/2008symposium' exact component={Symposium} />
+				<Route path='/2015bible' exact component={Bible} />
+				<Route path='/2022neeexhibitionvideo' exact component={NeeExhibitionVideo} />
+				<Route path='/2022neeexhibitionword' exact component={NeeExhibitionWord} />
+				<Route component={Error} />
+			</Switch>
 		</Router>
 	);
 }

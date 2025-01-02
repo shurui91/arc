@@ -1,4 +1,30 @@
-.ml-auto {
-	font-size: 21px;
-	font-family: 'Helvetica', 'Arial', sans-serif;
+/* Add this CSS to your App.css */
+.navbar-container {
+	background-color: #f8f9fa;
+}
+
+.navbar-custom {
+    max-width: 80%;      /* Limits the navbar width to 80% */
+    margin: 0 auto;      /* Centers the navbar */
+}
+
+/* Ensure navbar items are centered and have proper alignment */
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;  /* Align the nav items to the right */
+}
+
+@media (max-width: 992px) {
+    .navbar-custom {
+        max-width: 100%;  /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center; /* Center the nav items on small screens */
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
 }
