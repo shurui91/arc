@@ -14,10 +14,10 @@ class UpdateList extends Component {
 				<Container
 					style={{
 						backgroundColor: '#234665',
-						paddingTop: '30px',
-						paddingBottom: '30px',
-						marginTop: '30px',
-						marginBottom: '30px',
+						paddingTop: '10px',
+						paddingBottom: '10px',
+						marginTop: '10px',
+						marginBottom: '10px',
 					}}>
 					<Row>
 						<Col md={12} lg={4}>

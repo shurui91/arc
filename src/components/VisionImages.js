@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './VisionImages.css';
 
 class VisionImages extends Component {
 	render() {

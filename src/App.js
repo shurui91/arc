@@ -11,7 +11,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 import Home from './components/Home';
 import Vision from './components/Vision';
-import About from './components/About';
+import Goal from './components/Goal';
 import Events from './components/Events';
 import Publication from './components/Publication';
 import Books from './components/Books';
@@ -72,7 +72,7 @@ function App() {
 				<Switch>
 					<Route path='/' exact component={Home} />
 					<Route path='/vision' exact component={Vision} />
-					<Route path='/aboutus' exact component={About} />
+					<Route path='/goal' exact component={Goal} />
 					<Route path='/events' exact component={Events} />
 					<Route path='/publication' exact component={Publication} />
 					<Route path='/books' exact component={Books} />

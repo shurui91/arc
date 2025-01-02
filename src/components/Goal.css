@@ -1,0 +1,37 @@
+.about {
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.list-group {
+    border: none;
+}
+
+.list-group-item {
+    border: none; /* Removes the border around each item */
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent; /* Optional: Makes the background transparent */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+}
