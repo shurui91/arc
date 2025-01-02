@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import soundfile from '../assets/Sign of the Times.mp3';
-import Sound from 'react-sound';
+// import Sound from 'react-sound';
 import Carousel from './Carousel';
 import Vision from './Vision';
 import Cards from './Cards';
@@ -21,13 +21,13 @@ class Home extends Component {
 				<Partners />
 				<Footer />
 				<Copyright />
-				<Sound
+				{/* <Sound
 					url={soundfile}
 					playStatus={Sound.status.PLAYING}
 					onLoading={this.handleSongLoading}
 					onPlaying={this.handleSongPlaying}
 					onFinishedPlaying={this.handleSongFinishedPlaying}
-				/>
+				/> */}
 			</div>
 		);
 	}
