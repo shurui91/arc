@@ -5,7 +5,7 @@ import soundfile from '../assets/Sign of the Times.mp3';
 import Carousel from './Carousel';
 import Vision from './Vision';
 import UpdateList from './UpdateList';
-import Partners from './Partners';
+import PartnerImages from './PartnerImages';
 import Copyright from './Copyright';
 import Footer from './Footer';
 
@@ -16,7 +16,7 @@ class Home extends Component {
 				<Carousel />
 				<UpdateList />
 				<Vision />
-				<Partners />
+				<PartnerImages />
 				<Footer />
 				<Copyright />
 				{/* <Sound

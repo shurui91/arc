@@ -19,6 +19,7 @@ import Support from './components/Support';
 import AboutUs from './components/AboutUs';
 import Contactus from './components/Contactus';
 import News from './components/AboutUs';
+import Partners from './components/Partners';
 import Error from './components/Error';
 import Stockholm from './components/stockholm/Stockholm';
 import Bibletext from './components/bibletext/Bibletext';
@@ -80,6 +81,7 @@ function App() {
 					<Route path='/support' exact component={Support} />
 					<Route path='/aboutus' exact component={AboutUs} />
 					<Route path='/contactus' exact component={Contactus} />
+					<Route path='/partners' exact component={Partners} />
 					<Route path='/news' exact component={News} />
 					<Route path='/stockholm' exact component={Stockholm} />
 					<Route path='/bibletext' exact component={Bibletext} />

@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom for internal navigation
 import './PartnerImages.css';
-import { Container, Row, Col } from 'react-bootstrap';
 
-class PartnerImages extends Component {
-	render() {
-		return (
-			<div>
-				{/* fluid will make its width to be 100% */}
-				<Container fluid>
-					<Row>
-						<Col sm={12}>
-							<a href='https://ocmusicdance.org/'>
-								<img
-									style={{ width: '100%' }}
-									src={require('../20190601193138.jpg')}
-									alt=''
-								/>
-							</a>
-						</Col>
-					</Row>
-				</Container>
-			</div>
-		);
-	}
-}
+const PartnerImages = () => {
+    return (
+        <div>
+            <Link to='/partners'>
+                {' '}
+                {/* Link to the /partners page */}
+                <img
+                    className='partner-image'
+                    src={require('../20190601193138.jpg')}
+                    alt='OC Music Dance'
+                />
+            </Link>
+        </div>
+    );
+};
 
 export default PartnerImages;
