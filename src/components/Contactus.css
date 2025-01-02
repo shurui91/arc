@@ -1,5 +1,5 @@
 .contactus-container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -33,21 +33,13 @@
     text-decoration: underline;
 }
 
+.introduction {
+    text-align: left;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .contactus-container {
         padding: 15px;
-    }
-
-    .contactus-title {
-        font-size: 24px;
-    }
-
-    .contactus-text {
-        font-size: 14px;
-    }
-
-    .contactus-email {
-        font-size: 14px;
     }
 }

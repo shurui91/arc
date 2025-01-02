@@ -4,7 +4,6 @@ import soundfile from '../assets/Sign of the Times.mp3';
 // import Sound from 'react-sound';
 import Carousel from './Carousel';
 import Vision from './Vision';
-import Cards from './Cards';
 import UpdateList from './UpdateList';
 import Partners from './Partners';
 import Copyright from './Copyright';
@@ -17,7 +16,6 @@ class Home extends Component {
 				<Carousel />
 				<UpdateList />
 				<Vision />
-				<Cards />
 				<Partners />
 				<Footer />
 				<Copyright />

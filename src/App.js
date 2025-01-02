@@ -16,8 +16,9 @@ import Events from './components/Events';
 import Publication from './components/Publication';
 import Books from './components/Books';
 import Support from './components/Support';
+import AboutUs from './components/AboutUs';
 import Contactus from './components/Contactus';
-import News from './components/News';
+import News from './components/AboutUs';
 import Error from './components/Error';
 import Stockholm from './components/stockholm/Stockholm';
 import Bibletext from './components/bibletext/Bibletext';
@@ -77,6 +78,7 @@ function App() {
 					<Route path='/publication' exact component={Publication} />
 					<Route path='/books' exact component={Books} />
 					<Route path='/support' exact component={Support} />
+					<Route path='/aboutus' exact component={AboutUs} />
 					<Route path='/contactus' exact component={Contactus} />
 					<Route path='/news' exact component={News} />
 					<Route path='/stockholm' exact component={Stockholm} />
