@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react'; // Import React
 
-class VisionImages extends Component {
-	render() {
-		return (
-			<div>
-				<img
-					style={{ width: '100%' }}
-					src={require('../assets/images/ourVision.jpg')}
-					alt=''
-				/>
-			</div>
-		);
-	}
-}
+const VisionImages = () => {
+    return (
+        <div>
+            <img
+                style={{ width: '100%' }}
+                src={require('../assets/images/ourVision.jpg')}
+                alt='Our Vision' // Added alt text for better accessibility
+            />
+        </div>
+    );
+};
 
 export default VisionImages;
