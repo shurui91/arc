@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import Contactus from './Contactus';
+import Team from './Team';
 
 const newsData = [
     {
@@ -57,8 +57,8 @@ const NewsItem = ({ title, imgSrc, description }) => (
 );
 
 const AboutUs = () => (
-    <div className='comments-container'>
-        <h3 className='comments-header'>About Us</h3>
+    <div className='partners-container'>
+        <h1 className='about-us'>About Us</h1>
         {newsData.map((news, index) => (
             <NewsItem
                 key={index}
@@ -68,7 +68,7 @@ const AboutUs = () => (
             />
         ))}
 
-        <Contactus />
+        <Team />
     </div>
 );
 

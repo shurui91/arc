@@ -17,7 +17,7 @@ import Publication from './components/Publication';
 import Books from './components/Books';
 import Support from './components/Support';
 import AboutUs from './components/AboutUs';
-import Contactus from './components/Contactus';
+import Contactus from './components/Team';
 import News from './components/AboutUs';
 import Partners from './components/Partners';
 import Institute from './components/Institute';

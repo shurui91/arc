@@ -1,0 +1,100 @@
+/* Styling for the team container */
+.team-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the container */
+}
+
+.research-team {
+    background-color: #f8c040; /* Bright yellow banner */
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each contact info */
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+/* Styling for the image container */
+.contact-image {
+    margin-right: 20px; /* Adds space between the image and text */
+}
+
+.contact-img {
+    width: 100px; /* Adjust size of the image */
+    height: 100px; /* Ensure the image is square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the container */
+}
+
+/* Styling for the contact details */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-name h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.phone {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.contactus-email {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contactus-email:hover {
+    text-decoration: underline;
+}
+
+/* Two-column layout for PC version */
+@media (min-width: 768px) {
+    .team-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .contact-info {
+        flex: 1 1 calc(50% - 20px); /* Takes up 50% width with a gap */
+        max-width: calc(50% - 20px); /* Ensures proper spacing */
+    }
+}
+
+/* Full-width layout for mobile screens */
+@media (max-width: 767px) {
+    .team-container {
+        display: block;
+    }
+
+    .contact-info {
+        flex: 1 1 100%; /* Full width for mobile */
+        max-width: 100%;
+    }
+}

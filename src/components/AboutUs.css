@@ -1,4 +1,4 @@
-.comments-container {
+.partners-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -7,12 +7,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.comments-header {
-    font-size: 28px;
+.about-us {
+	background-color: #f8c040; /* Bright yellow banner */
+    color: white;
+    font-size: 2rem;
     font-weight: bold;
-    color: #333;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .comments-item {
