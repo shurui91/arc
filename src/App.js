@@ -35,6 +35,11 @@ import Bible from './components/2015Bible/2015bible';
 import Localize from './components/2012Localize/Localize';
 import NeeExhibitionVideo from './components/2022NeeExhibitionVideo/2022NeeExhibitionVideo';
 import NeeExhibitionWord from './components/2022NeeExhibitionWord/2022NeeExhibitionWord';
+import Zhang from './components/biography/Zhang';
+import Waldrup from './components/biography/Waldrup';
+import Reardon from './components/biography/Reardon';
+import Chiu from './components/biography/Chiu';
+import Feng from './components/biography/Feng';
 
 function App() {
 	return (
@@ -97,6 +102,11 @@ function App() {
 				<Route path='/2015bible' exact component={Bible} />
 				<Route path='/2022neeexhibitionvideo' exact component={NeeExhibitionVideo} />
 				<Route path='/2022neeexhibitionword' exact component={NeeExhibitionWord} />
+				<Route path='/zhang' exact component={Zhang} />
+				<Route path='/waldrup' exact component={Waldrup} />
+				<Route path='/reardon' exact component={Reardon} />
+				<Route path='/chiu' exact component={Chiu} />
+				<Route path='/feng' exact component={Feng} />
 				<Route component={Error} />
 			</Switch>
 		</Router>
