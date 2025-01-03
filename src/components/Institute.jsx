@@ -1,6 +1,13 @@
 import React from 'react';
 import './Institute.css';
 import Copyright from './Copyright';
+import ImageOne from '../assets/institute/20190602010013.jpg';
+import ImageTwo from '../assets/institute/20190602010222.jpg';
+import ImageThree from '../assets/institute/20200812153335.jpg';
+import ImageFour from '../assets/institute/20200812191222.jpg';
+import ImageFive from '../assets/institute/20200812214039.jpg';
+import ImageSix from '../assets/institute/20200812214814.jpg';
+import ImageSeven from '../assets/institute/20200812214839.jpg';
 
 const Institute = () => {
     const researchPapers = [
@@ -22,10 +29,48 @@ const Institute = () => {
         },
     ];
 
+    const images = [
+        {
+            src: ImageOne,
+            alt: 'Institute Image 1',
+        },
+        {
+            src: ImageTwo,
+            alt: 'Institute Image 2',
+        },
+		{
+			src: ImageThree,
+			alt: 'Institute Image 3',
+		},
+		{
+			src: ImageFour,
+			alt: 'Institute Image 4',
+		},
+		{
+			src: ImageFive,
+			alt: 'Institute Image 5',
+		},
+		{
+			src: ImageSix,
+			alt: 'Institute Image 6',
+		},
+		{
+			src: ImageSeven,
+			alt: 'Institute Image 7',
+		}
+    ];
+
     return (
         <>
             <div className='institute-container'>
                 <h1>Religious Policy Institute</h1>
+				<div className='image-gallery'>
+                    {images.map((image, index) => (
+                        <div key={index} className='image-item'>
+                            <img src={image.src} alt={image.alt} />
+                        </div>
+                    ))}
+                </div>
                 <div className='introduction'>
                     <p>
                         The Religious Policy Institute is a leading think tank
