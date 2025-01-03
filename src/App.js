@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import {
-	BrowserRouter as Router,
-	NavLink,
-	Route,
-	Switch,
+    BrowserRouter as Router,
+    NavLink,
+    Route,
+    Switch,
 } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -40,77 +40,98 @@ import Waldrup from './components/biography/Waldrup';
 import Reardon from './components/biography/Reardon';
 import Chiu from './components/biography/Chiu';
 import Feng from './components/biography/Feng';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
-	return (
-		<Router>
-			<div className='navbar-container'>
-				<Navbar collapseOnSelect expand='lg' bg='light' variant='light' className='navbar-custom'>
-					<Navbar.Brand as={NavLink} to='/'>
-						<img
-							alt=''
-							src={require('./assets/images/arcLogo.png')}
-							height='80'
-							className='d-inline-block align-top'
-						/>
-					</Navbar.Brand>
-					<Navbar.Toggle aria-controls='basic-navbar-nav' />
-					<Navbar.Collapse id='basic-navbar-nav'>
-						<Nav className='ml-auto'>
-							<Nav.Link as={NavLink} to='/' exact>
-								Home
-							</Nav.Link>
-							<Nav.Link as={NavLink} to='/publication'>
-								Publication
-							</Nav.Link>
-							<Nav.Link as={NavLink} to='/events'>
-								Events
-							</Nav.Link>
-							<Nav.Link as={NavLink} to='/support'>
-								Support
-							</Nav.Link>
-							<Nav.Link as={NavLink} to='/aboutus'>
-								About Us
-							</Nav.Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Navbar>
-			</div>
-			<Switch>
-				<Route path='/' exact component={Home} />
-				<Route path='/vision' exact component={Vision} />
-				<Route path='/goal' exact component={Goal} />
-				<Route path='/events' exact component={Events} />
-				<Route path='/publication' exact component={Publication} />
-				<Route path='/books' exact component={Books} />
-				<Route path='/support' exact component={Support} />
-				<Route path='/aboutus' exact component={AboutUs} />
-				<Route path='/contactus' exact component={Contactus} />
-				<Route path='/partners' exact component={Partners} />
-				<Route path='/news' exact component={News} />
-				<Route path='/religious-policy-institute' exact component={Institute} />
-				<Route path='/stockholm' exact component={Stockholm} />
-				<Route path='/bibletext' exact component={Bibletext} />
-				<Route path='/kissinger' exact component={Kissinger} />
-				<Route path='/orthodoxy' exact component={Orthodoxy} />
-				<Route path='/fudan' exact component={Fudan} />
-				<Route path='/deadsea' exact component={Deadsea} />
-				<Route path='/isaiah' exact component={Isaiah} />
-				<Route path='/korea' exact component={Korea} />
-				<Route path='/localize' exact component={Localize} />
-				<Route path='/2008symposium' exact component={Symposium} />
-				<Route path='/2015bible' exact component={Bible} />
-				<Route path='/2022neeexhibitionvideo' exact component={NeeExhibitionVideo} />
-				<Route path='/2022neeexhibitionword' exact component={NeeExhibitionWord} />
-				<Route path='/zhang' exact component={Zhang} />
-				<Route path='/waldrup' exact component={Waldrup} />
-				<Route path='/reardon' exact component={Reardon} />
-				<Route path='/chiu' exact component={Chiu} />
-				<Route path='/feng' exact component={Feng} />
-				<Route component={Error} />
-			</Switch>
-		</Router>
-	);
+    return (
+        <>
+            <Router>
+				<ScrollToTop />
+                <div className='navbar-container'>
+                    <Navbar
+                        collapseOnSelect
+                        expand='lg'
+                        bg='light'
+                        variant='light'
+                        className='navbar-custom'>
+                        <Navbar.Brand as={NavLink} to='/'>
+                            <img
+                                alt=''
+                                src={require('./assets/images/arcLogo.png')}
+                                height='80'
+                                className='d-inline-block align-top'
+                            />
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+                        <Navbar.Collapse id='basic-navbar-nav'>
+                            <Nav className='ml-auto'>
+                                <Nav.Link as={NavLink} to='/' exact>
+                                    Home
+                                </Nav.Link>
+                                <Nav.Link as={NavLink} to='/publication'>
+                                    Publication
+                                </Nav.Link>
+                                <Nav.Link as={NavLink} to='/events'>
+                                    Events
+                                </Nav.Link>
+                                <Nav.Link as={NavLink} to='/support'>
+                                    Support
+                                </Nav.Link>
+                                <Nav.Link as={NavLink} to='/aboutus'>
+                                    About Us
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Navbar>
+                </div>
+                <Switch>
+                    <Route path='/' exact component={Home} />
+                    <Route path='/vision' exact component={Vision} />
+                    <Route path='/goal' exact component={Goal} />
+                    <Route path='/events' exact component={Events} />
+                    <Route path='/publication' exact component={Publication} />
+                    <Route path='/books' exact component={Books} />
+                    <Route path='/support' exact component={Support} />
+                    <Route path='/aboutus' exact component={AboutUs} />
+                    <Route path='/contactus' exact component={Contactus} />
+                    <Route path='/partners' exact component={Partners} />
+                    <Route path='/news' exact component={News} />
+                    <Route
+                        path='/religious-policy-institute'
+                        exact
+                        component={Institute}
+                    />
+                    <Route path='/stockholm' exact component={Stockholm} />
+                    <Route path='/bibletext' exact component={Bibletext} />
+                    <Route path='/kissinger' exact component={Kissinger} />
+                    <Route path='/orthodoxy' exact component={Orthodoxy} />
+                    <Route path='/fudan' exact component={Fudan} />
+                    <Route path='/deadsea' exact component={Deadsea} />
+                    <Route path='/isaiah' exact component={Isaiah} />
+                    <Route path='/korea' exact component={Korea} />
+                    <Route path='/localize' exact component={Localize} />
+                    <Route path='/2008symposium' exact component={Symposium} />
+                    <Route path='/2015bible' exact component={Bible} />
+                    <Route
+                        path='/2022neeexhibitionvideo'
+                        exact
+                        component={NeeExhibitionVideo}
+                    />
+                    <Route
+                        path='/2022neeexhibitionword'
+                        exact
+                        component={NeeExhibitionWord}
+                    />
+                    <Route path='/zhang' exact component={Zhang} />
+                    <Route path='/waldrup' exact component={Waldrup} />
+                    <Route path='/reardon' exact component={Reardon} />
+                    <Route path='/chiu' exact component={Chiu} />
+                    <Route path='/feng' exact component={Feng} />
+                    <Route component={Error} />
+                </Switch>
+            </Router>
+        </>
+    );
 }
 
 export default App;
