@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c35b62a8.css",
-    "main.js": "/static/js/main.412b2157.js",
+    "main.js": "/static/js/main.903a595f.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -111,6 +111,7 @@
     "static/media/20190602071411.jpg": "/static/media/20190602071411.f049a9139b99f248050d.jpg",
     "static/media/20190602071351.jpg": "/static/media/20190602071351.77eca0b4d0d980539ead.jpg",
     "static/media/tedx.jpg": "/static/media/tedx.4d0061228e40305049ca.jpg",
+    "static/media/Ho.png": "/static/media/Ho.7d50a64138479fb4d05a.png",
     "static/media/20190602071310.jpg": "/static/media/20190602071310.79e619cae57d5aaabe1a.jpg",
     "static/media/20200205225359.jpg": "/static/media/20200205225359.37c790664cb7b9341db1.jpg",
     "static/media/20200205225306.jpg": "/static/media/20200205225306.f4a167863f1f9a03f7d2.jpg",
@@ -141,10 +142,10 @@
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
     "main.c35b62a8.css.map": "/static/css/main.c35b62a8.css.map",
-    "main.412b2157.js.map": "/static/js/main.412b2157.js.map"
+    "main.903a595f.js.map": "/static/js/main.903a595f.js.map"
   },
   "entrypoints": [
     "static/css/main.c35b62a8.css",
-    "static/js/main.412b2157.js"
+    "static/js/main.903a595f.js"
   ]
 }
