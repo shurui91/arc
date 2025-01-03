@@ -67,6 +67,9 @@ function App() {
                                 <Nav.Link as={NavLink} to='/' exact>
                                     Home
                                 </Nav.Link>
+								<Nav.Link as={NavLink} to='/religious-policy-institute'>
+                                    Religious Policy Institute
+                                </Nav.Link>
                                 <Nav.Link as={NavLink} to='/publication'>
                                     Publication
                                 </Nav.Link>
