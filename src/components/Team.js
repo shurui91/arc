@@ -40,7 +40,7 @@ const Team = () => {
 					bio='/zhang'
                 />
 				<ContactInfo
-                    name='Abrahan Ho'
+                    name='Abraham Ho'
                     job='Director of Research'
 					phone='888-5011-ARC (272) ext. 102'
                     email='abrahamtho@gmail.com'
