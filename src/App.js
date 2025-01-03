@@ -18,7 +18,6 @@ import Books from './components/Books';
 import Support from './components/Support';
 import AboutUs from './components/AboutUs';
 import Contactus from './components/Team';
-import News from './components/AboutUs';
 import Partners from './components/Partners';
 import Institute from './components/Institute';
 import Error from './components/Error';
@@ -95,7 +94,6 @@ function App() {
                     <Route path='/aboutus' exact component={AboutUs} />
                     <Route path='/contactus' exact component={Contactus} />
                     <Route path='/partners' exact component={Partners} />
-                    <Route path='/news' exact component={News} />
                     <Route
                         path='/religious-policy-institute'
                         exact

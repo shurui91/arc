@@ -40,6 +40,13 @@ const Team = () => {
 					bio='/zhang'
                 />
 				<ContactInfo
+                    name='Abrahan Ho'
+                    job='Director of Research'
+					phone='888-5011-ARC (272) ext. 102'
+                    email='abrahamtho@gmail.com'
+                    imgSrc={require('../assets/images/Ho.png')}
+                />
+				<ContactInfo
                     name='Jim Waldrup'
                     job='Director of Religious Policy'
                     imgSrc={require('../assets/images/Waldrup.png')}
