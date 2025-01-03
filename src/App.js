@@ -49,7 +49,7 @@ function App() {
 					<Navbar.Brand as={NavLink} to='/'>
 						<img
 							alt=''
-							src={require('./arcLogo.png')}
+							src={require('./assets/images/arcLogo.png')}
 							height='80'
 							className='d-inline-block align-top'
 						/>

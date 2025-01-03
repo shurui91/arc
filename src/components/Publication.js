@@ -8,7 +8,7 @@ class Publication extends Component {
 		return (
 			<div className='publication'>
 				<h1>CHRISTIANITY IN CHINA</h1>
-				<img className='imageIntro' src={require('../brothers_2.jpg')} alt='' />
+				<img className='imageIntro' src={require('../assets/images/brothers_2.jpg')} alt='' />
 				<Link to='/books'>
 					<Button type='button' className='float-right'>
 						Read

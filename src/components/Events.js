@@ -70,7 +70,7 @@ class Events extends Component {
 							<tr>
 								<td className='image'>
 									<img
-										src={require('../20190505225128.png')}
+										src={require('../assets/images/20190505225128.png')}
 										style={{ width: '90%' }}
 										alt=''
 									/>

@@ -17,7 +17,7 @@ const Zhang = () => {
         <Profile
             name='Charles Zhang'
             title='Treasurer'
-            imgSrc={require('../../Zhang.jpg')}
+            imgSrc={require('../../assets/images/Zhang.jpg')}
             bioContent={bioContent}
         />
     );

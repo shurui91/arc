@@ -36,31 +36,31 @@ const Team = () => {
                     job='Treasurer'
                     phone='949-201-8270'
                     email='charleszhang58@yahoo.com'
-                    imgSrc={require('../Zhang.jpg')}
+                    imgSrc={require('../assets/images/Zhang.jpg')}
 					bio='/zhang'
                 />
 				<ContactInfo
                     name='Jim Waldrup'
                     job='Director of Religious Policy'
-                    imgSrc={require('../Waldrup.png')}
+                    imgSrc={require('../assets/images/Waldrup.png')}
 					bio='/waldrup'
                 />
 				<ContactInfo
                     name='Michael M. C. Reardon'
                     job='Senior Research Policy Analyst'
-                    imgSrc={require('../Reardon.png')}
+                    imgSrc={require('../assets/images/Reardon.png')}
 					bio='/reardon'
                 />
 				<ContactInfo
                     name='Brian Siu-Kit Chiu'
                     job='Academic Researcher'
-                    imgSrc={require('../Chiu.png')}
+                    imgSrc={require('../assets/images/Chiu.png')}
 					bio='/chiu'
                 />
 				<ContactInfo
                     name='Jacob Chengwei Feng'
                     job='Academic Researcher'
-                    imgSrc={require('../Feng.png')}
+                    imgSrc={require('../assets/images/Feng.png')}
 					bio='/feng'
                 />
             </div>

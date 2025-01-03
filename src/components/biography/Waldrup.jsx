@@ -13,7 +13,7 @@ const Waldrup = () => {
         <Profile
             name='Jim Waldrup'
             title='Director of Religious Policy'
-            imgSrc={require('../../Waldrup.png')}
+            imgSrc={require('../../assets/images/Waldrup.png')}
             bioContent={bioContent}
         />
     );

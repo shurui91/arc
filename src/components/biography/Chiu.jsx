@@ -11,7 +11,7 @@ const Chiu = () => {
         <Profile
             name='Brian Siu-Kit Chiu'
             title='Academic Researcher'
-            imgSrc={require('../../Chiu.png')}
+            imgSrc={require('../../assets/images/Chiu.png')}
             bioContent={bioContent}
         />
     );

@@ -10,7 +10,7 @@ const PartnerImages = () => {
                 {/* Link to the /partners page */}
                 <img
                     className='partner-image'
-                    src={require('../20190601193138.jpg')}
+                    src={require('../assets/images/20190601193138.jpg')}
                     alt='OC Music Dance'
                 />
             </Link>

@@ -12,7 +12,7 @@ const Feng = () => {
         <Profile
             name='Jacob Chengwei Feng'
             title='Academic Researcher'
-            imgSrc={require('../../Feng.png')}
+            imgSrc={require('../../assets/images/Feng.png')}
             bioContent={bioContent}
         />
     );

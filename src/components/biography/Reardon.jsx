@@ -13,7 +13,7 @@ const Reardon = () => {
         <Profile
             name='Michael M. C. Reardon'
             title='Senior Research Policy Analyst'
-            imgSrc={require('../../Reardon.png')}
+            imgSrc={require('../../assets/images/Reardon.png')}
             bioContent={bioContent}
         />
     );
