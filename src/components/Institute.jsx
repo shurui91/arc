@@ -38,33 +38,33 @@ const Institute = () => {
             src: ImageTwo,
             alt: 'Institute Image 2',
         },
-		{
-			src: ImageThree,
-			alt: 'Institute Image 3',
-		},
-		{
-			src: ImageFour,
-			alt: 'Institute Image 4',
-		},
-		{
-			src: ImageFive,
-			alt: 'Institute Image 5',
-		},
-		{
-			src: ImageSix,
-			alt: 'Institute Image 6',
-		},
-		{
-			src: ImageSeven,
-			alt: 'Institute Image 7',
-		}
+        {
+            src: ImageThree,
+            alt: 'Institute Image 3',
+        },
+        {
+            src: ImageFour,
+            alt: 'Institute Image 4',
+        },
+        {
+            src: ImageFive,
+            alt: 'Institute Image 5',
+        },
+        {
+            src: ImageSix,
+            alt: 'Institute Image 6',
+        },
+        {
+            src: ImageSeven,
+            alt: 'Institute Image 7',
+        },
     ];
 
     return (
         <>
             <div className='institute-container'>
                 <h1>Religious Policy Institute</h1>
-				<div className='image-gallery'>
+                <div className='image-gallery'>
                     {images.map((image, index) => (
                         <div key={index} className='image-item'>
                             <img src={image.src} alt={image.alt} />
@@ -73,22 +73,44 @@ const Institute = () => {
                 </div>
                 <div className='introduction'>
                     <p>
-                        The Religious Policy Institute is a leading think tank
-                        dedicated to exploring the intersections of theology,
-                        religious freedom, and public policy. Since its
-                        founding, the institute has focused on fostering
-                        dialogue, conducting rigorous research, and shaping
-                        informed policies that promote mutual understanding and
-                        coexistence among diverse religious communities.
+                        The Religious Policy Institute (RPI) is a prominent
+                        department of the Asian Research Center (ARC) and is
+                        dedicated to promoting religious freedom—especially
+                        within Asian contexts—and fostering collaboration among
+                        diverse communities. With a focus on advancing global
+                        understanding and respect for different faiths, the
+                        Institute works to bridge gaps between various religious
+                        groups, political entities, non-governmental
+                        organizations (NGOs), and civil society. Through
+                        research, dialogue, and policy advocacy, RPI plays a
+                        pivotal role in shaping environments where religious
+                        diversity can thrive peacefully and equitably.
                     </p>
                     <p>
-                        Our mission is to advance scholarship in religious
-                        studies while addressing contemporary challenges in
-                        interfaith relations, religious education, and global
-                        diplomacy. Through publications, symposia, and
-                        collaborative projects, the institute provides a
-                        platform for scholars, policymakers, and religious
-                        leaders to exchange ideas and insights.
+                        At the heart of RPI’s mission is the development of
+                        comprehensive religious policy recommendations aimed at
+                        supporting sustainable and inclusive solutions for
+                        issues related to religious freedom. The Institute
+                        actively engages with policymakers, international
+                        organizations, and religious leaders to ensure that the
+                        voices of all religious communities are heard and
+                        considered in legislative processes. By offering
+                        evidence-based insights and strategic guidance, RPI
+                        strives to influence both local and global conversations
+                        around religion, human rights, and social justice.
+                    </p>
+                    <p>
+                        Through its research, public initiatives, and
+                        educational efforts, the Religious Policy Institute aims
+                        to build a more informed and compassionate world.
+                        Whether through crafting tailored policy advice,
+                        organizing interfaith dialogues, or contributing to
+                        scholarly discourse, RPI remains committed to its vision
+                        of fostering mutual respect and cooperation across
+                        religious lines. The Institute continues to serve as a
+                        crucial platform for advocacy, collaboration, and
+                        knowledge-sharing in the global pursuit of religious
+                        freedom.
                     </p>
                 </div>
 
