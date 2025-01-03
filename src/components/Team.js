@@ -34,15 +34,13 @@ const Team = () => {
                 <ContactInfo
                     name='Charles Zhang'
                     job='Treasurer'
-                    phone='949-201-8270'
                     email='charleszhang58@yahoo.com'
                     imgSrc={require('../assets/images/Zhang.jpg')}
 					bio='/zhang'
                 />
 				<ContactInfo
                     name='Abraham Ho'
-                    job='Director of Research'
-					phone='888-5011-ARC (272) ext. 102'
+                    job='President'
                     email='abrahamtho@gmail.com'
                     imgSrc={require('../assets/images/Ho.png')}
                 />
