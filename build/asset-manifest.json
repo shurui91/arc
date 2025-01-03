@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c35b62a8.css",
-    "main.js": "/static/js/main.499ff67d.js",
+    "main.js": "/static/js/main.412b2157.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -78,7 +78,6 @@
     "static/media/deadsea6.jpg": "/static/media/deadsea6.054a8117999610c94d69.jpg",
     "static/media/Chiu.png": "/static/media/Chiu.930e8f5ae7a9a2d2495f.png",
     "static/media/EL Denial Statement.pdf": "/static/media/EL Denial Statement.cd9a331c375736ce266c.pdf",
-    "static/media/Nee.jpg": "/static/media/Nee.44461cc229b46ebba368.jpg",
     "static/media/deadsea10.jpg": "/static/media/deadsea10.f197be89948be50c0d2e.jpg",
     "static/media/20200821224340.png": "/static/media/20200821224340.e8cb30a4947ab8445135.png",
     "static/media/Waldrup.png": "/static/media/Waldrup.d75f86a3df6c4047355c.png",
@@ -130,6 +129,7 @@
     "static/media/20190629092835.jpg": "/static/media/20190629092835.936649da13293ad39d4d.jpg",
     "static/media/seminar2.jpg": "/static/media/seminar2.150c516af6db79567fca.jpg",
     "static/media/seminar3.jpg": "/static/media/seminar3.b109f5308601daf152c5.jpg",
+    "static/media/Nee.jpg": "/static/media/Nee.6e26dba1894b004f40bb.jpg",
     "static/media/arcLogo.png": "/static/media/arcLogo.e4e0a9ad4743ab64af3c.png",
     "static/media/arcLogo.jpg": "/static/media/arcLogo.771b2798b26d7a13bc1d.jpg",
     "static/media/neco.jpg": "/static/media/neco.ced0e467a9a42a32fd45.jpg",
@@ -141,10 +141,10 @@
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
     "main.c35b62a8.css.map": "/static/css/main.c35b62a8.css.map",
-    "main.499ff67d.js.map": "/static/js/main.499ff67d.js.map"
+    "main.412b2157.js.map": "/static/js/main.412b2157.js.map"
   },
   "entrypoints": [
     "static/css/main.c35b62a8.css",
-    "static/js/main.499ff67d.js"
+    "static/js/main.412b2157.js"
   ]
 }
