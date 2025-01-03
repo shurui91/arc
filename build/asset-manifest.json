@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c35b62a8.css",
-    "main.js": "/static/js/main.90b53de5.js",
+    "main.css": "/static/css/main.8986ddf3.css",
+    "main.js": "/static/js/main.4c0ef78f.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -141,11 +141,11 @@
     "static/media/react-bootstrap-carousel.woff": "/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
-    "main.c35b62a8.css.map": "/static/css/main.c35b62a8.css.map",
-    "main.90b53de5.js.map": "/static/js/main.90b53de5.js.map"
+    "main.8986ddf3.css.map": "/static/css/main.8986ddf3.css.map",
+    "main.4c0ef78f.js.map": "/static/js/main.4c0ef78f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c35b62a8.css",
-    "static/js/main.90b53de5.js"
+    "static/css/main.8986ddf3.css",
+    "static/js/main.4c0ef78f.js"
   ]
 }
