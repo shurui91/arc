@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.94a59066.css",
-    "main.js": "/static/js/main.6b78847b.js",
+    "main.js": "/static/js/main.6320b678.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -26,6 +26,8 @@
     "static/media/2014Globalization.pdf": "/static/media/2014Globalization.dbb3da8929e2a23e2107.pdf",
     "static/media/KICUS-ReligioninChina_2.pdf": "/static/media/KICUS-ReligioninChina_2.4f1c83a6921e7bb4338f.pdf",
     "static/media/20200814010555.jpg": "/static/media/20200814010555.9bcc66269c30a7b10f37.jpg",
+    "static/media/Vision-of-Spiritual-Education.pdf": "/static/media/Vision-of-Spiritual-Education.8c168a06692ec26c5723.pdf",
+    "static/media/Gospel.pdf": "/static/media/Gospel.b8bf3b314cce6f474548.pdf",
     "static/media/20200812160341.jpg": "/static/media/20200812160341.79cd0609af0db5ec2935.jpg",
     "static/media/20190505225128.png": "/static/media/20190505225128.73cd115aeeaa32114903.png",
     "static/media/20190602071054.jpg": "/static/media/20190602071054.2bd5237cbf9111b3d2aa.jpg",
@@ -35,6 +37,7 @@
     "static/media/20190601231935.png": "/static/media/20190601231935.678865224669772392b5.png",
     "static/media/20190602010013.jpg": "/static/media/20190602010013.4559e95b0073afba62ad.jpg",
     "static/media/20190629093942.png": "/static/media/20190629093942.35d4b2558e9bc6e2d849.png",
+    "static/media/Translation-And-Interpretation.pdf": "/static/media/Translation-And-Interpretation.ec96e33b4a5c2d95ff2f.pdf",
     "static/media/20200812191222.jpg": "/static/media/20200812191222.335378e107913e8c7a2f.jpg",
     "static/media/20190602010222.jpg": "/static/media/20190602010222.43d36cf10ab26631c6c0.jpg",
     "static/media/20190602005752.jpg": "/static/media/20190602005752.8b6b43cd7e5d8dca344b.jpg",
@@ -142,10 +145,10 @@
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
     "main.94a59066.css.map": "/static/css/main.94a59066.css.map",
-    "main.6b78847b.js.map": "/static/js/main.6b78847b.js.map"
+    "main.6320b678.js.map": "/static/js/main.6320b678.js.map"
   },
   "entrypoints": [
     "static/css/main.94a59066.css",
-    "static/js/main.6b78847b.js"
+    "static/js/main.6320b678.js"
   ]
 }
