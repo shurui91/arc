@@ -31,7 +31,7 @@
     flex-shrink: 0;
     width: 80px;
     height: 80px;
-    object-fit: cover;
+    object-fit: contain; /* Ensures the whole image is displayed */
     border-radius: 8px;
 }
 
