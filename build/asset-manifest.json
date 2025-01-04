@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.94a59066.css",
-    "main.js": "/static/js/main.c965368f.js",
+    "main.js": "/static/js/main.6b78847b.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -142,10 +142,10 @@
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
     "main.94a59066.css.map": "/static/css/main.94a59066.css.map",
-    "main.c965368f.js.map": "/static/js/main.c965368f.js.map"
+    "main.6b78847b.js.map": "/static/js/main.6b78847b.js.map"
   },
   "entrypoints": [
     "static/css/main.94a59066.css",
-    "static/js/main.c965368f.js"
+    "static/js/main.6b78847b.js"
   ]
 }
