@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
 import Team from './Team';
+import Copyright from './Copyright';
 
 const newsData = [
     {
@@ -57,19 +58,21 @@ const NewsItem = ({ title, imgSrc, description }) => (
 );
 
 const AboutUs = () => (
-    <div className='partners-container'>
-        <h1 className='about-us'>About Us</h1>
-        {newsData.map((news, index) => (
-            <NewsItem
-                key={index}
-                title={news.title}
-                imgSrc={news.imgSrc}
-                description={news.description}
-            />
-        ))}
-
-        <Team />
-    </div>
+    <>
+        <div className='partners-container'>
+            <Team />
+            <h1 className='about-us'>About Us</h1>
+            {newsData.map((news, index) => (
+                <NewsItem
+                    key={index}
+                    title={news.title}
+                    imgSrc={news.imgSrc}
+                    description={news.description}
+                />
+            ))}
+        </div>
+        <Copyright />
+    </>
 );
 
 export default AboutUs;

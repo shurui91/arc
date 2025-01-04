@@ -1,7 +1,6 @@
 import React from 'react';
 import './Team.css';
 import { Link } from 'react-router-dom';
-import Copyright from './Copyright';
 
 const ContactInfo = ({ name, job, phone, email, imgSrc, bio }) => (
     <div className='contact-info'>
@@ -17,7 +16,7 @@ const ContactInfo = ({ name, job, phone, email, imgSrc, bio }) => (
             <a href={`mailto:${email}`} className='contactus-email'>
                 {email}
             </a>
-			{bio && (
+            {bio && (
                 <Link to={bio} className='bio-link'>
                     Biography
                 </Link>
@@ -29,47 +28,46 @@ const ContactInfo = ({ name, job, phone, email, imgSrc, bio }) => (
 const Team = () => {
     return (
         <>
-			<h1 className='research-team'>Research Team</h1>
+            <h1 className='research-team'>Research Team</h1>
             <div className='team-container'>
                 <ContactInfo
-                    name='Charles Zhang'
-                    job='Treasurer'
-                    email='charleszhang58@yahoo.com'
-                    imgSrc={require('../assets/images/Zhang.jpg')}
-					bio='/zhang'
-                />
-				<ContactInfo
                     name='Abraham Ho'
                     job='President'
                     email='abrahamtho@gmail.com'
                     imgSrc={require('../assets/images/Ho.png')}
                 />
-				<ContactInfo
+                <ContactInfo
+                    name='Charles Zhang'
+                    job='Treasurer'
+                    email='charleszhang58@yahoo.com'
+                    imgSrc={require('../assets/images/Zhang.jpg')}
+                    bio='/zhang'
+                />
+                <ContactInfo
                     name='Jim Waldrup'
                     job='Director of Religious Policy'
                     imgSrc={require('../assets/images/Waldrup.png')}
-					bio='/waldrup'
+                    bio='/waldrup'
                 />
-				<ContactInfo
+                <ContactInfo
                     name='Michael M. C. Reardon'
                     job='Senior Research Policy Analyst'
                     imgSrc={require('../assets/images/Reardon.png')}
-					bio='/reardon'
+                    bio='/reardon'
                 />
-				<ContactInfo
+                <ContactInfo
                     name='Brian Siu-Kit Chiu'
                     job='Academic Researcher'
                     imgSrc={require('../assets/images/Chiu.png')}
-					bio='/chiu'
+                    bio='/chiu'
                 />
-				<ContactInfo
+                <ContactInfo
                     name='Jacob Chengwei Feng'
                     job='Academic Researcher'
                     imgSrc={require('../assets/images/Feng.png')}
-					bio='/feng'
+                    bio='/feng'
                 />
             </div>
-			<Copyright />
         </>
     );
 };
