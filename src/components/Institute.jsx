@@ -1,13 +1,12 @@
 import React from 'react';
 import './Institute.css';
 import Copyright from './Copyright';
-import ImageOne from '../assets/institute/20190602010013.jpg';
-import ImageTwo from '../assets/institute/20190602010222.jpg';
-import ImageThree from '../assets/institute/20200812153335.jpg';
-import ImageFour from '../assets/institute/20200812191222.jpg';
-import ImageFive from '../assets/institute/20200812214039.jpg';
-import ImageSix from '../assets/institute/20200812214814.jpg';
-import ImageSeven from '../assets/institute/20200812214839.jpg';
+import ImageOne from '../assets/institute/20190602010222.jpg';
+import ImageTwo from '../assets/institute/20200812153335.jpg';
+import ImageThree from '../assets/institute/20200812191222.jpg';
+import ImageFour from '../assets/institute/20200812214039.jpg';
+import ImageFive from '../assets/institute/20200812214814.jpg';
+import ImageSix from '../assets/institute/20200812214839.jpg';
 
 const Institute = () => {
     const researchPapers = [
@@ -53,10 +52,6 @@ const Institute = () => {
         {
             src: ImageSix,
             alt: 'Institute Image 6',
-        },
-        {
-            src: ImageSeven,
-            alt: 'Institute Image 7',
         },
     ];
 
