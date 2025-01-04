@@ -1,30 +1,29 @@
 import React from 'react';
 import './Institute.css';
 import Copyright from './Copyright';
-import ImageOne from '../assets/institute/20190602010222.jpg';
-import ImageTwo from '../assets/institute/20200812153335.jpg';
-import ImageThree from '../assets/institute/20200812191222.jpg';
-import ImageFour from '../assets/institute/20200812214039.jpg';
-import ImageFive from '../assets/institute/20200812214814.jpg';
-import ImageSix from '../assets/institute/20200812214839.jpg';
+import ImageOne from '../assets/institute/images/20190602010222.jpg';
+import ImageTwo from '../assets/institute/images/20200812153335.jpg';
+import ImageThree from '../assets/institute/images/20200812191222.jpg';
+import ImageFour from '../assets/institute/images/20200812214039.jpg';
+import ImageFive from '../assets/institute/images/20200812214814.jpg';
+import ImageSix from '../assets/institute/images/20200812214839.jpg';
+import PaperOne from '../assets/institute/pdfs/Vision-of-Spiritual-Education.pdf';
+import PaperTwo from '../assets/institute/pdfs/Translation-And-Interpretation.pdf';
+import PaperThree from '../assets/institute/pdfs/Gospel.pdf';
 
 const Institute = () => {
     const researchPapers = [
         {
-            title: 'Religious Policy in Modern Asia',
-            url: '/pdfs/religious-policy-modern-asia.pdf',
+            title: '超越本土化：神學教育在中國與倪柝聲屬靈教育理念和實踐初探',
+            url: PaperOne,
         },
         {
-            title: 'Interfaith Dialogue Strategies',
-            url: '/pdfs/interfaith-dialogue-strategies.pdf',
+            title: '譯經與釋經的關係：以羅馬一章十七節“得生”為例',
+            url: PaperTwo,
         },
         {
-            title: 'Religious Freedom and Policy Trends',
-            url: '/pdfs/religious-freedom-policy-trends.pdf',
-        },
-        {
-            title: 'The Role of Theology in Diplomacy',
-            url: '/pdfs/theology-in-diplomacy.pdf',
+            title: '追尋更好的譯本：倪柝聲的聖經及其翻譯觀初探',
+            url: PaperThree,
         },
     ];
 
