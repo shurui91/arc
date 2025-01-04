@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c02ee9b.css",
+    "main.css": "/static/css/main.94a59066.css",
     "main.js": "/static/js/main.c965368f.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
@@ -141,11 +141,11 @@
     "static/media/react-bootstrap-carousel.woff": "/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
-    "main.2c02ee9b.css.map": "/static/css/main.2c02ee9b.css.map",
+    "main.94a59066.css.map": "/static/css/main.94a59066.css.map",
     "main.c965368f.js.map": "/static/js/main.c965368f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c02ee9b.css",
+    "static/css/main.94a59066.css",
     "static/js/main.c965368f.js"
   ]
 }
