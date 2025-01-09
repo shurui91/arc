@@ -13,7 +13,7 @@ const Home = () => {
             <div className='home'>
                 <Carousel />
                 <UpdateList />
-                <Vision />
+                {/* <Vision /> */}
                 <PartnerImages />
                 <Footer />
                 {/* <audio src={soundfile} autoPlay loop>
