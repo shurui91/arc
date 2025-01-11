@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94a59066.css",
-    "main.js": "/static/js/main.c2febcc1.js",
+    "main.css": "/static/css/main.ca32bbfd.css",
+    "main.js": "/static/js/main.20279cf8.js",
     "static/media/TraditionalChineseOpt.pdf": "/static/media/TraditionalChineseOpt.69e217b3a46b3145174c.pdf",
     "static/media/SimplifiedChineseOpt.pdf": "/static/media/SimplifiedChineseOpt.7d0dad53f7c564ad20bb.pdf",
     "static/media/2014Bin.pdf": "/static/media/2014Bin.b3ba81eb113ba9d6f0d5.pdf",
@@ -17,7 +17,6 @@
     "static/media/An Antidote for the Most Significant Problem Facing Twenty-first Century Christianity.pdf": "/static/media/An Antidote for the Most Significant Problem Facing Twenty-first Century Christianity.12ed305389730a7eeb66.pdf",
     "static/media/definition_and_comparison.pdf": "/static/media/definition_and_comparison.7cc2574b6aea88f26846.pdf",
     "static/media/20190601193138.jpg": "/static/media/20190601193138.03904126ddcb171a2efe.jpg",
-    "static/media/Sign of the Times.mp3": "/static/media/Sign of the Times.2a6b474cc11846d3f25c.mp3",
     "static/media/hanegraaff-passantino-fuller-zh.pdf": "/static/media/hanegraaff-passantino-fuller-zh.355523fbea01f1a1a96a.pdf",
     "static/media/combination.pdf": "/static/media/combination.d1151baf9d2e1149be0a.pdf",
     "static/media/CebuanoOpt.pdf": "/static/media/CebuanoOpt.0c146ac6bc08f898b7e2.pdf",
@@ -48,7 +47,6 @@
     "static/media/statement3_final_SimpCh.pdf": "/static/media/statement3_final_SimpCh.627e705b7ceb9d394283.pdf",
     "static/media/ourVision.jpg": "/static/media/ourVision.1bc615d21a833f38a19a.jpg",
     "static/media/20200812214039.jpg": "/static/media/20200812214039.a4bc52a727762552fcdf.jpg",
-    "static/media/20200812214823.jpg": "/static/media/20200812214823.829ca500da51e5fd16fa.jpg",
     "static/media/20200812214839.jpg": "/static/media/20200812214839.2b7a89fbcd35ef299088.jpg",
     "static/media/kissinger.jpg": "/static/media/kissinger.996c3d68f6122c0d0ae0.jpg",
     "static/media/fudan1.jpg": "/static/media/fudan1.542c96e09c4356db7d05.jpg",
@@ -81,6 +79,7 @@
     "static/media/deadsea6.jpg": "/static/media/deadsea6.054a8117999610c94d69.jpg",
     "static/media/Chiu.png": "/static/media/Chiu.930e8f5ae7a9a2d2495f.png",
     "static/media/EL Denial Statement.pdf": "/static/media/EL Denial Statement.cd9a331c375736ce266c.pdf",
+    "static/media/280270964.jpg": "/static/media/280270964.bcb27c589ad9f9d7b208.jpg",
     "static/media/deadsea10.jpg": "/static/media/deadsea10.f197be89948be50c0d2e.jpg",
     "static/media/20200821224340.png": "/static/media/20200821224340.e8cb30a4947ab8445135.png",
     "static/media/Waldrup.png": "/static/media/Waldrup.d75f86a3df6c4047355c.png",
@@ -144,11 +143,11 @@
     "static/media/react-bootstrap-carousel.woff": "/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "index.html": "/index.html",
     "static/media/react-bootstrap-carousel.svg": "/static/media/react-bootstrap-carousel.d5a2be71d939f960b831.svg",
-    "main.94a59066.css.map": "/static/css/main.94a59066.css.map",
-    "main.c2febcc1.js.map": "/static/js/main.c2febcc1.js.map"
+    "main.ca32bbfd.css.map": "/static/css/main.ca32bbfd.css.map",
+    "main.20279cf8.js.map": "/static/js/main.20279cf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a59066.css",
-    "static/js/main.c2febcc1.js"
+    "static/css/main.ca32bbfd.css",
+    "static/js/main.20279cf8.js"
   ]
 }
