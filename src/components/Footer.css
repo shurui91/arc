@@ -37,10 +37,16 @@
     margin-bottom: 10px;
 }
 
-.socialIcons {
+.d-flex {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerColumn .d-flex img {
+    height: 100px; /* Ensures the logos have the same height */
+    width: auto;  /* Preserves the aspect ratio */
+    object-fit: contain; /* Ensures the image fits within the bounds */
 }
 
 /* Mobile Styles */
@@ -58,5 +64,9 @@
 
     .socialIcons {
         justify-content: center;
+    }
+
+    .footerColumn .d-flex img {
+        height: 40px; /* Slightly smaller logos on mobile for better fit */
     }
 }

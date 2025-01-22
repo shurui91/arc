@@ -25,9 +25,12 @@ const Footer = () => {
                             <p className='contactTitle'>PARTNERS</p>
                             <div className='d-flex align-items-center'>
                                 <img
-                                    style={{ width: '100%' }}
-                                    src={require('../assets/images/20200821224340.png')}
-                                    alt='Partner Logo'
+                                    src={require('../assets/images/ocmd_logo.png')}
+                                    alt='ocmd_logo'
+                                />
+								<img
+                                    src={require('../assets/images/rieec_logo.png')}
+                                    alt='ocmd_logo'
                                 />
                             </div>
                         </div>
