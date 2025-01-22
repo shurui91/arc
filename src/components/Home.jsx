@@ -12,7 +12,7 @@ const Home = () => {
         <>
             <div className='home'>
                 <Carousel />
-                <UpdateList />
+                {/* <UpdateList /> */}
                 {/* <Vision /> */}
                 <PartnerImages />
                 <Footer />
