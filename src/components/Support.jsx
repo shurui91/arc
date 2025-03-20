@@ -23,8 +23,8 @@ const Support = () => {
                         </address>
                         <p>
                             For more information, please email us to{' '}
-                            <a href='mailto:abrahamtho@gmail.com'>
-                                abrahamtho@gmail.com
+                            <a href='mailto:arcwebsiteorg@gmail.com'>
+								arcwebsiteorg@gmail.com
                             </a>
                         </p>
                     </Container>

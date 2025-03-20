@@ -17,7 +17,7 @@ const Footer = () => {
                                         icon={faEnvelope}
                                         size='lg'
                                     />
-                                    <span>&nbsp;abrahamtho@gmail.com</span>
+                                    <span>&nbsp;arcwebsiteorg@gmail.com</span>
                                 </li>
                             </ul>
                         </div>

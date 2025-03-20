@@ -33,7 +33,7 @@ const Team = () => {
                 <ContactInfo
                     name='Abraham Ho'
                     job='President'
-                    email='abrahamtho@gmail.com'
+                    email='arcwebsiteorg@gmail.com'
                     imgSrc={require('../assets/images/Ho.png')}
                 />
                 <ContactInfo
