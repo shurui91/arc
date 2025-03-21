@@ -33,37 +33,40 @@ const Team = () => {
                 <ContactInfo
                     name='Abraham Ho'
                     job='President'
-                    email='arcwebsiteorg@gmail.com'
+                    email='abraham.ho@asiaresearchcenter.org'
                     imgSrc={require('../assets/images/Ho.png')}
                 />
                 <ContactInfo
                     name='Charles Zhang'
                     job='Treasurer'
-                    email='charleszhang58@yahoo.com'
                     imgSrc={require('../assets/images/Zhang.jpg')}
                     bio='/zhang'
                 />
                 <ContactInfo
                     name='Jim Waldrup'
                     job='Director of Religious Policy'
+					email='jim.waldrup@asiaresearchcenter.org'
                     imgSrc={require('../assets/images/Waldrup.png')}
                     bio='/waldrup'
                 />
                 <ContactInfo
                     name='Michael M. C. Reardon'
                     job='Senior Research Policy Analyst'
+					email='michael.reardon@asiaresearchcenter.org'
                     imgSrc={require('../assets/images/Reardon.png')}
                     bio='/reardon'
                 />
                 <ContactInfo
                     name='Brian Siu-Kit Chiu'
                     job='Academic Researcher'
+					email='brian.chiu@asiaresearchcenter.org'
                     imgSrc={require('../assets/images/Chiu.png')}
                     bio='/chiu'
                 />
                 <ContactInfo
                     name='Jacob Chengwei Feng'
                     job='Academic Researcher'
+					email='jacob.feng@asiaresearchcenter.org'
                     imgSrc={require('../assets/images/Feng.png')}
                     bio='/feng'
                 />
