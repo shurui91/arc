@@ -21,6 +21,8 @@ import Contactus from './components/Team';
 import Partners from './components/Partners';
 import Institute from './components/Institute';
 import Error from './components/Error';
+import Press from './components/Press';
+
 import Stockholm from './components/stockholm/Stockholm';
 import Bibletext from './components/bibletext/Bibletext';
 import Kissinger from './components/kissinger/Kissinger';
@@ -40,6 +42,7 @@ import Reardon from './components/biography/Reardon';
 import Chiu from './components/biography/Chiu';
 import Feng from './components/biography/Feng';
 import ScrollToTop from './components/utils/ScrollToTop';
+import Thought from './components/thought/Thought';
 
 function App() {
     return (
@@ -97,6 +100,7 @@ function App() {
                     <Route path='/aboutus' exact component={AboutUs} />
                     <Route path='/contactus' exact component={Contactus} />
                     <Route path='/partners' exact component={Partners} />
+					<Route path='/press' exact component={Press} />
                     <Route
                         path='/religious-policy-institute'
                         exact
@@ -113,6 +117,7 @@ function App() {
                     <Route path='/localize' exact component={Localize} />
                     <Route path='/2008symposium' exact component={Symposium} />
                     <Route path='/2015bible' exact component={Bible} />
+					<Route path='/studies-in-global-and-historical-christian-thought' exact component={Thought} />
                     <Route
                         path='/2022neeexhibitionvideo'
                         exact
