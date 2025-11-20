@@ -33,7 +33,7 @@ class Events extends Component {
 											Video/視頻
 										</Button>
 									</Link>
-									<div class="space"></div>
+									<div className="space"></div>
 									<Link to='/2022neeexhibitionword'>
 										<Button
 											type='button'

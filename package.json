@@ -18,7 +18,6 @@
     "react-responsive-carousel": "^3.2.9",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
-    "react-sound": "^1.2.0",
     "vertical-timeline-component-for-react": "^1.0.7"
   },
   "scripts": {
